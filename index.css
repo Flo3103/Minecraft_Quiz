@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+
+
+
+
+.StartButtonDiv{
+    text-align: center;
+    height: 950px;
+
+    position: relative;
+}
+
+.StartButton{
+    border: none;
+    border-radius: 25px;
+    margin: 0%;
+    padding: 50px;
+    background-color: black;
+    color: aqua;
+    font-size: 60px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.StartButton:hover{
+    border: 3px solid aqua;
+}
+
+
+/*Quiz1*/
+
+div.Quiz1{
+    display: none;
+}
+
+.DivQuestion1{
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.Question1{
+    font-size: 40px;
+    color: aqua;
+}
+
+
+.InstructionQuestion1{
+    font-size: 20px;
+    margin-left: 300px;
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    width: 290px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.DivChoiceQuestion1{
+    text-align: center;
+}
+
+
+.Question1Choice1{
+    background-image: url(Bilder/Question1/Screenshot\ 2022-03-04\ 192317\ \(Benutzerdefiniert\).jpg);
+    width: 300px;
+    height: 284px  ;
+    margin: 50px;
+
+}
+
+.Question1Choice2{
+    background-image: url(Bilder/Question1/Screenshot\ 2022-03-04\ 192527\ \(Benutzerdefiniert\).jpg  );
+    width: 300px;
+    height: 284px  ;
+    margin: 50px;
+
+}
+
+.Question1Choice3{
+    background-image: url(Bilder/Question1/Screenshot\ 2022-03-04\ 192450\ \(Benutzerdefiniert\).jpg);
+    width: 300px;
+    height: 284px  ;
+    margin: 50px;
+
+}
+
+
+
+
+/*Quiz2*/
