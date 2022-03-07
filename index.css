@@ -32,6 +32,42 @@ body{
 .StartButton:hover{
     border: 3px solid aqua;
 }
+/*Level Choice*/
+
+#LevelChoiceDiv{
+    display: none;
+    text-align: center;
+}
+
+.LevelChoiceHeadline{
+    background-color: black;
+    color: aqua;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 40px;
+    margin: 0%;
+}
+
+.LevelChoice{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.LevelDesign{
+    background-color: black;
+    color: aqua;
+    border-radius: 17px;
+    padding: 30px 60px;
+    margin: 200px 20px 0px 20px;
+    font-size: 40px;
+    border: 3px solid black;
+}
+
+.LevelDesign:hover{
+    border: 3px dotted aqua;
+}
 
 
 /*Quiz1*/
@@ -72,30 +108,12 @@ div.Quiz1{
 }
 
 
-.Question1Choice1{
-    background-image: url(Bilder/Question1/Screenshot\ 2022-03-04\ 192317\ \(Benutzerdefiniert\).jpg);
+.ChoiceQuestion1{
     width: 300px;
     height: 284px  ;
     margin: 50px;
 
 }
-
-.Question1Choice2{
-    background-image: url(Bilder/Question1/Screenshot\ 2022-03-04\ 192527\ \(Benutzerdefiniert\).jpg  );
-    width: 300px;
-    height: 284px  ;
-    margin: 50px;
-
-}
-
-.Question1Choice3{
-    background-image: url(Bilder/Question1/Screenshot\ 2022-03-04\ 192450\ \(Benutzerdefiniert\).jpg);
-    width: 300px;
-    height: 284px  ;
-    margin: 50px;
-
-}
-
 
 
 
