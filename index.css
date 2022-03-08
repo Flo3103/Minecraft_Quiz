@@ -1,12 +1,29 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
+    font-family: MincraftSeven;
+    background-image: url(Bilder/Dirt_background_JE2.webp);
+}
+
+
+button.noClick{
+    cursor: not-allowed;
+}
+
+button.noClick:hover{
+    border: 3px dotted red;
+}
+
+a{
+    color: aqua
 }
 
 
 
 
 
+
+
+
+/*Quiz Starten*/
 .StartButtonDiv{
     text-align: center;
     height: 950px;
@@ -30,12 +47,13 @@ body{
 }
 
 .StartButton:hover{
-    border: 3px solid aqua;
+    border: 3px dotted aqua;
 }
+
+
 /*Level Choice*/
 
 #LevelChoiceDiv{
-    display: none;
     text-align: center;
 }
 
@@ -70,7 +88,133 @@ body{
 }
 
 
-/*Quiz1*/
+
+/*Einzelne Level*/
+
+
+.QuestionDiv{
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+}
+
+
+.Question{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline;
+    padding: 15px;
+    font-size: 40px;
+}
+
+.ChoiceDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.Choice{
+    margin: 50px 50px;
+    padding: 40px 80px;
+    font-size: 30px;
+    color: white;
+    background-color: grey;
+}
+
+.CorrectionDiv{
+    display: none;
+    justify-content: center;
+}
+
+.correction{
+    text-align: center;
+    font-size: 50px;
+    display: inline;    
+    background-color: green;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+
+.NächsteFrageDiv{
+    justify-content: center;
+    display: none;
+}
+
+.NächsteFrage{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+}
+
+
+
+
+
+/*Hardcore*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 div.Quiz1{
     display: none;
@@ -115,6 +259,3 @@ div.Quiz1{
 
 }
 
-
-
-/*Quiz2*/
