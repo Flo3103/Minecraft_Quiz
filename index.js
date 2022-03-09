@@ -1,6 +1,14 @@
-function StartButton() {
+
+
+function LevelChoice() {
     document.getElementById('StartButtonDiv').style.display = 'none'; 
     document.getElementById('LevelChoiceDiv').style.display = 'block';
+}
+
+
+function OpenHardcore() {
+    document.getElementById('HardcoreQuestion1').style.display = 'block';
+    document.getElementById('LevelChoiceDiv').style.display = 'none';
 }
 
 

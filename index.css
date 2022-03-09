@@ -55,6 +55,7 @@ a{
 
 #LevelChoiceDiv{
     text-align: center;
+    display: none;
 }
 
 .LevelChoiceHeadline{
@@ -91,6 +92,9 @@ a{
 
 /*Einzelne Level*/
 
+.QuestionsHardcore{
+    display: none;
+}
 
 .QuestionDiv{
     display: flex;

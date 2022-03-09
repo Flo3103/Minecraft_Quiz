@@ -15,67 +15,99 @@
 
 <div class="StartButtonDiv" id="StartButtonDiv">
 
-    <button class="StartButton" onclick="">
-       <a href="Level/LevelScreen.html">Quiz Starten</a> 
+    <button class="StartButton" onclick="LevelChoice()">
+       Quiz Starten
     </button>
 
 </div>
 
-        <!--Level Wahl
+        <!--Level Wahl-->
+
 
 <div id="LevelChoiceDiv">
+        
+        <h1 class="LevelChoiceHeadline">Wähle ein Level</h1>
     
-    <h1 class="LevelChoiceHeadline">Wähle ein Level</h1>
-
     <div class="LevelChoice">
-        <button class="LevelDesign" onclick="FiredlichQuiz();">Friedlich</button>        
+        <button class="LevelDesign noClick">Friedlich</button>        
         <button class="LevelDesign noClick">Einfach</button>
-        <button class="LevelDesign">Normal</button>
-        <button class="LevelDesign">Schwer</button>
-        <button class="LevelDesign">Hardcore</button>
-        <button class="LevelDesign">Random</button>
+        <button class="LevelDesign noClick">Normal</button>
+        <button class="LevelDesign noClick">Schwer</button>
+        <button class="LevelDesign" onclick="OpenHardcore()">Hardcore</button>
+        <button class="LevelDesign noClick">Random</button>
     </div>
-
+        
+    
 </div>
--->
 
-        <!--Friedlich-->
 
-<div class="Question1Friedlich">
-
-    <h1 class="Question1Friedlich"></h1>
-
-    <p id="1"></p>
-    <p id="2"></p>
-    <p id="3"></p>
-
-</div>
 
         <!--Hardcore-->
 
-<div class="HardcoreQuestion1">
+    <!--Question1-->
 
+<div class="QuestionsHardcore" id="HardcoreQuestion1">
+    <div class="QuestionDiv">
+        <h1 class="Question">Wie hoch ist die Warscheinlichkeit, dass ein pinkes Schaf spawnt?</h1>
+    </div>
+    <div class="ChoiceDiv" id="ChoiceDiv">
+        <button class="Choice" onclick="ChoiceFals()">1.598%</button>
+        <button class="Choice" onclick="ChoiceRight()">0,164%</button>
+        <button class="Choice" onclick="ChoiceFals()">0.361%</button>
+    </div>
 
-
-
-
-
+        <div class="CorrectionDiv" id="correctionDiv">
+            <p class="correction" id="correctionP"></p>
+        </div>
+        <div class="NächsteFrageDiv" id="NächsteFrageDiv">
+            <button class="NächsteFrage">Nächste Frage</button>
+        </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 <!--<a href="javascript:window.back()">Zurück</a>-->
-
-
-
-
-
-
-
-
-
 
 <!--
     <div class="Quiz1" id="Quiz1">
