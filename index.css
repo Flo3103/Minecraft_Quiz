@@ -37,7 +37,7 @@ a{
     border: 2px solid rgb(173, 170, 170);
     outline: 3px solid black;
     font-family: SilkscreenNormal;
-
+    text-align: center;
 }
 
 
@@ -46,9 +46,14 @@ a{
 }
 
 
+.noHover:hover{
+    background-color: rgb(111, 111, 111);
+}
+
+
 /*Quiz Starten*/
 .StartButtonDiv{
-    height: 950px;
+    height: 890px;
     position: relative;
 }
 
@@ -83,7 +88,7 @@ a{
 }
 
 
-.LevelChoiceMargin{
+.Margin20px{
     margin: 20px;
 }
 
@@ -153,6 +158,7 @@ button.LevelChoice{
 
 .NächsteFrage{
     padding: 10px 20px;
+    width: 300px;
     font-size: 20px;
     background-color: gray;
     color: white;

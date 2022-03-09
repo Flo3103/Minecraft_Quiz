@@ -15,12 +15,18 @@ function OpenHardcore() {
 
 
 function ChoiceRight() {
-    document.getElementById('correctionP').innerHTML = 'Richtig';
-    document.getElementById('ChoiceDiv').style.display = 'none';
+    document.getElementById('notClick').disabled = true;
     document.getElementById('correctionDiv').style.display = 'flex';
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
 }
 
 function ChoiceFals() {
-    document.getElementById('correctionP').innerHTML = 'Falsch';
+    document.getElementById('correctionImg').src = '../Minecraft_Quiz/Bilder/Falsch.png';
+    document.getElementById('correctionDiv').style.display = 'flex';
+    document.getElementById('NächsteFrageDiv').style.display = 'flex';
+}
+
+function NächsteFrageHardcore() {
+    if (Question === '1') {
+    }
 }
