@@ -1,6 +1,8 @@
+@font-face{font-family:SilkscreenNormal;src:url(slkscr.ttf),url(slkscr.eot);font-weight:400;font-style:normal;}
+
 body{
-    font-family: MincraftSeven;
-    background-image: url(Bilder/Dirt_background_JE2.webp);
+	font-family:SilkscreenNormal;
+    background-image: url(Bilder/MC-Background__1323925686.jpg);
 }
 
 
@@ -9,7 +11,6 @@ button.noClick{
 }
 
 button.noClick:hover{
-    border: 3px dotted red;
 }
 
 a{
@@ -17,37 +18,45 @@ a{
 }
 
 
+/*Minecraft Design*/
 
 
 
+a{
+    color: white;
+    text-decoration: none;
+}
 
+.MinecraftDesign{
+    padding: 25px 100px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(111, 111, 111);
+    border: 2px solid rgb(173, 170, 170);
+    outline: 3px solid black;
+    font-family: SilkscreenNormal;
+
+}
+
+
+.MinecraftDesign:hover{
+    background-color: rgb(145, 157, 226);
+}
 
 
 /*Quiz Starten*/
 .StartButtonDiv{
-    text-align: center;
     height: 950px;
-
     position: relative;
 }
 
 .StartButton{
-    border: none;
-    border-radius: 25px;
-    margin: 0%;
-    padding: 50px;
-    background-color: black;
-    color: aqua;
-    font-size: 60px;
-
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.StartButton:hover{
-    border: 3px dotted aqua;
 }
 
 
@@ -74,18 +83,12 @@ a{
 }
 
 
-.LevelDesign{
-    background-color: black;
-    color: aqua;
-    border-radius: 17px;
-    padding: 30px 60px;
-    margin: 200px 20px 0px 20px;
-    font-size: 40px;
-    border: 3px solid black;
+.LevelChoiceMargin{
+    margin: 20px;
 }
 
-.LevelDesign:hover{
-    border: 3px dotted aqua;
+button.LevelChoice{
+    width: 430px;
 }
 
 
@@ -154,6 +157,9 @@ a{
     background-color: gray;
     color: white;
 }
+
+
+
 
 
 
