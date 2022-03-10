@@ -93,24 +93,15 @@ button.LevelChoice{
 
 
 
-/*Einzelne Level*/
+/*Question Design*/
 
 
-.QuestionDiv{
+.HeadlineDiv{
     display: flex;
     justify-content: center;
     margin: 40px 20px;
 }
 
-
-.Question{
-    background-color: gray;
-    text-align: center;
-    color: white;
-    display: inline;
-    padding: 15px;
-    font-size: 40px;
-}
 
 .ChoiceDiv{
     display: flex;
@@ -145,49 +136,6 @@ button.LevelChoice{
     font-size: 20px;
     color: white;
 }
-
-
-
-
-
-
-/*Hardcore*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
