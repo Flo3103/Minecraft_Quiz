@@ -15,22 +15,22 @@
 
     <div class="QuestionsHardcore" id="HardcoreQuestion1">
         <div class="QuestionDiv">
-            <h1 class="MinecraftDesign noHover" style="padding: 5px 30px;">Wie hoch ist die Warscheinlichkeit, dass ein pinkes Schaf spawnt?</h1>
+            <h1 id="HeadlineHardcore" class="MinecraftDesign noHover" style="padding: 5px 30px;">Wie hoch ist die Wahrscheinlichkeit, dass ein pinkes Schaf spawnt?</h1>
         </div>
         <div class="ChoiceDiv" id="ChoiceDiv">
     
-            <div class="Margin20px"><button class="MinecraftDesign" id="notClick" onclick="ChoiceFals()">1.598%</button></div>
-            <div class="Margin20px"><button class="MinecraftDesign" id="notClick2" onclick="ChoiceRight()">0,164%</button></div>
-            <div class="Margin20px"><button class="MinecraftDesign" id="notClick3" onclick="ChoiceFals()">0.361%</button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="Choice1" onclick="ChoiceFals()">1.598%</button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="Choice2" onclick="ChoiceRight()">0,164%</button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="Choice3" onclick="ChoiceFals()">0.361%</button></div>
     
         </div>
     
             <div class="CorrectionDiv" id="correctionDiv">
-                <img style="width: 200px; margin: 80px 0 100px 0;" src="../Minecraft_Quiz/Bilder/Richtig.png" id="correctionImg">
+                <img style="width: 100px; margin: 30px 0 40px 0;" src="../Minecraft_Quiz/Bilder/Richtig.png" id="correctionImg">
             </div>
             
             <div class="NächsteFrageDiv" id="NächsteFrageDiv">
-                <button class="NächsteFrage MinecraftDesign" onclick="NächsteFrageHardcore1('')">Nächste Frage</button>
+                <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageHardcore1('')">Nächste Frage</button>
             </div>
     </div>
     
@@ -41,23 +41,24 @@
 
     <div class="QuestionsHardcore DisplayNone" id="HardcoreQuestion2">
         <div class="QuestionDiv">
-            <h1 class="MinecraftDesign noHover" style="padding: 5px 30px;">?</h1>
+            <h1 class="MinecraftDesign noHover" style="padding: 5px 30px;">Wie hoch ist die Wahrscheinlichkeit, dass man, mit einer unverzauberten Angel, ein verzaubertes Buch angelt?</h1>
         </div>
         <div class="ChoiceDiv" id="ChoiceDiv">
     
-            <div class="Margin20px"><button class="MinecraftDesign" id="notClick1" onclick="ChoiceRight()"></button></div>
-            <div class="Margin20px"><button class="MinecraftDesign" id="notClick2" onclick="ChoiceFals()"></button></div>
-            <div class="Margin20px"><button class="MinecraftDesign" id="notClick3" onclick="ChoiceFals()"></button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="notClick1" onclick="ChoiceRight()">0.8%</button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="notClick2" onclick="ChoiceFals()">1,5%</button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="notClick3" onclick="ChoiceFals()">0,1</button></div>
     
         </div>
     
-            <div class="CorrectionDiv" id="correctionDiv">
-                <img style="width: 50px; margin: 80px 0 100px 0;" src="../Minecraft_Quiz/Bilder/Richtig.png" id="correctionImg">
-            </div>
-                        
-            <div class="NächsteFrageDiv" id="NächsteFrageDiv">
-                <button class="NächsteFrage MinecraftDesign" onclick="NächsteFrageHardcore('')">Nächste Frage</button>
-            </div>
+        <div class="CorrectionDiv" id="correctionDiv">
+            <img style="width: 100px; margin: 30px 0 40px 0;" src="../Minecraft_Quiz/Bilder/Richtig.png" id="correctionImg">
+        </div>
+        
+        <div class="NächsteFrageDiv" id="NächsteFrageDiv">
+            <button class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageHardcore2('')">Nächste Frage</button>
+        </div>
+
     </div>
     
 

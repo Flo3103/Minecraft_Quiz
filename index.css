@@ -22,11 +22,6 @@ a{
 
 
 
-a{
-    color: white;
-    text-decoration: none;
-}
-
 .MinecraftDesign{
     padding: 5px 50px;
     font-size: 20px;
@@ -137,20 +132,12 @@ button.LevelChoice{
     justify-content: center;
 }
 
-.correction{
-    text-align: center;
-    font-size: 50px;
-    display: inline;    
-    background-color: green;
-    padding: 20px;
-    border-radius: 20px;
-    margin-top: 100px;
-}
 
 
 .NächsteFrageDiv{
     justify-content: center;
     display: none;
+    margin-bottom: 300px;
 }
 
 .NächsteFrage{
@@ -158,8 +145,6 @@ button.LevelChoice{
     font-size: 20px;
     color: white;
 }
-
-
 
 
 
