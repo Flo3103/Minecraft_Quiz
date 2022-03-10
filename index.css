@@ -28,8 +28,8 @@ a{
 }
 
 .MinecraftDesign{
-    padding: 25px 100px;
-    font-size: 40px;
+    padding: 5px 50px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -50,6 +50,11 @@ a{
     background-color: rgb(111, 111, 111);
 }
 
+.DisplayNone{
+    display: none;
+}
+
+
 
 /*Quiz Starten*/
 .StartButtonDiv{
@@ -67,41 +72,34 @@ a{
 
 /*Level Choice*/
 
+.Margin20px{
+    margin: 20px;
+}
+
 #LevelChoiceDiv{
     text-align: center;
 }
 
-.LevelChoiceHeadline{
-    background-color: black;
-    color: aqua;
-    padding: 30px;
-    border-radius: 20px;
-    font-size: 40px;
-    margin: 0%;
-}
 
-.LevelChoice{
+
+div.LevelChoice{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-
-.Margin20px{
-    margin: 20px;
-}
-
 button.LevelChoice{
-    width: 430px;
+    width: 220px;
 }
+
+
+
+
 
 
 
 /*Einzelne Level*/
 
-.QuestionsHardcore{
-    display: none;
-}
 
 .QuestionDiv{
     display: flex;
@@ -157,9 +155,7 @@ button.LevelChoice{
 
 .NächsteFrage{
     padding: 10px 20px;
-    width: 300px;
     font-size: 20px;
-    background-color: gray;
     color: white;
 }
 

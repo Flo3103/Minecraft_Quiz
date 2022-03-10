@@ -15,7 +15,7 @@
 
     <div class="QuestionsHardcore" id="HardcoreQuestion1">
         <div class="QuestionDiv">
-            <h1 class="MinecraftDesign noHover">Wie hoch ist die Warscheinlichkeit, dass ein pinkes Schaf spawnt?</h1>
+            <h1 class="MinecraftDesign noHover" style="padding: 5px 30px;">Wie hoch ist die Warscheinlichkeit, dass ein pinkes Schaf spawnt?</h1>
         </div>
         <div class="ChoiceDiv" id="ChoiceDiv">
     
@@ -31,6 +31,32 @@
             
             <div class="NächsteFrageDiv" id="NächsteFrageDiv">
                 <button class="NächsteFrage MinecraftDesign" onclick="NächsteFrageHardcore1('')">Nächste Frage</button>
+            </div>
+    </div>
+    
+
+
+
+    <!--Question2-->
+
+    <div class="QuestionsHardcore DisplayNone" id="HardcoreQuestion2">
+        <div class="QuestionDiv">
+            <h1 class="MinecraftDesign noHover" style="padding: 5px 30px;">?</h1>
+        </div>
+        <div class="ChoiceDiv" id="ChoiceDiv">
+    
+            <div class="Margin20px"><button class="MinecraftDesign" id="notClick1" onclick="ChoiceRight()"></button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="notClick2" onclick="ChoiceFals()"></button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="notClick3" onclick="ChoiceFals()"></button></div>
+    
+        </div>
+    
+            <div class="CorrectionDiv" id="correctionDiv">
+                <img style="width: 50px; margin: 80px 0 100px 0;" src="../Minecraft_Quiz/Bilder/Richtig.png" id="correctionImg">
+            </div>
+                        
+            <div class="NächsteFrageDiv" id="NächsteFrageDiv">
+                <button class="NächsteFrage MinecraftDesign" onclick="NächsteFrageHardcore('')">Nächste Frage</button>
             </div>
     </div>
     
