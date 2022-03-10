@@ -10,11 +10,11 @@ button.noClick{
     cursor: not-allowed;
 }
 
-button.noClick:hover{
-}
+
 
 a{
-    color: aqua
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -69,7 +69,6 @@ a{
 
 #LevelChoiceDiv{
     text-align: center;
-    display: none;
 }
 
 .LevelChoiceHeadline{

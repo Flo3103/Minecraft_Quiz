@@ -26,7 +26,6 @@ function ChoiceFals() {
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
 }
 
-function NächsteFrageHardcore() {
-    if (Question === '1') {
-    }
+function NächsteFrageHardcore1() {
+    
 }
