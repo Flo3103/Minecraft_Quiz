@@ -17,6 +17,12 @@ a{
     text-decoration: none;
 }
 
+div.centerHidden{
+    display: none;
+    justify-content: center;
+}
+
+
 
 /*Minecraft Design*/
 
@@ -121,6 +127,15 @@ button.LevelChoice{
 .CorrectionDiv{
     display: none;
     justify-content: center;
+}
+
+
+.points{
+    font-size: 15px;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 5px 5px;
 }
 
 
