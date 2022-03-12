@@ -1,5 +1,5 @@
 
-function NächsteFrageFriedlich2() {
+function NächsteFrageNormal2() {
 
     document.getElementById('Headline').innerHTML = '2. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -17,12 +17,12 @@ function NächsteFrageFriedlich2() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich3();
+        NächsteFrageNormal3();
     };
     
 }   
 
-function NächsteFrageFriedlich3() {
+function NächsteFrageNormal3() {
 
     document.getElementById('Headline').innerHTML = '3. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -40,13 +40,13 @@ function NächsteFrageFriedlich3() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich4();
+        NächsteFrageNormal4();
     };
     
 }   
 
 
-function NächsteFrageFriedlich4() {
+function NächsteFrageNormal4() {
 
     document.getElementById('Headline').innerHTML = '4. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -64,13 +64,13 @@ function NächsteFrageFriedlich4() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich5();
+        NächsteFrageNormal5();
     };
     
 }   
 
 
-function NächsteFrageFriedlich5() {
+function NächsteFrageNormal5() {
 
     document.getElementById('Headline').innerHTML = '5. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -88,13 +88,13 @@ function NächsteFrageFriedlich5() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich6();
+        NächsteFrageNormal6();
     };
     
 }   
 
 
-function NächsteFrageFriedlich6() {
+function NächsteFrageNormal6() {
 
     document.getElementById('Headline').innerHTML = '6. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -112,13 +112,13 @@ function NächsteFrageFriedlich6() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich7();
+        NächsteFrageNormal7();
     };
     
 }   
 
 
-function NächsteFrageFriedlich7() {
+function NächsteFrageNormal7() {
 
     document.getElementById('Headline').innerHTML = '7. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -136,13 +136,13 @@ function NächsteFrageFriedlich7() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich8();
+        NächsteFrageNormal8();
     };
     
 }   
 
 
-function NächsteFrageFriedlich8() {
+function NächsteFrageNormal8() {
 
     document.getElementById('Headline').innerHTML = '8. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -160,13 +160,13 @@ function NächsteFrageFriedlich8() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich9();
+        NächsteFrageNormal9();
     };
     
 }   
 
 
-function NächsteFrageFriedlich9() {
+function NächsteFrageNormal9() {
 
     document.getElementById('Headline').innerHTML = '9. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -184,13 +184,13 @@ function NächsteFrageFriedlich9() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich10();
+        NächsteFrageNormal10();
     };
     
 }   
 
 
-function NächsteFrageFriedlich10() {
+function NächsteFrageNormal10() {
 
     document.getElementById('Headline').innerHTML = '10. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -208,13 +208,13 @@ function NächsteFrageFriedlich10() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich11();
+        NächsteFrageNormal11();
     };
     
 }   
 
 
-function NächsteFrageFriedlich11() {
+function NächsteFrageNormal11() {
 
     document.getElementById('Headline').innerHTML = '11. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -232,13 +232,13 @@ function NächsteFrageFriedlich11() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich12();
+        NächsteFrageNormal12();
     };
     
 }   
 
 
-function NächsteFrageFriedlich12() {
+function NächsteFrageNormal12() {
 
     document.getElementById('Headline').innerHTML = '12. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -257,13 +257,13 @@ function NächsteFrageFriedlich12() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich13();
+        NächsteFrageNormal13();
     };
     
 }   
 
 
-function NächsteFrageFriedlich13() {
+function NächsteFrageNormal13() {
 
     document.getElementById('Headline').innerHTML = '13. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -281,13 +281,13 @@ function NächsteFrageFriedlich13() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich14();
+        NächsteFrageNormal14();
     };
     
 }   
 
 
-function NächsteFrageFriedlich14() {
+function NächsteFrageNormal14() {
 
     document.getElementById('Headline').innerHTML = '14. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -305,13 +305,13 @@ function NächsteFrageFriedlich14() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich15();
+        NächsteFrageNormal15();
     };
     
 }   
 
 
-function NächsteFrageFriedlich15() {
+function NächsteFrageNormal15() {
 
     document.getElementById('Headline').innerHTML = '15. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -329,13 +329,13 @@ function NächsteFrageFriedlich15() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich16();
+        NächsteFrageNormal16();
     };
     
 }   
 
 
-function NächsteFrageFriedlich16() {
+function NächsteFrageNormal16() {
 
     document.getElementById('Headline').innerHTML = '16. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -353,13 +353,13 @@ function NächsteFrageFriedlich16() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich17();
+        NächsteFrageNormal17();
     };
     
 }   
 
 
-function NächsteFrageFriedlich17() {
+function NächsteFrageNormal17() {
 
     document.getElementById('Headline').innerHTML = '17. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -377,13 +377,13 @@ function NächsteFrageFriedlich17() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich18();
+        NächsteFrageNormal18();
     };
     
 }   
 
 
-function NächsteFrageFriedlich18() {
+function NächsteFrageNormal18() {
 
     document.getElementById('Headline').innerHTML = '18. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -401,13 +401,13 @@ function NächsteFrageFriedlich18() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich19();
+        NächsteFrageNormal19();
     };
     
 }   
 
 
-function NächsteFrageFriedlich19() {
+function NächsteFrageNormal19() {
 
     document.getElementById('Headline').innerHTML = '19. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -425,13 +425,13 @@ function NächsteFrageFriedlich19() {
     document.getElementById('Choice3').disabled = false;
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageFriedlich20();
+        NächsteFrageNormal20();
     };
     
 }   
 
 
-function NächsteFrageFriedlich20() {
+function NächsteFrageNormal20() {
 
     document.getElementById('Headline').innerHTML = '20. ?' ;
     document.getElementById('Choice1').innerHTML = '' ;
@@ -460,5 +460,5 @@ function LevelScreen() {
     document.getElementById('Question').style.display = 'none';
 
 
-    document.getElementById('Friedlich').innerHTML += `Friedlich<span class="material-icons-outlined">done</span>`;
+    document.getElementById('Normal').innerHTML += `Normal<span class="material-icons-outlined">done</span>`;
 }   

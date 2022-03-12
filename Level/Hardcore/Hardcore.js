@@ -1,22 +1,4 @@
 
-
-//function LevelChoice() {
-  //  document.getElementById('StartButtonDiv').style.display = 'none'; 
-   // document.getElementById('LevelChoiceDiv').style.display = 'block';}
-
-
-//function OpenHardcore() {
-//    document.getElementById('HardcoreQuestion1').style.display = 'block';
-//    document.getElementById('LevelChoiceDiv').style.display = 'none';}
-
-
-
-
-
-
-//Hardcore Questions
-
-
 function NächsteFrageHardcore2() {
 
     document.getElementById('Headline').innerHTML = '2. Wie hoch ist die Wahrscheinlichkeit, dass man, mit einer unverzauberten Angel, ein verzaubertes Buch angelt?' ;
@@ -24,17 +6,9 @@ function NächsteFrageHardcore2() {
     document.getElementById('Choice2').innerHTML = '1,5%' ;
     document.getElementById('Choice3').innerHTML = '0,1%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -55,17 +29,9 @@ function NächsteFrageHardcore3() {
     document.getElementById('Choice2').innerHTML = '250s' ;
     document.getElementById('Choice3').innerHTML = '300s' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -87,17 +53,9 @@ function NächsteFrageHardcore4() {
     document.getElementById('Choice2').innerHTML = '5,5%' ;
     document.getElementById('Choice3').innerHTML = '2,5%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceRight();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRight();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -119,17 +77,9 @@ function NächsteFrageHardcore5() {
     document.getElementById('Choice2').innerHTML = '2%' ;
     document.getElementById('Choice3').innerHTML = '1%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -143,25 +93,17 @@ function NächsteFrageHardcore5() {
     
 }   
 
-
+ 
 function NächsteFrageHardcore6() {
 
-    document.getElementById('Headline').innerHTML = '6. Wie viele Splash-Texte(Gelber Text im Startmenü) gibt es in Minecraft?' ;
+    document.getElementById('Headline').innerHTML = '6. Wie viele Splash-Texte (Gelber Text im Startmenü) gibt es in Minecraft?' ;
     document.getElementById('Choice1').innerHTML = '221' ;
     document.getElementById('Choice2').innerHTML = '254' ;
     document.getElementById('Choice3').innerHTML = '376' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceRight();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRight();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -183,17 +125,9 @@ function NächsteFrageHardcore7() {
     document.getElementById('Choice2').innerHTML = '10%' ;
     document.getElementById('Choice3').innerHTML = '5%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -215,17 +149,9 @@ function NächsteFrageHardcore8() {
     document.getElementById('Choice2').innerHTML = '0,0000000,1%' ;
     document.getElementById('Choice3').innerHTML = '0,000000000000,1%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -247,17 +173,9 @@ function NächsteFrageHardcore9() {
     document.getElementById('Choice2').innerHTML = '0,006%' ;
     document.getElementById('Choice3').innerHTML = '0,13%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -279,17 +197,9 @@ function NächsteFrageHardcore10() {
     document.getElementById('Choice2').innerHTML = '3%' ;
     document.getElementById('Choice3').innerHTML = '5%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceRight();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRight();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -311,17 +221,9 @@ function NächsteFrageHardcore11() {
     document.getElementById('Choice2').innerHTML = '3%' ;
     document.getElementById('Choice3').innerHTML = '0.83%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceRight();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRight();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -343,17 +245,9 @@ function NächsteFrageHardcore12() {
     document.getElementById('Choice2').innerHTML = '1%' ;
     document.getElementById('Choice3').innerHTML = '5%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -375,17 +269,9 @@ function NächsteFrageHardcore13() {
     document.getElementById('Choice2').innerHTML = '1%' ;
     document.getElementById('Choice3').innerHTML = '3%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -407,17 +293,9 @@ function NächsteFrageHardcore14() {
     document.getElementById('Choice2').innerHTML = '0,01%' ;
     document.getElementById('Choice3').innerHTML = '0,25%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceRight();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRight();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -439,17 +317,9 @@ function NächsteFrageHardcore15() {
     document.getElementById('Choice2').innerHTML = '1,2%' ;
     document.getElementById('Choice3').innerHTML = '0,2%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceRight();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRight();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -471,17 +341,9 @@ function NächsteFrageHardcore16() {
     document.getElementById('Choice2').innerHTML = '10%' ;
     document.getElementById('Choice3').innerHTML = '31%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -503,17 +365,9 @@ function NächsteFrageHardcore17() {
     document.getElementById('Choice2').innerHTML = '0,75%' ;
     document.getElementById('Choice3').innerHTML = '0,05%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -535,16 +389,9 @@ function NächsteFrageHardcore18() {
     document.getElementById('Choice2').innerHTML = '0,05%' ;
     document.getElementById('Choice3').innerHTML = '5%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();
     };
 
     document.getElementById('correctionDiv').style.display = 'none';
@@ -567,17 +414,9 @@ function NächsteFrageHardcore19() {
     document.getElementById('Choice2').innerHTML = '0,001%' ;
     document.getElementById('Choice3').innerHTML = '0,003%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -599,17 +438,9 @@ function NächsteFrageHardcore20() {
     document.getElementById('Choice2').innerHTML = '0,00175%' ;
     document.getElementById('Choice3').innerHTML = '0,00077%' ;
 
-    document.getElementById('Choice1').onclick = function(){
-        ChoiceRight();
-    };
-
-    document.getElementById('Choice2').onclick = function(){
-        ChoiceFals();
-    };
-
-    document.getElementById('Choice3').onclick = function(){
-        ChoiceFals();
-    };
+    document.getElementById('Choice1').onclick = function(){ChoiceRight();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
     document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit beenden  ' ;
     document.getElementById('correctionDiv').style.display = 'none';
