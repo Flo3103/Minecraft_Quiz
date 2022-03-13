@@ -19,8 +19,8 @@ function NächsteFrageFriedlich2() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich3();
     };
-    
-}   
+
+}
 
 function NächsteFrageFriedlich3() {
 

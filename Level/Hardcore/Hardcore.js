@@ -442,7 +442,8 @@ function NächsteFrageHardcore20() {
     document.getElementById('Choice2').onclick = function(){ChoiceFals();};
     document.getElementById('Choice3').onclick = function(){ChoiceFals();};
 
-    document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit beenden  ' ;
+    document.getElementById('NextQuestion').innerHTML += `<a id="LinkLevelScreen" href="../LevelScreen.html">Schwierigkeit Beenden</a>`;
+
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
     document.getElementById('Choice1').disabled = false;
@@ -457,8 +458,5 @@ function NächsteFrageHardcore20() {
 
 
 function LevelScreen() {
-    document.getElementById('Question').style.display = 'none';
-
-
-    document.getElementById('Hardcore').innerHTML += `Hardcore<span class="material-icons-outlined">done</span>`;
+    document.getElementById('Hardcore').innerHTML = '';
 }   
