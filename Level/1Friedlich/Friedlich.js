@@ -32,7 +32,7 @@ function NächsteFrageFriedlich3() {
     document.getElementById('Headline').innerHTML = '3. Wamperzwicker?' ;
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
-    document.getElementById('Choice3').innerHTML = 'Nur bei Moritz' ;
+    document.getElementById('Choice3').innerHTML = 'Nur bei Timo' ;
 
     document.getElementById('Choice1').onclick = function(){alert('ScheißeEise so weit bin I no ned!');};
     document.getElementById('Choice2').onclick = function(){alert('ScheißeEise so weit bin I no ned!');};
