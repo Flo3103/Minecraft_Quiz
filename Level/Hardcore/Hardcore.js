@@ -135,9 +135,9 @@ function NächsteFrageHardcore7() {
 function NächsteFrageHardcore8() {
 
     document.getElementById('Headline').innerHTML = '8. Wie hoch ist die Wahrscheinlichkeit, dass ein Endportal 12 Enderaugen enthält?' ;
-    document.getElementById('Choice1').innerHTML = '0,000000000,1%' ;
-    document.getElementById('Choice2').innerHTML = '0,0000000,1%' ;
-    document.getElementById('Choice3').innerHTML = '0,000000000000,1%' ;
+    document.getElementById('Choice1').innerHTML = '0,0000000001%' ;
+    document.getElementById('Choice2').innerHTML = '0,00000001%' ;
+    document.getElementById('Choice3').innerHTML = '0,0000000000001%' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceRight();};
     document.getElementById('Choice2').onclick = function(){ChoiceFals();};
