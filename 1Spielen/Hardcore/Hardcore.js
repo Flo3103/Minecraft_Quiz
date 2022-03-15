@@ -399,7 +399,8 @@ function PointsScreen() {
     //document.getElementById('LevelChoiceDiv').style.display = 'block';
     //document.getElementById('Hardcore').innerHTML = 'Abgeschlossen';
 
-    document.getElementById('Question').style.display = 'none';
-    document.getElementById('PointsScreen').style.display = 'flex';
-
+    //document.getElementById('Question').style.display = 'none';
+    //document.getElementById('PointsScreen').style.display = 'flex';
+    //document.getElementById('LevelChoiceDiv').style.display = 'block';
+    //document.getElementById('Hardcore').innerHTML = 'Abgeschlossen';
 }   

@@ -29,10 +29,17 @@ function NächsteFrageFriedlich2() {
 
 function NächsteFrageFriedlich3() {
 
+
     document.getElementById('Headline').innerHTML = '3. Welches Item braucht man um ein Huhn zu füttern?' ;
     document.getElementById('Choice1').innerHTML = 'Weizen' ;
     document.getElementById('Choice2').innerHTML = 'Samen' ;
     document.getElementById('Choice3').innerHTML = 'Eier' ;
+
+    document.getElementById('Headline').innerHTML = '3. Wamperzwicker?' ;
+    document.getElementById('Choice1').innerHTML = 'Ja' ;
+    document.getElementById('Choice2').innerHTML = 'Nein' ;
+    document.getElementById('Choice3').innerHTML = 'Nur bei Timo' ;
+
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
@@ -382,5 +389,8 @@ function NächsteFrageFriedlich20() {
 
 
 function PointsScreen() {
-    document.getElementById('Question').style.display = 'none';
+    //document.getElementById('Question').style.display = 'none';
+
+    //document.getElementById('Friedlich').innerHTML += `Friedlich<span class="material-icons-outlined">done</span>`;
 }   
+
