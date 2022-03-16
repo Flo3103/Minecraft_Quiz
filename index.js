@@ -41,7 +41,7 @@ function ChoiceRightFriedlich() {
   document.getElementById('points').innerHTML = 'Punkte:  ' + punkteFriedlich + '/20';
 }
 
-function ChoiceFalsFrielich() {
+function ChoiceFalsFriedlich() {
   ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteFriedlich + '/20';
 } 
