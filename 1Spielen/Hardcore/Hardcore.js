@@ -388,13 +388,26 @@ function NächsteFrageHardcore20() {
     HardcoreAllUsed();
 
     document.getElementById('NextQuestion').onclick = function(){
-        PointsScreen();
+        PointScreenHardcore();
     };
     
 }   
 
 
-function PointsScreen() {
+function PointScreenHardcore() {
+
+    document.getElementById('Points').innerHTML = 'Glückwunsch du hast Hardcore mit ' + punkteHardcore + ' Punkten abgeschlossen';
+    if (punkteHardcore === 20) {
+        document.getElementsByClassName('NewHigscore').innerHTML = 'Lol du bist ja richtig gut';
+    }else{
+        document.getElementsByClassName('NewHigscore').innerHTML = 'Das geht besser';
+    
+    }
+}   
+
+
+
+    
     //window.history.back();
     //document.getElementById('LevelChoiceDiv').style.display = 'block';
     //document.getElementById('Hardcore').innerHTML = 'Abgeschlossen';
@@ -403,4 +416,3 @@ function PointsScreen() {
     //document.getElementById('PointsScreen').style.display = 'flex';
     //document.getElementById('LevelChoiceDiv').style.display = 'block';
     //document.getElementById('Hardcore').innerHTML = 'Abgeschlossen';
-}   

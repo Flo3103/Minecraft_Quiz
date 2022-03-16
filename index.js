@@ -6,7 +6,7 @@ var punkteSchwer = 0;
 var punkteHardcore = 0;
 
 function ChoiceRight() {
-  document.getElementById('correctionImg').src = '0Bilder/Richtig_Falsch/Richtig.png';
+  document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/Richtig.png';
   document.getElementById('correctionImg').style.width = '150px';
   document.getElementById('correctionDiv').style.display = 'flex';
 
@@ -20,7 +20,7 @@ function ChoiceRight() {
 }
 
 function ChoiceFals() {
-  document.getElementById('correctionImg').src = '0Bilder/Richtig_Falsch/Falsch.png';
+  document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/Falsch.png';
   document.getElementById('correctionImg').style.width = '100px';
   document.getElementById('correctionDiv').style.display = 'flex';
 
@@ -36,61 +36,61 @@ function ChoiceFals() {
 
 //Friedlich
 function ChoiceRightFriedlich() {
-  ChoiceFals();
+  ChoiceRight();
   punkteFriedlich++;
   document.getElementById('points').innerHTML = 'Punkte:  ' + punkteFriedlich + '/20';
 }
 
 function ChoiceFalsFrielich() {
-  ChoiceRight();
+  ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteFriedlich + '/20';
 } 
 
 //Einfach
 function ChoiceRightEinfach() {
-  ChoiceFals();
+  ChoiceRight();
   punkteEinfach++;
   document.getElementById('points').innerHTML = 'Punkte:  ' + punkteEinfach + '/20';
 }
 
 function ChoiceFalsEinfach() {
-  ChoiceRight();
+  ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteEinfach + '/20';
 } 
 //Normal
 function ChoiceRightNormal() {
-  ChoiceFals();
+  ChoiceRight();
   punkteNormal++;
   document.getElementById('points').innerHTML = 'Punkte:  ' + punkteNormal + '/20';
 }
 
 function ChoiceFalsNormal() {
-  ChoiceRight();
+  ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteNormal + '/20';
 }
 
 //Schwer
 function ChoiceRightSchwer() {
-  ChoiceFals();
+  ChoiceRight();
   punkteSchwer++;
   document.getElementById('points').innerHTML = 'Punkte:  ' + punkteSchwer + '/20';
 }
 
 function ChoiceFalsSchwer() {
-  ChoiceRight();
+  ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteSchwer + '/20';
 } 
 
 //Hardcore
 
 function ChoiceRightHardcore() {
-  ChoiceFals();
+  ChoiceRight();
   punkteHardcore++;
   document.getElementById('points').innerHTML = 'Punkte:  ' + punkteHardcore + '/20';
 }
 
 function ChoiceFalsHardcore() {
-  ChoiceRight();
+  ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteHardcore + '/20';
 } 
 

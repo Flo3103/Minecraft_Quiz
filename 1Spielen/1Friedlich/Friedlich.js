@@ -15,9 +15,9 @@ function NächsteFrageFriedlich2() {
     document.getElementById('Choice2').innerHTML = 'Ängstlich Einbauen' ;
     document.getElementById('Choice3').innerHTML = 'Jedes Monster Töten' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -35,15 +35,9 @@ function NächsteFrageFriedlich3() {
     document.getElementById('Choice2').innerHTML = 'Samen' ;
     document.getElementById('Choice3').innerHTML = 'Eier' ;
 
-    document.getElementById('Headline').innerHTML = '3. Wamperzwicker?' ;
-    document.getElementById('Choice1').innerHTML = 'Ja' ;
-    document.getElementById('Choice2').innerHTML = 'Nein' ;
-    document.getElementById('Choice3').innerHTML = 'Nur bei Timo' ;
-
-
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -59,10 +53,10 @@ function NächsteFrageFriedlich4() {
     document.getElementById('Headline').innerHTML = '4. Fließt Wassser schneller als Lava?' ;
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
-    document.getElementById('Choice3').innerHTML = 'Nur in der Overworld' ;
+    document.getElementById('Choice3').innerHTML = 'Ja In der Overworld' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
@@ -82,8 +76,8 @@ function NächsteFrageFriedlich5() {
     document.getElementById('Choice3').innerHTML = '48' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -101,8 +95,8 @@ function NächsteFrageFriedlich6() {
     document.getElementById('Choice2').innerHTML = '1' ;
     document.getElementById('Choice3').innerHTML = '16' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
@@ -121,7 +115,7 @@ function NächsteFrageFriedlich7() {
     document.getElementById('Choice2').innerHTML = 'Kuh' ;
     document.getElementById('Choice3').innerHTML = 'Pferd' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
 
@@ -141,8 +135,8 @@ function NächsteFrageFriedlich8() {
     document.getElementById('Choice2').innerHTML = 'Endermite' ;
     document.getElementById('Choice3').innerHTML = 'Wasser' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
@@ -161,9 +155,9 @@ function NächsteFrageFriedlich9() {
     document.getElementById('Choice2').innerHTML = 'Eisenspitzhacke' ;
     document.getElementById('Choice3').innerHTML = 'Goldspitzhacke' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -181,8 +175,8 @@ function NächsteFrageFriedlich10() {
     document.getElementById('Choice2').innerHTML = 'Man zähmt ihn' ;
     document.getElementById('Choice3').innerHTML = 'Man wird schneller' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
@@ -195,15 +189,15 @@ function NächsteFrageFriedlich10() {
 
 function NächsteFrageFriedlich11() {
 
-    document.getElementById('Headline').innerHTML = '11. Was braucht man um auf einem Schwein zu reiten' ;
+    document.getElementById('Headline').innerHTML = '11. Was braucht man um auf einem Schwein zu sitzen' ;
     document.getElementById('Choice1').innerHTML = 'Karottenrute' ;
     document.getElementById('Choice2').innerHTML = 'Sattel' ;
     document.getElementById('Choice3').innerHTML = 'Schweinerüstung & Sattel' ;
 
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -220,8 +214,8 @@ function NächsteFrageFriedlich12() {
     document.getElementById('Choice2').innerHTML = 'Gustaf' ;
     document.getElementById('Choice3').innerHTML = 'Steve' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
@@ -240,8 +234,8 @@ function NächsteFrageFriedlich13() {
     document.getElementById('Choice3').style.display = 'none' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -257,7 +251,7 @@ function NächsteFrageFriedlich14() {
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
@@ -275,7 +269,7 @@ function NächsteFrageFriedlich15() {
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
@@ -290,12 +284,12 @@ function NächsteFrageFriedlich15() {
 function NächsteFrageFriedlich16() {
 
 
-    document.getElementById('Headline').innerHTML = '16. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '16. Können pinke Schafe spawnen?' ;
+    document.getElementById('Choice1').innerHTML = 'Ja' ;
+    document.getElementById('Choice2').innerHTML = 'Nein' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceRightFrielich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -315,8 +309,8 @@ function NächsteFrageFriedlich17() {
     document.getElementById('Choice3').innerHTML = 'Beide Schlagen' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -334,9 +328,9 @@ function NächsteFrageFriedlich18() {
     document.getElementById('Choice2').innerHTML = 'Mohn Blume' ;
     document.getElementById('Choice3').innerHTML = 'Einen Eimer' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -354,8 +348,8 @@ function NächsteFrageFriedlich19() {
     document.getElementById('Choice2').innerHTML = 'Es löscht die Lava in der Nähe' ;
     document.getElementById('Choice3').innerHTML = 'Es verdampft' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
@@ -374,8 +368,8 @@ function NächsteFrageFriedlich20() {
     document.getElementById('Choice2').innerHTML = 'Nichts' ;
     document.getElementById('Choice3').innerHTML = 'Wird zum Weg' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFrielich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
 
     document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit beenden' ;

@@ -10,12 +10,20 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'minecraftregular';
+    src: url('minecraft-regular-webfont.woff2') format('woff2'),
+         url('minecraft-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
     -moz-user-select: none;
     -khtml-user-select: none;
     user-select: none;
-	font-family:silkscreennormal;
+	font-family:minecraftregular;
     background-image: url(0Bilder/MC-Background__13239256866.jpg);
 }
 
@@ -36,13 +44,18 @@ div.centerHidden{
     justify-content: center;
 }
 
-.width{
-    width: 300px;
+button.padding{
+    padding: 5px 20px;
+    width: 230px;               /*Merke width setzt sich aus padding margin border width zusammen!!*/
 }
 
 .Margin20px{
     margin: 20px;
 }
+.silkscreennormal{
+    font-family: silkscreennormal;
+}
+
 /*Minecraft Design*/
 
 .MinecraftDesign{
@@ -70,7 +83,27 @@ div.centerHidden{
     display: none;
 }
 
-/*Quiz Starten*/
+/*Startmenü*/
+
+div.StartmenüHeadline{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+p.StartmenüHeadline{
+    font-size: 40px;
+    display: inline;
+    font-weight: 500;
+}
+
+.HeadlineSchräg{
+    color: yellow;
+    transform: rotate(-40deg);
+    margin-left: 0px;
+    padding-left: 180px;
+}
+
 
 .StartButtonDiv{
     display: block;
@@ -88,6 +121,9 @@ div.centerHidden{
     left: 50%;
     transform: translate(-50%, -50%);
 }*/
+
+
+
 
 /*Level Choice*/
 
@@ -146,14 +182,14 @@ button.LevelChoice{
     color: white;
 }
 
+div.PointScreen{
+    text-align: center;
+    margin: 200px;
+}
 
-
-
-
-
-
-
-
+p.PointScreen{
+    display: block;
+}
 
 
 
