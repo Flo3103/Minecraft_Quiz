@@ -288,7 +288,7 @@ function NächsteFrageFriedlich16() {
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceRightFrielich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceRightFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();

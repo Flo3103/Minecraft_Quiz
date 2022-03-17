@@ -24,7 +24,7 @@ function NächsteFrageHardcore2() {
     HardcoreAllUsed();
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageHardcore3();
+        NächsteFrageHardcore20();
     };
     
     
@@ -383,7 +383,7 @@ function NächsteFrageHardcore20() {
     document.getElementById('Choice2').onclick = function(){ChoiceFalsHardcore()();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsHardcore()();};
 
-    document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit Beenden';
+    document.getElementById('NextQuestion').innerHTML = 'Bewertung';
 
     HardcoreAllUsed();
 
@@ -396,14 +396,17 @@ function NächsteFrageHardcore20() {
 
 function PointScreenHardcore() {
 
-    document.getElementById('Points').innerHTML = 'Glückwunsch du hast Hardcore mit ' + punkteHardcore + ' Punkten abgeschlossen';
+    document.getElementById('Question').style.display = 'none';
+    document.getElementById('PointScreenHardcore').style.display = 'inline';
+    document.getElementById('Points').innerHTML = 'Glückwunsch du hast Hardcore mit ' + punkteHardcore + ' von 20 Punkten abgeschlossen';
     if (punkteHardcore === 20) {
-        document.getElementsByClassName('NewHigscore').innerHTML = 'Lol du bist ja richtig gut';
+        document.getElementsById('NewHigscore').innerHTML = 'Lol du bist ja richtig gut';
     }else{
-        document.getElementsByClassName('NewHigscore').innerHTML = 'Das geht besser';
+        document.getElementsById('NewHigscore').innerHTML = 'Das geht besser';
     
     }
 }   
+
 
 
 

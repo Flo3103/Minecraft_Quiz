@@ -6,8 +6,8 @@ var punkteSchwer = 0;
 var punkteHardcore = 0;
 
 function ChoiceRight() {
-  document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/Richtig.png';
-  document.getElementById('correctionImg').style.width = '150px';
+  document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/01.png';
+  //document.getElementById('correctionImg').style.width = '100px';
   document.getElementById('correctionDiv').style.display = 'flex';
 
   document.getElementById('DivPoints').style.display = 'flex';
@@ -20,8 +20,8 @@ function ChoiceRight() {
 }
 
 function ChoiceFals() {
-  document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/Falsch.png';
-  document.getElementById('correctionImg').style.width = '100px';
+  document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/02.png';
+  //document.getElementById('correctionImg').style.width = '80px';
   document.getElementById('correctionDiv').style.display = 'flex';
 
   document.getElementById('DivPoints').style.display = 'flex';
@@ -41,7 +41,7 @@ function ChoiceRightFriedlich() {
   document.getElementById('points').innerHTML = 'Punkte:  ' + punkteFriedlich + '/20';
 }
 
-function ChoiceFalsFrielich() {
+function ChoiceFalsFriedlich() {
   ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteFriedlich + '/20';
 } 
