@@ -24,10 +24,9 @@ function NächsteFrageHardcore2() {
     HardcoreAllUsed();
 
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageHardcore20();
+        NächsteFrageHardcore3();
     };
-    
-    
+
 }   
 
 
@@ -139,6 +138,10 @@ function NächsteFrageHardcore8() {
     document.getElementById('Choice2').innerHTML = '0,00000001%' ;
     document.getElementById('Choice3').innerHTML = '0,0000000000001%' ;
 
+    document.getElementById('Choice1').style.width = '300px' ;
+    document.getElementById('Choice2').style.width = '300px' ;
+    document.getElementById('Choice3').style.width = '300px' ;
+
     document.getElementById('Choice1').onclick = function(){ChoiceRightHardcore();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsHardcore()();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsHardcore()();};
@@ -153,6 +156,9 @@ function NächsteFrageHardcore8() {
 
 
 function NächsteFrageHardcore9() {
+    document.getElementById('Choice1').style.width = '200px' ;
+    document.getElementById('Choice2').style.width = '200px' ;
+    document.getElementById('Choice3').style.width = '200px' ;
 
     document.getElementById('Headline').innerHTML = '9. Wie hoch ist die Wahrscheinlichkeit, dass ein Zombie mit Diamant Helm spawnt?' ;
     document.getElementById('Choice1').innerHTML = '1,02%' ;
@@ -399,12 +405,7 @@ function PointScreenHardcore() {
     document.getElementById('Question').style.display = 'none';
     document.getElementById('PointScreenHardcore').style.display = 'inline';
     document.getElementById('Points').innerHTML = 'Glückwunsch du hast Hardcore mit ' + punkteHardcore + ' von 20 Punkten abgeschlossen';
-    if (punkteHardcore === 20) {
-        document.getElementsById('NewHigscore').innerHTML = 'Lol du bist ja richtig gut';
-    }else{
-        document.getElementsById('NewHigscore').innerHTML = 'Das geht besser';
-    
-    }
+
 }   
 
 

@@ -78,7 +78,7 @@ function ChoiceRightSchwer() {
 
 function ChoiceFalsSchwer() {
   ChoiceFals();
-    document.getElementById('points').innerHTML = 'Punkte:  ' + punkteSchwer + '/20';
+  document.getElementById('points').innerHTML = 'Punkte:  ' + punkteSchwer + '/20';
 } 
 
 //Hardcore
@@ -93,6 +93,17 @@ function ChoiceFalsHardcore() {
   ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteHardcore + '/20';
 } 
+
+
+
+function NewHighscoreHardcore(punkteHardcore) {
+
+  if (punkteHardcore <= 3) {
+      document.getElementById('Points').innerHTML =+ 'Lol du bist ja richtig gut';
+  }
+}
+
+
 
 //if(document.getElementById('Choice1').onclick = ChoiceFals()){
   //     document.getElementById('Choice1').style.color = 'red';

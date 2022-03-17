@@ -15,20 +15,22 @@
 
     <div id="Question">
         <div class="HeadlineDiv">
-            <h1 id="Headline" class="MinecraftDesign noHover" style="padding: 5px 30px;"></h1>
+            <h1 id="Headline" class="MinecraftDesign noHover" style="padding: 5px 30px;">Wie viele unterschiedliche Nether Biome gibt es?</h1>
         </div>
         <div class="ChoiceDiv" id="ChoiceDiv">
     
-            <div class="Margin20px"><button class="MinecraftDesign" id="Choice1" onclick="ChoiceFals()"></button></div>
-            <div class="Margin20px"><button class="MinecraftDesign" id="Choice2" onclick="ChoiceRight()"></button></div>
-            <div class="Margin20px"><button class="MinecraftDesign" id="Choice3" onclick="ChoiceFals()"></button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="Choice1" onclick="ChoiceFalsSchwer();">3</button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="Choice2" onclick="ChoiceFalsSchwer();">8</button></div>
+            <div class="Margin20px"><button class="MinecraftDesign" id="Choice3" onclick="ChoiceRightSchwer();">5</button></div>
     
         </div>
     
             <div class="CorrectionDiv" id="correctionDiv">
-                <img style="width: 100px; margin: 30px 0 40px 0;" src="../Minecraft_Quiz/Bilder/Richtig.png" id="correctionImg">
+                <img style="width: 100px; margin: 30px 0 40px 0;" src="" id="correctionImg">
             </div>
-            
+            <div class="centerHidden" id="DivPoints">
+                <p class="points MinecraftDesign noHover" id="points"></p>
+            </div>    
             <div class="NächsteFrageDiv" id="NächsteFrageDiv">
                 <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageSchwer2()">Nächste Frage</button>
             </div>
