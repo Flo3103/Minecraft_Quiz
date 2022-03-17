@@ -402,6 +402,7 @@ function NächsteFrageHardcore20() {
 
 function PointScreenHardcore() {
 
+
     document.getElementById('Question').style.display = 'none';
     document.getElementById('PointScreenHardcore').style.display = 'inline';
     document.getElementById('Points').innerHTML = 'Glückwunsch du hast Hardcore mit ' + punkteHardcore + ' von 20 Punkten abgeschlossen';
