@@ -398,9 +398,9 @@ function PointScreenHardcore() {
 
     document.getElementById('Points').innerHTML = 'Glückwunsch du hast Hardcore mit ' + punkteHardcore + ' Punkten abgeschlossen';
     if (punkteHardcore === 20) {
-        document.getElementsByClassName('NewHigscore').innerHTML = 'Lol du bist ja richtig gut';
+        document.getElementsById('NewHigscore').innerHTML = 'Lol du bist ja richtig gut';
     }else{
-        document.getElementsByClassName('NewHigscore').innerHTML = 'Das geht besser';
+        document.getElementsById('NewHigscore').innerHTML = 'Das geht besser';
     
     }
 }   
