@@ -33,6 +33,31 @@ function ChoiceFals() {
   document.getElementById('Choice3').disabled = true;
 } 
 
+function ZurückHauptmenü() {
+  document.getElementById('Really').style.display = 'block';
+  document.getElementById('BackButton').style.display = 'none';
+
+  document.getElementById('Choice1').disabled = true;
+  document.getElementById('Choice2').disabled = true;
+  document.getElementById('Choice3').disabled = true;
+  document.getElementById('NextQuestion').disabled = true;
+
+}
+
+function Weiterspielen() {
+  document.getElementById('Really').style.display = 'none';
+  document.getElementById('BackButton').style.display = 'inline';
+
+  document.getElementById('Choice1').disabled = false;
+  document.getElementById('Choice2').disabled = false;
+  document.getElementById('Choice3').disabled = false;
+  document.getElementById('NextQuestion').disabled = false;
+
+}
+
+function ZumHauptmenü() {
+  
+}
 
 //Friedlich
 function ChoiceRightFriedlich() {

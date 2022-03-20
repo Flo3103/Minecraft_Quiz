@@ -29,12 +29,29 @@
             </div>
             <div class="NächsteFrageDiv" id="NächsteFrageDiv">
                 <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageHardcore2()">Nächste Frage</button>
+            
             </div>
 
+            <div id="BackButtonDiv">
+                <div style="display: none;" id="Really">
+                    <p id="BackButtonReally">Level wirklich beenden<br>Spielstand wird nicht<br>gespeichert</p>
+                      <div class="ReallyDiv">
+                    <div class="ReallyMargin"><button class="Really MinecraftDesign" onclick="Weiterspielen()">Weiter spielen</button></div>
+                    <div class="ReallyMargin"><a class="Really MinecraftDesign" href="../../index.html" onclick="ZumHauptmenü()">Zum Hauptmenü</a></div>
+                </div>
+                </div>
+
+                    <p id="BackButton" class="BackButton MinecraftDesign" onclick="ZurückHauptmenü();">Zurück zum Hauptmenü</p>
+            </div>
     </div>
+
+
+
+
+
 <div style="display: flex; justify-content: center;">
     <div id="PointScreenHardcore" class="PointScreen" style="display: none;">
-        <p class="PointScreen" id="Points">Glückwunsch du hast Hardcore mit n von 20 Punkten abgeschlossen</p>
+        <p class="PointScreen" id="Points">Du hast Hardcore mit n von 20 Punkten abgeschlossen</p>
         <p class="NewHighscore PointScreen" id="NewHighscore"></p>
     </div>
 </div>

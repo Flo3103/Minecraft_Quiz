@@ -155,7 +155,7 @@ function NächsteFrageSchwer8() {
 
 function NächsteFrageSchwer9() {
 
-    document.getElementById('Headline').innerHTML = '9. ?' ;
+    document.getElementById('Headline').innerHTML = '9. Mit welcher Tastenkombination wechselt man bei der java Edition schnell in den Kreativ Modus?' ;
     document.getElementById('Choice1').innerHTML = '' ;
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
@@ -175,14 +175,14 @@ function NächsteFrageSchwer9() {
 
 function NächsteFrageSchwer10() {
 
-    document.getElementById('Headline').innerHTML = '10. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
-    document.getElementById('Choice3').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '10. Wie viele verschiedene Bastionen gibt es?' ;
+    document.getElementById('Choice1').innerHTML = '2' ;
+    document.getElementById('Choice2').innerHTML = '3' ;
+    document.getElementById('Choice3').innerHTML = '4' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRight4Schwer();};
 
     SchwerAllUsed();
 

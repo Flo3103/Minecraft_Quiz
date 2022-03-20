@@ -127,17 +127,14 @@ function NächsteFrageFriedlich7() {
     
 }   
 
-
 function NächsteFrageFriedlich8() {
 
-    document.getElementById('Headline').innerHTML = '8. Vor was hat ein Enderman angst?' ;
-    document.getElementById('Choice1').innerHTML = 'Villager' ;
-    document.getElementById('Choice2').innerHTML = 'Endermite' ;
-    document.getElementById('Choice3').innerHTML = 'Wasser' ;
+    document.getElementById('Headline').innerHTML = '14. Können in der Schwierigkeit Friedlich feindliche Mobs spawnen?' ;
+    document.getElementById('Choice1').innerHTML = ' Ja ' ;
+    document.getElementById('Choice2').innerHTML = 'Nein' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
 
@@ -246,7 +243,7 @@ function NächsteFrageFriedlich13() {
 
 function NächsteFrageFriedlich14() {
 
-    document.getElementById('Headline').innerHTML = '14. Können in der Schwierigkeit Friedlich feindliche Mobs spawnen?' ;
+    document.getElementById('Headline').innerHTML = '14. Geht die minimale Bauhöhe in der 1.16 in den negativen Bereich?' ;
     document.getElementById('Choice1').innerHTML = ' Ja ' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
 
@@ -260,6 +257,8 @@ function NächsteFrageFriedlich14() {
     };
     
 }   
+
+
 
 
 function NächsteFrageFriedlich15() {
@@ -276,7 +275,7 @@ function NächsteFrageFriedlich15() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich16();
     };
-    
+
 }   
 
 
