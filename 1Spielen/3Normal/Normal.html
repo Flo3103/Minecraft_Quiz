@@ -9,29 +9,40 @@
 </head>
 <body>
     
-
-
-
-
     <div id="Question">
         <div class="HeadlineDiv">
-            <h1 id="Headline" class="MinecraftDesign noHover" style="padding: 5px 30px;"></h1>
+            <h1 id="Headline" class="MinecraftDesign noHover" style="padding: 5px 30px;">1. ?</h1>
         </div>
         <div class="ChoiceDiv" id="ChoiceDiv">
     
-            <div class="Margin20px"><button class="MinecraftDesign" id="Choice1" onclick="ChoiceFals()"></button></div>
-            <div class="Margin20px"><button class="MinecraftDesign" id="Choice2" onclick="ChoiceRight()"></button></div>
-            <div class="Margin20px"><button class="MinecraftDesign" id="Choice3" onclick="ChoiceFals()"></button></div>
+            <div class="Margin20px"><button style="width: 200px;" class="MinecraftDesign" id="Choice1" onclick="ChoiceFalsNormal()"></button></div>
+            <div class="Margin20px"><button style="width: 200px;" class="MinecraftDesign" id="Choice2" onclick="ChoiceFalsNormal()"></button></div>
+            <div class="Margin20px"><button style="width: 200px;" class="MinecraftDesign" id="Choice3" onclick="ChoiceFalsNormal()"></button></div>
     
         </div>
     
-            <div class="CorrectionDiv" id="correctionDiv">
-                <img style="width: 100px; margin: 30px 0 40px 0;" src="../Minecraft_Quiz/Bilder/Richtig.png" id="correctionImg">
+        <div class="CorrectionDiv" id="correctionDiv">
+            <img src="../Minecraft_Quiz/Bilder/Richtig.png" id="correctionImg">
+        </div>
+        
+        <div class="centerHidden" id="DivPoints">
+            <p class="points MinecraftDesign noHover" id="points"></p>
+        </div>    
+        
+        <div class="NächsteFrageDiv" id="NächsteFrageDiv">
+            <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageNormal2()">Nächste Frage</button>
+        </div>
+
+        <!--<div id="BackButtonDiv">
+            <div style="display: none;" id="Really">
+                <p id="BackButtonReally">Level wirklich beenden<br>Spielstand wird nicht<br>gespeichert</p>
+                <div class="ReallyDiv">
+                    <div class="ReallyMargin"><button class="Really MinecraftDesign" onclick="Weiterspielen()">Weiter spielen</button></div>
+                    <div class="ReallyMargin"><a class="Really MinecraftDesign" href="../../index.html" onclick="ZumHauptmenü()">Zum Hauptmenü</a></div>
+                </div>
             </div>
-            
-            <div class="NächsteFrageDiv" id="NächsteFrageDiv">
-                <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageNormal2()">Nächste Frage</button>
-            </div>
+            <p id="BackButton" class="BackButton MinecraftDesign" onclick="ZurückHauptmenü();">Zurück zum Hauptmenü</p>
+        </div>-->
     </div>
     
 

@@ -6,9 +6,9 @@ function NächsteFrageEinfach2() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -29,9 +29,9 @@ function NächsteFrageEinfach3() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -53,9 +53,9 @@ function NächsteFrageEinfach4() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -77,9 +77,9 @@ function NächsteFrageEinfach5() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -101,9 +101,9 @@ function NächsteFrageEinfach6() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -125,9 +125,9 @@ function NächsteFrageEinfach7() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -149,9 +149,9 @@ function NächsteFrageEinfach8() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -173,9 +173,9 @@ function NächsteFrageEinfach9() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -197,9 +197,9 @@ function NächsteFrageEinfach10() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -221,9 +221,9 @@ function NächsteFrageEinfach11() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -246,9 +246,9 @@ function NächsteFrageEinfach12() {
     document.getElementById('Choice3').innerHTML = '' ;
 
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -270,9 +270,9 @@ function NächsteFrageEinfach13() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -294,9 +294,9 @@ function NächsteFrageEinfach14() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -318,9 +318,9 @@ function NächsteFrageEinfach15() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -342,9 +342,9 @@ function NächsteFrageEinfach16() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -366,9 +366,9 @@ function NächsteFrageEinfach17() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -390,9 +390,9 @@ function NächsteFrageEinfach18() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -414,9 +414,9 @@ function NächsteFrageEinfach19() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
@@ -438,9 +438,9 @@ function NächsteFrageEinfach20() {
     document.getElementById('Choice2').innerHTML = '' ;
     document.getElementById('Choice3').innerHTML = '' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFals();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFals();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit beenden' ;
     document.getElementById('correctionDiv').style.display = 'none';

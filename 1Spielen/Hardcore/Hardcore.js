@@ -8,8 +8,6 @@ function HardcoreAllUsed() {
     document.getElementById('correctionImg').src = '';
 }
 
-
-
 function NächsteFrageHardcore2() {
 
     document.getElementById('Headline').innerHTML = '2. Wie hoch ist die Wahrscheinlichkeit, dass man, mit einer unverzauberten Angel, ein verzaubertes Buch angelt?' ;
@@ -28,8 +26,6 @@ function NächsteFrageHardcore2() {
     };
 
 }   
-
-
 
 function NächsteFrageHardcore3() {
 
@@ -50,7 +46,6 @@ function NächsteFrageHardcore3() {
     
 }   
 
-
 function NächsteFrageHardcore4() {
 
     document.getElementById('Headline').innerHTML = '4. Wie hoch ist die Wahrscheinlichkeit, dass ein Wither Skelet seinen Kopf droppt?' ;
@@ -69,7 +64,6 @@ function NächsteFrageHardcore4() {
     };
     
 }   
-
 
 function NächsteFrageHardcore5() {
 
@@ -90,7 +84,6 @@ function NächsteFrageHardcore5() {
     
 }   
 
- 
 function NächsteFrageHardcore6() {
 
     document.getElementById('Headline').innerHTML = '6. Wie viele Splash-Texte (Gelber Text im Startmenü) gibt es in Minecraft?' ;
@@ -110,7 +103,6 @@ function NächsteFrageHardcore6() {
     
 }   
 
-
 function NächsteFrageHardcore7() {
 
     document.getElementById('Headline').innerHTML = '7. Wie hoch ist die Wahrscheinlichkeit, dass ein Endportal Frame ein Enderauge enthält?' ;
@@ -129,7 +121,6 @@ function NächsteFrageHardcore7() {
     };
     
 }   
-
 
 function NächsteFrageHardcore8() {
 
@@ -154,7 +145,6 @@ function NächsteFrageHardcore8() {
     
 }   
 
-
 function NächsteFrageHardcore9() {
     document.getElementById('Choice1').style.width = '200px' ;
     document.getElementById('Choice2').style.width = '200px' ;
@@ -177,7 +167,6 @@ function NächsteFrageHardcore9() {
     
 }   
 
-
 function NächsteFrageHardcore10() {
 
     document.getElementById('Headline').innerHTML = '10. Wie hoch ist die Wahrscheinlichkeit, dass ein Fuchs mit einem Emerald in seinem Mund spawnt?' ;
@@ -196,7 +185,6 @@ function NächsteFrageHardcore10() {
     };
     
 }   
-
 
 function NächsteFrageHardcore11() {
 
@@ -217,7 +205,6 @@ function NächsteFrageHardcore11() {
     
 }   
 
-
 function NächsteFrageHardcore12() {
 
     document.getElementById('Headline').innerHTML = '12. Wie hoch ist die Wahrscheinlichkeit, dass Blätter einen Apfel droppen?' ;
@@ -236,7 +223,6 @@ function NächsteFrageHardcore12() {
     };
     
 }   
-
 
 function NächsteFrageHardcore13() {
 
@@ -257,7 +243,6 @@ function NächsteFrageHardcore13() {
     
 }   
 
-
 function NächsteFrageHardcore14() {
 
     document.getElementById('Headline').innerHTML = '14. Wie hoch ist die Wahrscheinlichkeit, dass ein Zombie, in einem Huhn freiem Bereich, auf einem Huhn spawnt?' ;
@@ -276,7 +261,6 @@ function NächsteFrageHardcore14() {
     };
     
 }   
-
 
 function NächsteFrageHardcore15() {
 
@@ -297,7 +281,6 @@ function NächsteFrageHardcore15() {
     
 }   
 
-
 function NächsteFrageHardcore16() {
 
     document.getElementById('Headline').innerHTML = '16. Wie hoch ist die Wahrscheinlichkeit, dass am 31 October ein Zombifizierter Piglin mit einer Kürbislaterne spawnt?' ;
@@ -316,7 +299,6 @@ function NächsteFrageHardcore16() {
     };
     
 }   
-
 
 function NächsteFrageHardcore17() {
 
@@ -337,7 +319,6 @@ function NächsteFrageHardcore17() {
     
 }   
 
-
 function NächsteFrageHardcore18() {
 
     document.getElementById('Headline').innerHTML = '18. Zu welcher Warscheinlichkeit kann ein Zombifizierter Piglin, jeden Tick auf einem Netherportal Block spawnen?' ;
@@ -357,7 +338,6 @@ function NächsteFrageHardcore18() {
     };
     
 }   
-
 
 function NächsteFrageHardcore19() {
 
@@ -399,20 +379,15 @@ function NächsteFrageHardcore20() {
     
 }   
 
-
 function PointScreenHardcore() {
 
 
     document.getElementById('Question').style.display = 'none';
-    document.getElementById('PointScreenHardcore').style.display = 'inline';
-    document.getElementById('Points').innerHTML = 'Glückwunsch du hast Hardcore mit ' + punkteHardcore + ' von 20 Punkten abgeschlossen';
+    document.getElementById('PointScreenDiv').style.display = 'inline';
+    document.getElementById('Points').innerHTML = 'Du hast Hardcore mit <h3>' + punkteHardcore + ' von 20 </h3> Punkten abgeschlossen';
 
 }   
 
-
-
-
-    
     //window.history.back();
     //document.getElementById('LevelChoiceDiv').style.display = 'block';
     //document.getElementById('Hardcore').innerHTML = 'Abgeschlossen';

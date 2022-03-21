@@ -50,14 +50,14 @@ function NächsteFrageFriedlich3() {
 
 function NächsteFrageFriedlich4() {
 
-    document.getElementById('Headline').innerHTML = '4. Fließt Wassser schneller als Lava?' ;
+    document.getElementById('Headline').innerHTML = '4. Fließt Wasser schneller als Lava?' ;
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
-    document.getElementById('Choice3').innerHTML = 'Ja In der Overworld' ;
+    document.getElementById('Choice3').innerHTML = 'Ja Im Nether' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceRightFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -127,17 +127,15 @@ function NächsteFrageFriedlich7() {
     
 }   
 
-
 function NächsteFrageFriedlich8() {
 
-    document.getElementById('Headline').innerHTML = '8. Vor was hat ein Enderman angst?' ;
-    document.getElementById('Choice1').innerHTML = 'Villager' ;
-    document.getElementById('Choice2').innerHTML = 'Endermite' ;
-    document.getElementById('Choice3').innerHTML = 'Wasser' ;
+    document.getElementById('Headline').innerHTML = '8. Können in der Schwierigkeit Friedlich feindliche Mobs spawnen?' ;
+    document.getElementById('Choice1').innerHTML = ' Ja ' ;
+    document.getElementById('Choice2').innerHTML = 'Nein' ;
+    document.getElementById('Choice3').style.display = 'none' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
 
     FriedlichAllUsed();
 
@@ -149,6 +147,7 @@ function NächsteFrageFriedlich8() {
 
 
 function NächsteFrageFriedlich9() {
+    document.getElementById('Choice3').style.display = 'inline' ;
 
     document.getElementById('Headline').innerHTML = '9. Mit welcher dieser Spitzhacken kann man einen Diamanten abbauen?' ;
     document.getElementById('Choice1').innerHTML = 'Steinspitzhacke' ;
@@ -246,12 +245,12 @@ function NächsteFrageFriedlich13() {
 
 function NächsteFrageFriedlich14() {
 
-    document.getElementById('Headline').innerHTML = '14. Können in der Schwierigkeit Friedlich feindliche Mobs spawnen?' ;
+    document.getElementById('Headline').innerHTML = '14. Geht die minimale Bauhöhe in der 1.18 in den negativen Bereich?' ;
     document.getElementById('Choice1').innerHTML = ' Ja ' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
-    document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
+    document.getElementById('Choice1').onclick = function(){ChoiceRightFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
 
     FriedlichAllUsed();
 
@@ -260,6 +259,8 @@ function NächsteFrageFriedlich14() {
     };
     
 }   
+
+
 
 
 function NächsteFrageFriedlich15() {
@@ -276,7 +277,7 @@ function NächsteFrageFriedlich15() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich16();
     };
-    
+
 }   
 
 
@@ -375,15 +376,18 @@ function NächsteFrageFriedlich20() {
     FriedlichAllUsed();
 
     document.getElementById('NextQuestion').onclick = function(){
-        PointsScreen();
+        PointScreenFriedlich();
     };
     
 }   
 
 
-function PointsScreen() {
-    //document.getElementById('Question').style.display = 'none';
+function PointScreenFriedlich() {
 
-    //document.getElementById('Friedlich').innerHTML += `Friedlich<span class="material-icons-outlined">done</span>`;
+
+    document.getElementById('Question').style.display = 'none';
+    document.getElementById('PointScreenDiv').style.display = 'inline';
+    document.getElementById('Points').innerHTML = 'Du hast Friedlich mit <h3>' + punkteFriedlich + ' von 20</h3> Punkten abgeschlossen';
+
 }   
 
