@@ -383,8 +383,10 @@ function PointScreenHardcore() {
 
 
     document.getElementById('Question').style.display = 'none';
+
     document.getElementById('PointScreenDiv').style.display = 'inline';
     document.getElementById('Points').innerHTML = 'Du hast Hardcore mit <h3>' + punkteHardcore + ' von 20 </h3> Punkten abgeschlossen';
+
 
 }   
 

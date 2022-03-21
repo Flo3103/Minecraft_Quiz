@@ -149,9 +149,11 @@ function NächsteFrageSchwer8() {
 function NächsteFrageSchwer9() {
 
     document.getElementById('Headline').innerHTML = '9. Mit welcher Tastenkombination wechselt man bei der java Edition schnell in den Kreativ Modus?' ;
+
     document.getElementById('Choice1').innerHTML = 'Alt+F4' ;
     document.getElementById('Choice2').innerHTML = 'F5+F6' ;
     document.getElementById('Choice3').innerHTML = 'F3+F4' ;
+
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
@@ -175,6 +177,7 @@ function NächsteFrageSchwer10() {
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
+
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
 
     SchwerAllUsed();

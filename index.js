@@ -56,6 +56,7 @@ function Weiterspielen() {
 }
 
 
+
 //Friedlich
 function ChoiceRightFriedlich() {
   ChoiceRight();

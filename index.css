@@ -177,8 +177,10 @@ button.LevelChoice{
 
 #BackButtonDiv{
     text-align: center;
+
     margin-top: 30px;
-    
+
+
 }
 
 #BackButton{
@@ -223,6 +225,7 @@ p.PointScreen{
 h3{
     margin: 0px;
 }
+
 
 
 

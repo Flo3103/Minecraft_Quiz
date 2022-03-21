@@ -129,10 +129,14 @@ function NächsteFrageFriedlich7() {
 
 function NächsteFrageFriedlich8() {
 
+
     document.getElementById('Headline').innerHTML = '8. Können in der Schwierigkeit Friedlich feindliche Mobs spawnen?' ;
     document.getElementById('Choice1').innerHTML = ' Ja ' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
     document.getElementById('Choice3').style.display = 'none' ;
+
+
+
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
@@ -246,6 +250,7 @@ function NächsteFrageFriedlich13() {
 function NächsteFrageFriedlich14() {
 
     document.getElementById('Headline').innerHTML = '14. Geht die minimale Bauhöhe in der 1.18 in den negativen Bereich?' ;
+    
     document.getElementById('Choice1').innerHTML = ' Ja ' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
 
