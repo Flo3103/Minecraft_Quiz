@@ -87,7 +87,7 @@ function NächsteFrageSchwer5() {
 
 
 function NächsteFrageSchwer6() {
-
+   document.getElementById('Choice3').style.display = 'inline';
     document.getElementById('Headline').innerHTML = '6. Was braucht man um Ozelots zu zähmen?' ;
     document.getElementById('Choice1').innerHTML = 'Tropenfische' ;
     document.getElementById('Choice2').innerHTML = 'Bebratenes Fleisch' ;
