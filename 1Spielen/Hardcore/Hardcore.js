@@ -322,7 +322,7 @@ function NächsteFrageHardcore17() {
 function NächsteFrageHardcore18() {
 
     document.getElementById('Headline').innerHTML = '18. Zu welcher Warscheinlichkeit kann ein Zombifizierter Piglin, jeden Tick auf einem Netherportal Block spawnen?' ;
-    document.getElementById('Choice1').innerHTML = '0,5&' ;
+    document.getElementById('Choice1').innerHTML = '0,5%' ;
     document.getElementById('Choice2').innerHTML = '0,05%' ;
     document.getElementById('Choice3').innerHTML = '5%' ;
 

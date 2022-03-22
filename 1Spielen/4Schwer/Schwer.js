@@ -10,14 +10,14 @@ function SchwerAllUsed() {
 
 function NächsteFrageSchwer2() {
 
-    document.getElementById('Headline').innerHTML = '2. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
-    document.getElementById('Choice3').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '2. Wie hoch ist die Wahrscheinlichkeit, <br> dass ein Wolf gezähmt wird, <br> wenn man ihm einen Knochen gibt?' ;
+    document.getElementById('Choice1').innerHTML = '2⁄5' ;
+    document.getElementById('Choice2').innerHTML = '1⁄5' ;
+    document.getElementById('Choice3').innerHTML = '1⁄3' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
 
     SchwerAllUsed();
 
@@ -49,13 +49,13 @@ function NächsteFrageSchwer3() {
 
 function NächsteFrageSchwer4() {
 
-    document.getElementById('Headline').innerHTML = '4. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
-    document.getElementById('Choice3').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '4. Auf welcher von diesen Webseiten kann man einen kostenlosen Minecraft Server erstellen?' ;
+    document.getElementById('Choice1').innerHTML = 'minecraft.server' ;
+    document.getElementById('Choice2').innerHTML = 'Aternos' ;
+    document.getElementById('Choice3').innerHTML = 'nitrado' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
 
     SchwerAllUsed();
@@ -128,12 +128,12 @@ function NächsteFrageSchwer7() {
 
 function NächsteFrageSchwer8() {
 
-    document.getElementById('Headline').innerHTML = '8. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
-    document.getElementById('Choice3').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '8. Was braucht man für eine einfache Clock?' ;
+    document.getElementById('Choice1').innerHTML = 'Komperator, Redstone, Redstonefackel' ;
+    document.getElementById('Choice2').innerHTML = 'Komperator, Redstone' ;
+    document.getElementById('Choice3').innerHTML = 'Redstone, Verstärcker, Redstonefackel' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice1').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
 
@@ -177,7 +177,6 @@ function NächsteFrageSchwer10() {
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
-
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
 
     SchwerAllUsed();
@@ -191,13 +190,13 @@ function NächsteFrageSchwer10() {
 
 function NächsteFrageSchwer11() {
 
-    document.getElementById('Headline').innerHTML = '11. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
-    document.getElementById('Choice3').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '11. Von wie vielen Blöcken muss man springen, damit man nur noch ein halbes Herz hat?' ;
+    document.getElementById('Choice1').innerHTML = '15' ;
+    document.getElementById('Choice2').innerHTML = '22' ;
+    document.getElementById('Choice3').innerHTML = '20' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
 
     SchwerAllUsed();
@@ -252,13 +251,13 @@ function NächsteFrageSchwer13() {
 
 function NächsteFrageSchwer14() {
 
-    document.getElementById('Headline').innerHTML = '14. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
-    document.getElementById('Choice3').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '14. Was ist die Brenndauer eines Lavaeimers?' ;
+    document.getElementById('Choice1').innerHTML = '3000s' ;
+    document.getElementById('Choice2').innerHTML = '1000s' ;
+    document.getElementById('Choice3').innerHTML = '10min' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
 
     SchwerAllUsed();
@@ -272,13 +271,13 @@ function NächsteFrageSchwer14() {
 
 function NächsteFrageSchwer15() {
 
-    document.getElementById('Headline').innerHTML = '15. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
-    document.getElementById('Choice3').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '15. Wie viele Erzblöcke braucht man für einen Full Beacon?' ;
+    document.getElementById('Choice1').innerHTML = '64' ;
+    document.getElementById('Choice2').innerHTML = '164' ;
+    document.getElementById('Choice3').innerHTML = '192' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
 
     SchwerAllUsed();
@@ -371,14 +370,14 @@ function NächsteFrageSchwer19() {
 
 function NächsteFrageSchwer20() {
 
-    document.getElementById('Headline').innerHTML = '20. ?' ;
-    document.getElementById('Choice1').innerHTML = '' ;
-    document.getElementById('Choice2').innerHTML = '' ;
-    document.getElementById('Choice3').innerHTML = '' ;
+    document.getElementById('Headline').innerHTML = '20. An welchem Datum wurde Minecraft erfunden?' ;
+    document.getElementById('Choice1').innerHTML = '31.10.2009' ;
+    document.getElementById('Choice2').innerHTML = '20.02.2009' ;
+    document.getElementById('Choice3').innerHTML = '17.04.2009' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     
     SchwerAllUsed();
 
