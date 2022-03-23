@@ -309,7 +309,7 @@ function NächsteFrageFriedlich17() {
     document.getElementById('Choice3').style.display = 'inline' ;
 
     document.getElementById('Headline').innerHTML = '17. Wie vermehrt man zwei gleiche Tiere?' ;
-    document.getElementById('Choice1').innerHTML = 'Beiden Lieblings Futter geben' ;
+    document.getElementById('Choice1').innerHTML = 'Beide füttern' ;
     document.getElementById('Choice2').innerHTML = 'Beide in ein Boot setzen' ;
     document.getElementById('Choice3').innerHTML = 'Beide Schlagen' ;
 

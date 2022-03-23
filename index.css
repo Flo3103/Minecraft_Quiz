@@ -164,6 +164,14 @@ button.LevelChoice{
     padding: 5px 5px;
 }
 
+#lost{
+    color: white;
+    font-size: 20px;
+    display: none;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
 .NächsteFrageDiv{
     justify-content: center;
     display: none;
@@ -175,7 +183,7 @@ button.LevelChoice{
     color: white;
 }
 
-#BackButtonDiv{
+/*#BackButtonDiv{
     text-align: center;
 
     margin-top: 30px;
@@ -206,7 +214,7 @@ div.ReallyDiv{
 .Really{
     font-size: 11px; 
     height: 24px;
-}
+}*/
 
 
 

@@ -392,7 +392,7 @@ function PointScreenSchwer() {
 
     document.getElementById('Question').style.display = 'none';
     document.getElementById('PointScreenDiv').style.display = 'inline';
-    document.getElementById('Points').innerHTML = 'Du hast Friedlich mit <h3>' + punkteSchwer + ' von 20</h3> Punkten abgeschlossen';
+    document.getElementById('Points').innerHTML = 'Du hast Schwer mit <h3>' + punkteSchwer + ' von 20</h3> Punkten abgeschlossen';
 
 }   
 

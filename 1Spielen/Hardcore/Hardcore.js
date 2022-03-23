@@ -369,7 +369,7 @@ function NächsteFrageHardcore20() {
     document.getElementById('Choice2').onclick = function(){ChoiceFalsHardcore()();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsHardcore()();};
 
-    document.getElementById('NextQuestion').innerHTML = 'Bewertung';
+    document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit Beenden';
 
     HardcoreAllUsed();
 
