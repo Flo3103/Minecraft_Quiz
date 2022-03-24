@@ -198,17 +198,7 @@ function NächsteFrageEinfach10() {
 function ChoiceLost1Einfach(){
     document.getElementById('lost').innerHTML = 'Natürlich gibts die spiel <br> mal mehr Minecraft';
     document.getElementById('lost').style.display = 'flex';
-    document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/02.png';
-    //document.getElementById('correctionImg').style.width = '80px';
-    document.getElementById('correctionDiv').style.display = 'flex';
-  
-    document.getElementById('DivPoints').style.display = 'flex';
-  
-    document.getElementById('NächsteFrageDiv').style.display = 'flex';
-  
-    document.getElementById('Choice1').disabled = true;
-    document.getElementById('Choice2').disabled = true;
-    document.getElementById('Choice3').disabled = true;
+    ChoiceRight();
 }
 
 function NächsteFrageEinfach11() {
@@ -412,8 +402,8 @@ function NächsteFrageEinfach20() {
     document.getElementById('Choice3').innerHTML = 'Nichts' ;
 
     document.getElementById('Choice1').onclick = function(){ChoiceFalsEinfach();};
-    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
-    document.getElementById('Choice3').onclick = function(){ChoiceRightEinfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceFalsEinfach();};
 
     document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit beenden' ;
 
