@@ -302,11 +302,19 @@ h3{
 
 
 
+.lasklfdj{
+    text-align: center;
+}
 
 
-
-
-
+#div1 {
+    margin: auto;
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
 
 
 
