@@ -237,46 +237,7 @@ h3{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Splash Text*/
 
 
 #status {
@@ -353,7 +314,7 @@ h3{
 
 
 div.Quiz1{
-    display: none;
+    display: inline;
 }
 
 .DivQuestion1{
