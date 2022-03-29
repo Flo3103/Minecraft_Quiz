@@ -212,7 +212,7 @@ function NächsteFrageFriedlich11() {
 
 function NächsteFrageFriedlich12() {
 
-    document.getElementById('Headline').innerHTML = '12. Wie heißt der Aller erste Minecraft Skin, denn jeder hat?' ;
+    document.getElementById('Headline').innerHTML = '12. Wie heißt der Aller erste Minecraft Skin, den jeder hat?' ;
     document.getElementById('Choice1').innerHTML = 'Wolfgang' ;
     document.getElementById('Choice2').innerHTML = 'Gustaf' ;
     document.getElementById('Choice3').innerHTML = 'Steve' ;
@@ -329,7 +329,7 @@ function NächsteFrageFriedlich17() {
 function NächsteFrageFriedlich18() {
 
     document.getElementById('Headline').innerHTML = '18. Was droppt ein Eisengolem noch außer Eisen?' ;
-    document.getElementById('Choice1').innerHTML = 'Eine Rose' ;
+    document.getElementById('Choice1').innerHTML = 'zufällige Blume' ;
     document.getElementById('Choice2').innerHTML = 'Mohn Blume' ;
     document.getElementById('Choice3').innerHTML = 'Einen Eimer' ;
 
