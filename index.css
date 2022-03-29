@@ -32,8 +32,6 @@ button.noClick{
     cursor: not-allowed;
 }
 
-
-
 a{
     color: white;
     text-decoration: none;
@@ -226,8 +224,9 @@ div.PointScreen{
 
 p.PointScreen{
     font-size: 30px;
-    max-width: 200px;
+    max-width: 250px;
     color: white;
+    text-align: center;
 }   
 
 h3{
@@ -276,91 +275,28 @@ h3{
     -webkit-transform: rotate(-35deg);
     transform: rotate(-35deg);
 }
-@font-face {
-    font-family:'minecraftfont';
-    src: url('http://design.d3x.co/demo/mcgeneric/font/minecraft_font.woff');
+
+div.Crafting{
+    display: flex;
+    justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.lasklfdj{
-    text-align: center;
+div.Craftingheadline{
+    margin-top: 90px;
+    background-color: rgb(198, 198, 198);
+    padding: 10px 60px 0 60px;
+    position: relative;
+}
+.imageDefault{
+    position: relative;
+    z-index: 0;
 }
 
-
-#div1 {
-    margin: auto;
-    margin-top: 50px;
-    width: 350px;
-    height: 350px;
-    padding: 10px;
-    border: 1px solid #aaaaaa;
-  }
-
-
-
-
-
-
-div.Quiz1{
-    display: inline;
+.Crafting_Result{
+    z-index: 1;
+    position: absolute;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    left: 300px;
 }
-
-.DivQuestion1{
-    margin-bottom: 100px;
-    text-align: center;
-    background-color: black;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-
-.Question1{
-    font-size: 40px;
-    color: aqua;
-}
-
-
-.InstructionQuestion1{
-    font-size: 20px;
-    margin-left: 300px;
-    background-color: black;
-    color: aqua;
-    padding: 10px;
-    width: 290px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-
-.DivChoiceQuestion1{
-    text-align: center;
-}
-
-
-.ChoiceQuestion1{
-    width: 300px;
-    height: 284px  ;
-    margin: 50px;
-
-}
-

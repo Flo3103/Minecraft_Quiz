@@ -290,7 +290,7 @@ function NächsteFrageNormal13() {
 
 function NächsteFrageNormal14() {
 
-    document.getElementById('Headline').innerHTML = '14. Wo bekommt man Schwäme her?' ;
+    document.getElementById('Headline').innerHTML = '14. Wo bekommt man Schwämme her?' ;
     document.getElementById('Choice1').innerHTML = 'Ozeanmonumenten' ;
     document.getElementById('Choice2').innerHTML = 'Koralle' ;
     document.getElementById('Choice3').innerHTML = 'Fischen' ;
@@ -386,7 +386,7 @@ function NächsteFrageNormal17() {
 
 function NächsteFrageNormal18() {
 
-    document.getElementById('Headline').innerHTML = '18. Kann man mithilfe von Lave ein Netherportal anzünden?' ;
+    document.getElementById('Headline').innerHTML = '18. Kann man mithilfe von Lava ein Netherportal anzünden?' ;
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
     document.getElementById('Choice3').style.display = 'none' ;
@@ -411,7 +411,7 @@ function NächsteFrageNormal18() {
 function NächsteFrageNormal19() {
     document.getElementById('Choice3').style.display = 'inline' ;
 
-    document.getElementById('Headline').innerHTML = '19. Was ist die aktuelle Maximal und Minimale Bauhöhe?' ;
+    document.getElementById('Headline').innerHTML = '19. Was ist die aktuelle Maximale und Minimale Bauhöhe?' ;
     document.getElementById('Choice1').innerHTML = '0/256' ;
     document.getElementById('Choice2').innerHTML = '-64/320' ;
     document.getElementById('Choice3').innerHTML = '0/356' ;

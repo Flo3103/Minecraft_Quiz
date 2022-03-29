@@ -48,7 +48,7 @@ function NächsteFrageHardcore3() {
 
 function NächsteFrageHardcore4() {
 
-    document.getElementById('Headline').innerHTML = '4. Wie hoch ist die Wahrscheinlichkeit, dass ein Wither Skelet seinen Kopf droppt?' ;
+    document.getElementById('Headline').innerHTML = '4. Wie hoch ist die Wahrscheinlichkeit, dass ein Witherskelett seinen Kopf droppt?' ;
     document.getElementById('Choice1').innerHTML = '3,5%' ;
     document.getElementById('Choice2').innerHTML = '5,5%' ;
     document.getElementById('Choice3').innerHTML = '2,5%' ;

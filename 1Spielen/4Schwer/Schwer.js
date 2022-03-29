@@ -88,14 +88,14 @@ function NächsteFrageSchwer5() {
 
 function NächsteFrageSchwer6() {
    document.getElementById('Choice3').style.display = 'inline';
-    document.getElementById('Headline').innerHTML = '6. Was braucht man um Ozelots zu zähmen?' ;
-    document.getElementById('Choice1').innerHTML = 'Tropenfische' ;
-    document.getElementById('Choice2').innerHTML = 'Bebratenes Fleisch' ;
-    document.getElementById('Choice3').innerHTML = 'Rohen Fisch' ;
+    document.getElementById('Headline').innerHTML = '6. Was ist das Maximale Lichtlevel?' ;
+    document.getElementById('Choice1').innerHTML = '7' ;
+    document.getElementById('Choice2').innerHTML = '10' ;
+    document.getElementById('Choice3').innerHTML = '15' ;
 
-    document.getElementById('Choice1').onclick = function(){ChoiceRightSchwer();};
+    document.getElementById('Choice1').onclick = function(){ChoiceFalsSchwer();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsSchwer();};
-    document.getElementById('Choice3').onclick = function(){ChoiceFalsSchwer();};
+    document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
 
     SchwerAllUsed();
 
@@ -128,7 +128,7 @@ function NächsteFrageSchwer7() {
 
 function NächsteFrageSchwer8() {
 
-    document.getElementById('Headline').innerHTML = '8. Was braucht man für eine einfache Clock?' ;
+    document.getElementById('Headline').innerHTML = '8. Was braucht man für eine einfache Redstone-Clock?' ;
     document.getElementById('Choice1').innerHTML = 'Komperator, Redstone, Redstonefackel' ;
     document.getElementById('Choice2').innerHTML = 'Komperator, Redstone' ;
     document.getElementById('Choice3').innerHTML = 'Redstone, Verstärcker, Redstonefackel' ;
@@ -311,7 +311,7 @@ function NächsteFrageSchwer16() {
 
 function NächsteFrageSchwer17() {
 
-    document.getElementById('Headline').innerHTML = '17. Wie muss man ein Schaf benene, damit es zum Regenbogenschaf wird?' ;
+    document.getElementById('Headline').innerHTML = '17. Wie muss man ein Schaf benenne, damit es zum Regenbogenschaf wird?' ;
     document.getElementById('Choice1').innerHTML = 'jakob_' ;
     document.getElementById('Choice2').innerHTML = 'jeb_' ;
     document.getElementById('Choice3').innerHTML = '_rainbow_' ;
@@ -351,7 +351,7 @@ function NächsteFrageSchwer18() {
 
 function NächsteFrageSchwer19() {
 
-    document.getElementById('Headline').innerHTML = '19. Wie viel Tiere können maximal in ein 1 Block breites Loch, ohne das welche ersticken?' ;
+    document.getElementById('Headline').innerHTML = '19. Wie viele Tiere können maximal in ein 1 Block breites Loch, ohne das welche ersticken?' ;
     document.getElementById('Choice1').innerHTML = '25' ;
     document.getElementById('Choice2').innerHTML = '24' ;
     document.getElementById('Choice3').innerHTML = '19' ;

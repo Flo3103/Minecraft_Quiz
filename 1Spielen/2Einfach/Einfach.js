@@ -93,7 +93,7 @@ function NächsteFrageEinfach5() {
 
 function NächsteFrageEinfach6() {
 
-    document.getElementById('Headline').innerHTML = '6. Was von dieser Auswahl kann man benutzen um einnen Craftingtabel zu machen?' ;
+    document.getElementById('Headline').innerHTML = '6. Was von dieser Auswahl kann man benutzen um einen Craftingtable zu machen?' ;
     document.getElementById('Choice1').innerHTML = '1 Eichenstamm' ;
     document.getElementById('Choice2').innerHTML = '3 Holzbretter' ;
     document.getElementById('Choice3').innerHTML = '2 Stöcke 2 Holzbretter' ;
@@ -135,7 +135,7 @@ function NächsteFrageEinfach7() {
 
 function NächsteFrageEinfach8() {
 
-    document.getElementById('Headline').innerHTML = '8. Mit welcher Taste läst man sich seine Koordinaten anzeigen?' ;
+    document.getElementById('Headline').innerHTML = '8. Mit welcher Taste lässt man sich seine Koordinaten anzeigen?' ;
     document.getElementById('Choice1').innerHTML = 'K' ;
     document.getElementById('Choice2').innerHTML = 'F4' ;
     document.getElementById('Choice3').innerHTML = 'F3' ;
