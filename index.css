@@ -284,9 +284,14 @@ div.Crafting{
 div.Craftingheadline{
     margin-top: 90px;
     background-color: rgb(198, 198, 198);
-    padding: 20px 25px 10px 60px;
+    padding: 20px 0px 10px 15px;
     position: relative;
 }
+
+.noHover:hover{
+    background-color: rgb(198, 198, 198);
+}
+
 .imageDefault{
     width: 350px;
 }
@@ -297,6 +302,7 @@ div.Craftingheadline{
     background-color: green;
     width: 55px;
     height: 55px;
-    left: 307px;
-    bottom: 61px;
+    left: 262px;
+    bottom: 62px;
 }
+
