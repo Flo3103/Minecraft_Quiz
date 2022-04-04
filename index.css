@@ -297,12 +297,12 @@ div.Craftingheadline{
 }
 
 .Crafting_Result{
+    border: none;
     z-index: 0;
     position: absolute;
-    background-color: green;
-    width: 55px;
-    height: 55px;
-    left: 262px;
-    bottom: 62px;
+    width: 35px;
+    height: 35px;
+    left: 272px;
+    bottom: 71px;
 }
 
