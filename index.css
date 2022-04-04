@@ -42,6 +42,10 @@ div.centerHidden{
     justify-content: center;
 }
 
+.Flex_Center{
+    display: flex;
+    justify-content: center;
+}
 button.padding{
     padding: 5px 20px;
     width: 230px;               /*Merke width setzt sich aus padding margin border width zusammen!!*/
@@ -57,6 +61,7 @@ button.padding{
 .silkscreennormal{
     font-family: silkscreennormal;
 }
+
 
 /*Minecraft Design*/
 
@@ -276,7 +281,12 @@ h3{
     transform: rotate(-35deg);
 }
 
-div.Crafting{
+
+
+
+
+
+div.Crafting_Headline{
     display: flex;
     justify-content: center;
 }
@@ -284,7 +294,7 @@ div.Crafting{
 div.Craftingheadline{
     margin-top: 90px;
     background-color: rgb(198, 198, 198);
-    padding: 20px 0px 10px 15px;
+    padding: 15px 0px 5px 10px;
     position: relative;
 }
 
@@ -298,11 +308,29 @@ div.Craftingheadline{
 
 .Crafting_Result{
     border: none;
-    z-index: 0;
+    z-index: 0;            /*alle z-index und mit js immer ein zahl höher wo gezeigt wird oder so*/
     position: absolute;
     width: 35px;
     height: 35px;
-    left: 272px;
-    bottom: 71px;
+    left: 280px;
+    bottom: 74px;
 }
 
+.Crafting_Correction{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 20px;
+    left: 35px;
+}
+
+div.Choice_Crafting{
+}
+
+img.Choice_Crafting{
+    display: block;
+    margin: 30px;
+    background-color: rgb(139, 139, 139);
+    padding: 5px;
+    border: 2px solid black;
+}
