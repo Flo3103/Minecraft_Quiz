@@ -1,5 +1,9 @@
 
-function FriedlichAllUsed() {
+function FriedlichAllUsed() {    
+    document.getElementById('Choice1').style.borderColor = 'rgb(173, 170, 170)';
+    document.getElementById('Choice2').style.borderColor = 'rgb(173, 170, 170)';
+    document.getElementById('Choice3').style.borderColor = 'rgb(173, 170, 170)';
+
     document.getElementById('correctionDiv').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
     document.getElementById('Choice1').disabled = false;
@@ -9,7 +13,12 @@ function FriedlichAllUsed() {
     document.getElementById('Choice1').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice2').onclick = function(){ChoiceFalsFriedlich();};
     document.getElementById('Choice3').onclick = function(){ChoiceFalsFriedlich();};
+
 }
+
+
+
+
 
 function NächsteFrageFriedlich2() {
     FriedlichAllUsed();
@@ -21,7 +30,7 @@ function NächsteFrageFriedlich2() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich3();
     };
-
+    RightCorrection = 2;
 }
 
 function NächsteFrageFriedlich3() {
@@ -34,6 +43,7 @@ function NächsteFrageFriedlich3() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich4();
     };
+    RightCorrection = 2;
 }   
 
 
@@ -47,6 +57,7 @@ function NächsteFrageFriedlich4() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich5();
     };
+    RightCorrection = 1;
 }   
 
 
@@ -60,6 +71,7 @@ function NächsteFrageFriedlich5() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich6();
     };
+    RightCorrection = 1;
 }   
 
 
@@ -73,6 +85,7 @@ function NächsteFrageFriedlich6() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich7();
     };
+    RightCorrection = 3;
 }   
 
 
@@ -81,12 +94,12 @@ function NächsteFrageFriedlich7() {
     document.getElementById('Headline').innerHTML = '7. Welches dieser Tiere kann Leder droppen?' ;
     document.getElementById('Choice1').innerHTML = 'Schaf' ;
     document.getElementById('Choice2').innerHTML = 'Kuh' ;
-    document.getElementById('Choice3').innerHTML = 'Pferd' ;
+    document.getElementById('Choice3').innerHTML = 'Schwein' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
-    document.getElementById('Choice3').onclick = function(){ChoiceRightFriedlich();};
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich8();
     };
+    RightCorrection = 2;
 }   
 
 function NächsteFrageFriedlich8() {
@@ -99,6 +112,7 @@ function NächsteFrageFriedlich8() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich9();
     };
+    RightCorrection = 2;
 }   
 
 
@@ -112,6 +126,7 @@ function NächsteFrageFriedlich9() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich10();
     };
+    RightCorrection = 2;
 }   
 
 function NächsteFrageFriedlich10() {
@@ -124,6 +139,7 @@ function NächsteFrageFriedlich10() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich11();
     };
+    RightCorrection = 3;
 }
 
 function NächsteFrageFriedlich11() {
@@ -136,6 +152,7 @@ function NächsteFrageFriedlich11() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich12();
     };
+    RightCorrection = 2;
 }   
 
 function NächsteFrageFriedlich12() {
@@ -148,6 +165,7 @@ function NächsteFrageFriedlich12() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich13();
     };
+    RightCorrection = 3;
 }   
 
 function NächsteFrageFriedlich13() {
@@ -160,6 +178,7 @@ function NächsteFrageFriedlich13() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich14();
     };
+    RightCorrection = 1;
 }   
 
 function NächsteFrageFriedlich14() {
@@ -171,6 +190,7 @@ function NächsteFrageFriedlich14() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich15();
     };
+    RightCorrection = 1;
 }   
 
 
@@ -185,6 +205,7 @@ function NächsteFrageFriedlich15() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich16();
     };
+    RightCorrection = 1;
 }   
 
 
@@ -197,6 +218,7 @@ function NächsteFrageFriedlich16() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich17();
     };
+    RightCorrection = 1;
 }   
 
 
@@ -211,6 +233,7 @@ function NächsteFrageFriedlich17() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich18();
     };
+    RightCorrection = 1;
 }   
 
 
@@ -224,6 +247,7 @@ function NächsteFrageFriedlich18() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich19();
     };
+    RightCorrection = 2;
 }   
 
 
@@ -237,6 +261,7 @@ function NächsteFrageFriedlich19() {
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich20();
     };
+    RightCorrection = 3;
 }  
 
 
@@ -251,6 +276,7 @@ function NächsteFrageFriedlich20() {
     document.getElementById('NextQuestion').onclick = function(){
         PointScreenFriedlich();
     };
+    RightCorrection = 3;
 }   
 
 

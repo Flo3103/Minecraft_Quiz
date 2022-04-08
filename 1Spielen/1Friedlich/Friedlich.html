@@ -16,9 +16,9 @@
         </div>
         <div class="ChoiceDiv" id="ChoiceDiv">
     
-            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice1" onclick="ChoiceRightFriedlich()">Holz</button></div>
-            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice2" onclick="ChoiceFalsFriedlich()">Stein</button></div>
-            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice3" onclick="ChoiceFalsFriedlich()">Eisen</button></div>
+            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice1" onclick="RightCorrection = 1; ChoiceRightFriedlich();">Holz</button></div>
+            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice2" onclick="RightCorrection = 1; ChoiceFalsFriedlich();">Stein</button></div>
+            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice3" onclick="RightCorrection = 1; ChoiceFalsFriedlich();">Eisen</button></div>
     
         </div>
     
@@ -32,7 +32,7 @@
         </div>    
         
         <div class="NächsteFrageDiv" id="NächsteFrageDiv">
-            <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageFriedlich2()">Nächste Frage</button>
+            <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageFriedlich2(); ">Nächste Frage</button>
         </div>
 
        <!-- <div id="BackButtonDiv">

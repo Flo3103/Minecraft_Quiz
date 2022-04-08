@@ -5,54 +5,53 @@ var punkteNormal = 0;
 var punkteSchwer = 0;
 var punkteHardcore = 0;
 
+
+var RightCorrection = 0;
+
+
+function Choice() {
+
+ 
+  document.getElementById('Choice1').style.borderColor = 'red';
+  document.getElementById('Choice2').style.borderColor = 'red';
+  document.getElementById('Choice3').style.borderColor = 'red';
+
+  if(RightCorrection === 1){
+    document.getElementById('Choice1').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === 2){
+    document.getElementById('Choice2').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === 3){
+    document.getElementById('Choice3').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === '2&3'){
+    document.getElementById('Choice2').style.borderColor = '#2bff00'; 
+    document.getElementById('Choice3').style.borderColor = '#2bff00';
+  }
+  
+  document.getElementById('correctionDiv').style.display = 'flex';
+  document.getElementById('DivPoints').style.display = 'flex';
+  document.getElementById('NächsteFrageDiv').style.display = 'flex';
+  document.getElementById('Choice1').disabled = true;
+  document.getElementById('Choice2').disabled = true;
+  document.getElementById('Choice3').disabled = true;  
+
+
+
+} 
+
+
 function ChoiceRight() {
   document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/01.png';
   //document.getElementById('correctionImg').style.width = '100px';
-  document.getElementById('correctionDiv').style.display = 'flex';
-
-  document.getElementById('DivPoints').style.display = 'flex';
-
-  document.getElementById('NächsteFrageDiv').style.display = 'flex';   
-
-  document.getElementById('Choice1').disabled = true;
-  document.getElementById('Choice2').disabled = true;
-  document.getElementById('Choice3').disabled = true;
+  Choice();
 }
 
 function ChoiceFals() {
   document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/02.png';
   //document.getElementById('correctionImg').style.width = '80px';
-  document.getElementById('correctionDiv').style.display = 'flex';
-
-  document.getElementById('DivPoints').style.display = 'flex';
-
-  document.getElementById('NächsteFrageDiv').style.display = 'flex';
-
-  document.getElementById('Choice1').disabled = true;
-  document.getElementById('Choice2').disabled = true;
-  document.getElementById('Choice3').disabled = true;
-} 
-
-function ZurückHauptmenü() {
-  document.getElementById('Really').style.display = 'block';
-  document.getElementById('BackButton').style.display = 'none';
-
-  document.getElementById('Choice1').disabled = true;
-  document.getElementById('Choice2').disabled = true;
-  document.getElementById('Choice3').disabled = true;
-  document.getElementById('NextQuestion').disabled = true;
-
-}
-
-function Weiterspielen() {
-  document.getElementById('Really').style.display = 'none';
-  document.getElementById('BackButton').style.display = 'inline';
-
-  document.getElementById('Choice1').disabled = false;
-  document.getElementById('Choice2').disabled = false;
-  document.getElementById('Choice3').disabled = false;
-  document.getElementById('NextQuestion').disabled = false;
-
+  Choice();
 }
 
 
@@ -70,7 +69,7 @@ function ChoiceFalsFriedlich() {
 } 
 
 //Einfach
-function ChoiceRightEinfach() {
+function ChoiceRightEinfach() {  
   ChoiceRight();
   punkteEinfach++;
   document.getElementById('points').innerHTML = 'Punkte:  ' + punkteEinfach + '/20';
@@ -80,6 +79,7 @@ function ChoiceFalsEinfach() {
   ChoiceFals();
     document.getElementById('points').innerHTML = 'Punkte:  ' + punkteEinfach + '/20';
 } 
+
 //Normal
 function ChoiceRightNormal() {
   ChoiceRight();
@@ -126,7 +126,27 @@ function NewHighscoreHardcore(punkteHardcore) {
   }
 }
 
+function ZurückHauptmenü() {
+  document.getElementById('Really').style.display = 'block';
+  document.getElementById('BackButton').style.display = 'none';
 
+  document.getElementById('Choice1').disabled = true;
+  document.getElementById('Choice2').disabled = true;
+  document.getElementById('Choice3').disabled = true;
+  document.getElementById('NextQuestion').disabled = true;
+
+}
+
+function Weiterspielen() {
+  document.getElementById('Really').style.display = 'none';
+  document.getElementById('BackButton').style.display = 'inline';
+
+  document.getElementById('Choice1').disabled = false;
+  document.getElementById('Choice2').disabled = false;
+  document.getElementById('Choice3').disabled = false;
+  document.getElementById('NextQuestion').disabled = false;
+
+}
 
 //if(document.getElementById('Choice1').onclick = ChoiceFals()){
   //     document.getElementById('Choice1').style.color = 'red';
