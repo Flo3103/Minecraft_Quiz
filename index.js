@@ -11,25 +11,6 @@ var RightCorrection = 0;
 
 function Choice() {
 
- 
-  document.getElementById('Choice1').style.borderColor = 'red';
-  document.getElementById('Choice2').style.borderColor = 'red';
-  document.getElementById('Choice3').style.borderColor = 'red';
-
-  if(RightCorrection === 1){
-    document.getElementById('Choice1').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === 2){
-    document.getElementById('Choice2').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === 3){
-    document.getElementById('Choice3').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === '2&3'){
-    document.getElementById('Choice2').style.borderColor = '#2bff00'; 
-    document.getElementById('Choice3').style.borderColor = '#2bff00';
-  }
-  
   document.getElementById('correctionDiv').style.display = 'flex';
   document.getElementById('DivPoints').style.display = 'flex';
   document.getElementById('NächsteFrageDiv').style.display = 'flex';
@@ -46,11 +27,41 @@ function ChoiceRight() {
   document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/01.png';
   //document.getElementById('correctionImg').style.width = '100px';
   Choice();
+  if(RightCorrection === 1){
+    document.getElementById('Choice1').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === 2){
+    document.getElementById('Choice2').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === 3){
+    document.getElementById('Choice3').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === '2&3'){
+    document.getElementById('Choice2').style.borderColor = '#2bff00'; 
+    document.getElementById('Choice3').style.borderColor = '#2bff00';
+  }  
 }
 
 function ChoiceFals() {
   document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/02.png';
   //document.getElementById('correctionImg').style.width = '80px';
+  document.getElementById('Choice1').style.borderColor = 'red';
+  document.getElementById('Choice2').style.borderColor = 'red';
+  document.getElementById('Choice3').style.borderColor = 'red';
+
+  if(RightCorrection === 1){
+    document.getElementById('Choice1').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === 2){
+    document.getElementById('Choice2').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === 3){
+    document.getElementById('Choice3').style.borderColor = '#2bff00';
+  }
+  if(RightCorrection === '2&3'){
+    document.getElementById('Choice2').style.borderColor = '#2bff00'; 
+    document.getElementById('Choice3').style.borderColor = '#2bff00';
+  }  
   Choice();
 }
 

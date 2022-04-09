@@ -16,7 +16,7 @@ function NormalAllUsed() {
 
 
 function NächsteFrageNormal2() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '2. Wie kann man eine Endermid spawnen?' ;
     document.getElementById('Choice1').innerHTML = 'Enderperle werfen' ;
     document.getElementById('Choice2').innerHTML = 'Spawnei finden' ;
@@ -29,8 +29,8 @@ function NächsteFrageNormal2() {
 }   
 
 function NächsteFrageNormal3() {
-    FriedlichAllUsed();
-    document.getElementById('Headline').innerHTML = '3. Wird Fallschaden mit Honig abgedämpft?' ;
+    NormalAllUsed();
+    document.getElementById('Headline').innerHTML = '3. Wird Fallschaden mit Honig abgedämpft?' ;   
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
     document.getElementById('Choice3').style.display = 'none' ;
@@ -43,7 +43,7 @@ function NächsteFrageNormal3() {
 
 
 function NächsteFrageNormal4() {
-    FriedlichAllUsed(); 
+    NormalAllUsed(); 
     document.getElementById('Choice3').style.display = 'inline' ;
     document.getElementById('Headline').innerHTML = '4. Wie viele Bienen können gleichzeitig in ein Nest?' ;
     document.getElementById('Choice1').innerHTML = '3' ;
@@ -58,7 +58,7 @@ function NächsteFrageNormal4() {
 
 
 function NächsteFrageNormal5() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '5. Was braucht man um den Wither zu spawnen?' ;
     document.getElementById('Choice1').innerHTML = 'Witherkopf +<br>4 Seelensand' ;
     document.getElementById('Choice2').innerHTML = '3 Witherköpfe +<br>3 Seelensand' ;
@@ -72,7 +72,7 @@ function NächsteFrageNormal5() {
 
 
 function NächsteFrageNormal6() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '6. Wie viele unterschiedliche Netherbiome gibt es?' ;
     document.getElementById('Choice1').innerHTML = '3' ;
     document.getElementById('Choice2').innerHTML = '5' ;
@@ -86,7 +86,7 @@ function NächsteFrageNormal6() {
 
 
 function NächsteFrageNormal7() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '7. Mit welcher Hilfe, bekommt man einen Zombiekopf?' ;
     document.getElementById('Choice1').innerHTML = 'Creeper' ;
     document.getElementById('Choice2').innerHTML = 'Feuerzeug' ;
@@ -100,7 +100,7 @@ function NächsteFrageNormal7() {
 
 
 function NächsteFrageNormal8() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '8. Was ist der berühmteste Mod um Shader zu benutzen?' ;
     document.getElementById('Choice1').innerHTML = 'ShaderGMbh' ;
     document.getElementById('Choice2').innerHTML = 'Optifine' ;
@@ -114,7 +114,7 @@ function NächsteFrageNormal8() {
 
 
 function NächsteFrageNormal9() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '9. Auf welcher höhe ist es am besten Diamanten zu farmen?' ;
     document.getElementById('Choice1').innerHTML = '-60' ;
     document.getElementById('Choice2').innerHTML = '11' ;
@@ -128,7 +128,7 @@ function NächsteFrageNormal9() {
 
 
 function NächsteFrageNormal10() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '10. Was droppt ein Schwein wenn es vom Wither getötet wird?' ;
     document.getElementById('Choice1').innerHTML = 'Nicht' ;
     document.getElementById('Choice2').innerHTML = 'Witherrose' ;
@@ -142,7 +142,7 @@ function NächsteFrageNormal10() {
 
 
 function NächsteFrageNormal11() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '11. Was braucht man um auf die Netherdecke zu kommen?' ;
     document.getElementById('Choice1').innerHTML = 'Spitzhacke' ;
     document.getElementById('Choice2').innerHTML = 'Enderperle' ;
@@ -156,7 +156,7 @@ function NächsteFrageNormal11() {
 
 
 function NächsteFrageNormal12() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '12. Wie kann man Wasser im Nether setzen?' ;
     document.getElementById('Choice1').innerHTML = 'Gar nicht' ;
     document.getElementById('Choice2').innerHTML = 'Im Kessel' ;
@@ -170,7 +170,7 @@ function NächsteFrageNormal12() {
 
 
 function NächsteFrageNormal13() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '13. Wo spawnen schwarze Katzen?' ;
     document.getElementById('Choice1').innerHTML = 'Sumpfhütten' ;
     document.getElementById('Choice2').innerHTML = 'Sumpfhütten und Dorf' ;
@@ -184,7 +184,7 @@ function NächsteFrageNormal13() {
 
 
 function NächsteFrageNormal14() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '14. Wo bekommt man Schwämme her?' ;
     document.getElementById('Choice1').innerHTML = 'Ozeanmonumenten' ;
     document.getElementById('Choice2').innerHTML = 'Koralle' ;
@@ -198,7 +198,7 @@ function NächsteFrageNormal14() {
 
 
 function NächsteFrageNormal15() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '15. Was hiervon braucht man umbedingt für eine Eisenfarm?' ;
     document.getElementById('Choice1').innerHTML = '1 Villager' ;
     document.getElementById('Choice2').innerHTML = '1 Dorf' ;
@@ -212,7 +212,7 @@ function NächsteFrageNormal15() {
 
 
 function NächsteFrageNormal16() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '16. Wie viele TNT-Blöcke sind in einer Pyramide?' ;
     document.getElementById('Choice1').innerHTML = '3' ;
     document.getElementById('Choice2').innerHTML = '6' ;
@@ -226,7 +226,7 @@ function NächsteFrageNormal16() {
 
 
 function NächsteFrageNormal17() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '17. Wie viele verschiedene Holzbretter Arten gibt es?' ;
     document.getElementById('Choice1').innerHTML = '5' ;
     document.getElementById('Choice2').innerHTML = '7' ;
@@ -240,7 +240,7 @@ function NächsteFrageNormal17() {
 
 
 function NächsteFrageNormal18() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '18. Kann man mithilfe von Lava ein Netherportal anzünden?' ;
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
@@ -254,7 +254,7 @@ function NächsteFrageNormal18() {
 
 
 function NächsteFrageNormal19() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Choice3').style.display = 'inline' ;
     document.getElementById('Headline').innerHTML = '19. Was ist die aktuelle Maximale und Minimale Bauhöhe?' ;
     document.getElementById('Choice1').innerHTML = '0/256' ;
@@ -269,7 +269,7 @@ function NächsteFrageNormal19() {
 
 
 function NächsteFrageNormal20() {
-    FriedlichAllUsed();
+    NormalAllUsed();
     document.getElementById('Headline').innerHTML = '20. Braucht man um auf einem Skeletpferd zu reiten einen Sattel?' ;
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
