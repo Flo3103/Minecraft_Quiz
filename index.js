@@ -4,7 +4,7 @@ var punkteEinfach = 0;
 var punkteNormal = 0;
 var punkteSchwer = 0;
 var punkteHardcore = 0;
-
+var punkteCrafting = 0;
 
 var RightCorrection = 0;
 
@@ -21,7 +21,6 @@ function Choice() {
 
 
 } 
-
 
 function ChoiceRight() {
   document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/01.png';
