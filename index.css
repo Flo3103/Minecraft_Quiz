@@ -322,7 +322,7 @@ div.Craftingheadline{
     width: 33px;
     height: 33px;
     left: 232px;
-    bottom: 57px;
+    bottom: 55px;
 }
 
 #Crafting_Correction{
@@ -349,4 +349,22 @@ img#Choice_Crafting{
     background-color: rgb(139, 139, 139);
     padding: 5px;
     border: 2px solid black;
+}
+
+.Crafting_Choice{
+    position: relative;
+}
+
+#Crafting_Right{
+    position: absolute  ;
+    width: 100px;
+    bottom: 8px;
+    left:38px;
+}
+
+#Crafting_Fals{
+    position: absolute  ;
+    width: 140px;
+    bottom: 10px;
+    left:20px; 
 }

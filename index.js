@@ -64,8 +64,6 @@ function ChoiceFals() {
   Choice();
 }
 
-
-
 //Friedlich
 function ChoiceRightFriedlich() {
   ChoiceRight();
@@ -128,13 +126,87 @@ function ChoiceFalsHardcore() {
 } 
 
 
+//Crafting_Rezepte
 
-function NewHighscoreHardcore(punkteHardcore) {
 
-  if (punkteHardcore <= 3) {
-      document.getElementById('Points').innerHTML =+ 'Lol du bist ja richtig gut';
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function ZurückHauptmenü() {
   document.getElementById('Really').style.display = 'block';
