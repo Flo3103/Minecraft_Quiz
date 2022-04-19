@@ -28,7 +28,7 @@ function CraftingRight() {
     //document.getElementById('Crafting_RightOrFals').style.display = 'block';
     document.getElementById('Crafting_Correction').style.display = 'block';
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
-    
+
 }
 
 
