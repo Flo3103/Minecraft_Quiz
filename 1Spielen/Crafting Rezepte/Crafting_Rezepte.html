@@ -9,8 +9,15 @@
 </head>
 <body>
 
-    
-<div id="Crafting" class="Crafting" >
+    <div style="margin-top: 50px; text-align: center;" class="">
+        <div class="Flex_Center"><p onclick="NextRound();" style="width: 300px;" class="MinecraftDesign">Heir klicken um mit Crafting zu Starten</p></div>
+        <br>
+        <p class="BeispielaufgabeCrafting" >Beispielaufgabe:</p>
+    </div>
+
+
+
+<div id="Crafting" class="Crafting" style="" >
 
     <div class="CraftingHeadlinediv"><h1 class="Crafting MinecraftDesign">Vervollständige das Rezept</h1></div>
     <div class="Crafting_Headline">
@@ -18,45 +25,44 @@
             <img id="imageDefault" src="../../0Bilder/Crafting_Rezepte/Default.jpg" alt="">
             <img id="Crafting_Result" src="../../0Bilder/Crafting_Rezepte/1/diamond_chestplate.png" alt="">    <!--55px 55px Bilder-->
             <img id="Crafting_Correction" src="../../0Bilder/Crafting_Rezepte/1/Screenshot 2022-04-04 195303.jpg">
-            <!--<img id="Crafting_RightOrFals" src="../../0Bilder/png-transparent-green-check-line-angle-point-area-green-tick-s-angle-text-rectangle.png">-->
         </div>
     </div>
 
     <div class="Flex_Center" >
         <div class="">
             <div class="Crafting_Choice" id="Crafting_Choice1">
-                <img id="Choice_Crafting" onclick="CraftingChoiceR = 1; CraftingRight();" src="../../0Bilder/Crafting_Rezepte/1/Screenshot 2022-04-04 195303.jpg">
+                <img id="Choice_Crafting1" class="Choice_Crafting" onclick="CraftingChoiceR = 1; CraftingRight();" src="../../0Bilder/Crafting_Rezepte/1/Screenshot 2022-04-04 195303.jpg">
                 <img class="Crafting_Right" id="Crafting_Right1" src="../../0Bilder/png-transparent-green-check-line-angle-point-area-green-tick-s-angle-text-rectangle.png ">
                 <img class="Crafting_Fals" id="Crafting_Fals1" src="../../0Bilder/kisspng-no-symbol-computer-icons-clip-art-image-red-cross-5aadfa297a3ed3.0308495015213512095007.png">
             </div>
             <div class="Crafting_Choice" id="Crafting_Choice2">
-                <img id="Choice_Crafting" onclick="CraftingChoiceR = 1; CraftingFals();" src="../../0Bilder/Crafting_Rezepte/1/Screenshot 2022-04-14 173321.jpg">
+                <img id="Choice_Crafting2" class="Choice_Crafting" onclick="CraftingChoiceR = 1; CraftingFals();" src="../../0Bilder/Crafting_Rezepte/1/Screenshot 2022-04-14 173321.jpg">
                 <img class="Crafting_Right" id="Crafting_Right2" src="../../0Bilder/png-transparent-green-check-line-angle-point-area-green-tick-s-angle-text-rectangle.png ">
                 <img class="Crafting_Fals" id="Crafting_Fals2" src="../../0Bilder/kisspng-no-symbol-computer-icons-clip-art-image-red-cross-5aadfa297a3ed3.0308495015213512095007.png">
             </div>
             <div class="Crafting_Choice" id="Crafting_Choice3">
-                <img id="Choice_Crafting" onclick="CraftingChoiceR = 1; CraftingFals();" src="../../0Bilder/Crafting_Rezepte/1/Screenshot 2022-04-14 173602.jpg">
+                <img id="Choice_Crafting3" class="Choice_Crafting" onclick="CraftingChoiceR = 1; CraftingFals();" src="../../0Bilder/Crafting_Rezepte/1/Screenshot 2022-04-14 173602.jpg">
                 <img class="Crafting_Right" id="Crafting_Right3" src="../../0Bilder/png-transparent-green-check-line-angle-point-area-green-tick-s-angle-text-rectangle.png ">
                 <img class="Crafting_Fals" id="Crafting_Fals3" src="../../0Bilder/kisspng-no-symbol-computer-icons-clip-art-image-red-cross-5aadfa297a3ed3.0308495015213512095007.png">
             </div>
         </div>
     </div>
 
-    <div class="CorrectionDiv" id="correctionDiv">
-        <img src="" id="correctionImg">
-    </div>
-    
     <div class="centerHidden" id="DivPoints">
         <p class="points MinecraftDesign noHover" id="points"></p>
     </div>    
     
     <div class="NächsteFrageDiv" id="NächsteFrageDiv">
-        <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="Rezept2();">Nächstes Rezept</button>
+        <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NextRezept();">Nächstes Rezept</button>
     </div>
-
-
 </div>
 
+    <div style="display: flex; justify-content: center;">
+        <div id="PointScreenDiv" class="PointScreen" style="display: none;">
+            <p class="PointScreen" id="Points">Du hast Crafting mit n von 20 Punkten abgeschlossen</p>
+            <p class="NewHighscore PointScreen" id="NewHighscore"></p>
+        </div>
+    </div>
 <script src="../../index.js"></script>
 <script src="Crafting_Rezepte.js"></script>
 </body> 
