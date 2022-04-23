@@ -323,10 +323,10 @@ div.Craftingheadline{
     border: none;
     z-index: 0;            /*alle z-index und mit js immer ein zahl höher wo gezeigt wird oder so*/
     position: absolute;
-    width: 33px;
-    height: 33px;
-    left: 232px;
-    bottom: 55px;
+    width: 42px;
+    height: 42px;
+    left: 225px;
+    bottom: 53px;
 }
 
 #Crafting_Correction{
