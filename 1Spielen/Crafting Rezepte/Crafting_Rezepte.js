@@ -57,6 +57,8 @@ function NextRoundCrafting() {
         document.getElementById("PointScreenDiv").style.display = "inline";
         document.getElementById("Points").innerHTML = "Du hast Crafting mit <h3>" + punkteCrafting + "/" + Rezepte.length + "</h3> Punkten abgeschlossen";
     }
+    document.getElementById('DivPoints').style.display = 'flex';
+    document.getElementById('points').innerHTML = 'Punkte:   '+ punkteCrafting + '/' + Rezepte.length;
     document.getElementById('RundenAnzahlCrafting').innerHTML = RoundsCrafting + '.';
 }
 

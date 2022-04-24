@@ -338,8 +338,8 @@ div.Craftingheadline{
     position: absolute;
     width: 46px;
     height: 46px;
-    left: 226px;
-    bottom: 51px;
+    left: 224px;
+    bottom: 49px;
 }
 
 #Crafting_Correction{
@@ -361,7 +361,7 @@ div.Craftingheadline{
 .Crafting_Choice{
     position: relative;
     border: 2px solid black;
-    margin: 25px 0px 0 25px;
+    margin: 25px 0px 0px 25px;
     background-color: rgb(139, 139, 139);
 }
 
@@ -387,4 +387,10 @@ img.Choice_Crafting{
     width: 95px;
     bottom: 10px;
     left: 10px; 
+}
+
+.DivPointsCrafting{
+    margin-top: 25px;
+    display: none;
+    justify-content: center;
 }
