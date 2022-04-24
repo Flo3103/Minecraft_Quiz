@@ -292,11 +292,23 @@ h3{
 .CraftingHeadlinediv{
     display: flex;
     justify-content:center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 h1.Crafting{
     width: 350px;
+    margin: 0px;
+}
+
+div.RundenAnzahlCrafting{
+    margin-top: 15px;
+}
+
+p#RundenAnzahlCrafting{
+    font-size: 20px;
+    margin: 0px;
+    padding: 1px 6px 1px 7px;
+    width: 70px;
 }
 
 div.Crafting_Headline{
@@ -305,10 +317,11 @@ div.Crafting_Headline{
 }
 
 div.Craftingheadline{
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: rgb(198, 198, 198);
     padding: 10px 0px 0px 10px;
     position: relative;
+    
 }
 
 .Craftingheadline:hover{
@@ -323,8 +336,8 @@ div.Craftingheadline{
     border: none;
     z-index: 0;            /*alle z-index und mit js immer ein zahl höher wo gezeigt wird oder so*/
     position: absolute;
-    width: 42px;
-    height: 42px;
+    width: 46px;
+    height: 46px;
     left: 226px;
     bottom: 51px;
 }
@@ -347,19 +360,19 @@ div.Craftingheadline{
     left: 40px;
 }
 
+.Crafting_Choice{
+    position: relative;
+    border: 2px solid black;
+    margin: 25px;
+    background-color: rgb(139, 139, 139);
+}
+
 img.Choice_Crafting{
     display: block;
     background-color: rgb(139, 139, 139);
     padding: 5px;
-    width: 103px;
-    height: 103px;
-}
-
-.Crafting_Choice{
-    position: relative;
-    border: 2px solid black;
-    margin: 30px;
-    background-color: rgb(139, 139, 139);
+    width: 113px;
+    height: 113px;
 }
 
 .Crafting_Right{

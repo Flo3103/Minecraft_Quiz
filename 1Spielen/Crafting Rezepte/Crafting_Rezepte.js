@@ -1,6 +1,6 @@
 var Rezepte = new Array();
 var punkteCrafting = 0;
-var Rounds = 0;
+var RoundsCrafting = 0;
 var Buttongesperrt = true;
 var richtigeAntwort;
 
@@ -32,17 +32,17 @@ function NextRoundCrafting() {
     document.getElementById('NächsteFrageDiv').style.display = 'none';
     document.getElementById("Crafting_Fals1").style.display = "none"
     document.getElementById("Crafting_Fals2").style.display = "none"
-    document.getElementById("Crafting_Fals3").style.display = "none"    
+    document.getElementById("Crafting_Fals3").style.display = "none"
     document.getElementById("Crafting_Right1").style.display = "none";
     document.getElementById("Crafting_Right2").style.display = "none";
     document.getElementById("Crafting_Right3").style.display = "none";
     document.getElementById("Crafting_Choice1").style.border = "2px solid black";
     document.getElementById("Crafting_Choice2").style.border = "2px solid black";
     document.getElementById("Crafting_Choice3").style.border = "2px solid black";
-
-    if(Rounds < Rezepte.length){
+    
+    if(RoundsCrafting < Rezepte.length){
         Buttongesperrt = false;
-        Rounds++;
+        RoundsCrafting++;
         var AktuellesRezept = Rezepte.shift();
         var RezeptGesplittet = AktuellesRezept.split('##');
         document.getElementById('Crafting_Result').src = RezeptGesplittet[0];
@@ -57,6 +57,7 @@ function NextRoundCrafting() {
         document.getElementById("PointScreenDiv").style.display = "inline";
         document.getElementById("Points").innerHTML = "Du hast Crafting mit <h3>" + punkteCrafting + "/" + Rezepte.length + "</h3> Punkten abgeschlossen";
     }
+    document.getElementById('RundenAnzahlCrafting').innerHTML = RoundsCrafting + '.';
 }
 
 function DefiniereRezepte() {
@@ -86,13 +87,10 @@ function DefiniereRezepte() {
     Rezepte[23] = 'https://docs.google.com/uc?export=&id=1TAJp5cQB0mnlEmEmDflSiXJ12QTiPbpD##https://docs.google.com/uc?export=&id=1Q9M8_Oi20iPSaVe2FT5zcM22K7b1tiha##https://docs.google.com/uc?export=&id=1Q8jj-eWWFnwUJQ_uA5DU7LO9cq8sKVuQ##https://docs.google.com/uc?export=&id=1QIPuUcFBN-OAP9oT6cy2wA5aVdkDlHhd##https://docs.google.com/uc?export=&id=1QIPuUcFBN-OAP9oT6cy2wA5aVdkDlHhd##Choice_Crafting3';
     Rezepte[24] = 'https://docs.google.com/uc?export=&id=1TK5dB8QXPVToG-C3V4lzSkkV8Bmw1QEb##https://docs.google.com/uc?export=&id=1Q7fKNEDEeFTKYwiRuYsCSdu_XKV60jaK##https://docs.google.com/uc?export=&id=1Q8ERaN2uSA0kIa0rTCrJnOZ5oWwSPeQ1##https://docs.google.com/uc?export=&id=1Q36H8ykqk-BuAhHVP8TLLyQngMZTpBAQ##https://docs.google.com/uc?export=&id=1Q8ERaN2uSA0kIa0rTCrJnOZ5oWwSPeQ1##Choice_Crafting2';
     Rezepte[25] = 'https://docs.google.com/uc?export=&id=1NWx_xexGNNBfdGnQksH12jsq-8aLWlZU##https://docs.google.com/uc?export=&id=1MjNFLn0rF-Qcq-CBbopskwiY1ek32K-g##https://docs.google.com/uc?export=&id=1Mhz2D_VrjSu8ARWmmAlRBvmT7UhV-ghL##https://docs.google.com/uc?export=&id=1MdMn1a3l0imcLR5UgsotWP2Syo4SgMN_##https://docs.google.com/uc?export=&id=1MjNFLn0rF-Qcq-CBbopskwiY1ek32K-g##Choice_Crafting1';
+	for(i=1; i<5; i++){
+		Rezepte.sort(function(a, b){return Math.random()-0.5;});
+	}
 }
-
-
-
-
-
-
 
 function CraftingWhatsRight() {
     if(richtigeAntwort === 'Choice_Crafting1') {
