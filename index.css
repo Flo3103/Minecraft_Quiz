@@ -352,12 +352,10 @@ div.Craftingheadline{
     left: 33px;
 }
 
-#Crafting_RightOrFals{
-    display: none;
-    width: 100px;
-    position: absolute;
-    bottom: 25px;
-    left: 40px;
+.ChoiceCraftingdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .Crafting_Choice{
