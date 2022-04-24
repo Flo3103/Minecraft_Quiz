@@ -292,7 +292,7 @@ h3{
 .CraftingHeadlinediv{
     display: flex;
     justify-content:center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 h1.Crafting{
@@ -361,7 +361,7 @@ div.Craftingheadline{
 .Crafting_Choice{
     position: relative;
     border: 2px solid black;
-    margin: 25px;
+    margin: 25px 0px 0 25px;
     background-color: rgb(139, 139, 139);
 }
 
