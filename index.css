@@ -361,8 +361,12 @@ div.Craftingheadline{
 .Crafting_Choice{
     position: relative;
     border: 2px solid black;
-    margin: 25px 0px 0px 25px;
+    margin: 25px 25px 0px 25px;
     background-color: rgb(139, 139, 139);
+}
+
+#Crafting_Choice2{
+    margin-right: 25px;
 }
 
 img.Choice_Crafting{
