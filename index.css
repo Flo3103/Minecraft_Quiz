@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'silkscreennormal';
+    src: url('slkscr-webfont.eot');
+    src: url('slkscr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('slkscr-webfont.woff2') format('woff2'),
+         url('slkscr-webfont.woff') format('woff'),
+         url('slkscr-webfont.ttf') format('truetype'),
+         url('slkscr-webfont.svg#silkscreennormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'minecraftregular';
+    src: url('minecraft-regular-webfont.woff2') format('woff2'),
+         url('minecraft-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+	font-family:minecraftregular;
+    background-image: url(0Bilder/MC-Background__13239256866.jpg);
+}
+
+
+button.noClick{
+    cursor: not-allowed;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+div.centerHidden{
+    display: none;
+    justify-content: center;
+}
+
+.Flex_Center{
+    display: flex;
+    justify-content: center;
+}
+button.padding{
+    padding: 5px 20px;
+    width: 230px;               /*Merke width setzt sich aus padding margin border width zusammen!!*/
+}
+
+.Margin20px{
+    margin: 20px;
+}
+
+.Margin10{
+    margin: 10px;
+}
+.silkscreennormal{
+    font-family: silkscreennormal;
+}
+
+
+/*Minecraft Design*/
+
+.MinecraftDesign{
+    padding: 5px 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(111, 111, 111);
+    border: 2px solid rgb(173, 170, 170);
+    outline: 2px solid black;
+    font-family:silkscreennormal;
+    text-align: center;
+}
+
+.MinecraftDesign:hover{
+    background-color: rgb(145, 157, 226);
+}
+
+.noHover:hover{
+    background-color: rgb(111, 111, 111);
+}
+
+.DisplayNone{
+    display: none;
+}
+
+/*Startmenü*/
+
+div.StartmenüHeadline{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+p.StartmenüHeadline{
+    font-size: 40px;
+    display: inline;
+    font-weight: 500;
+}
+
+
+
+/*.HeadlineSchräg{
+    color: yellow;
+    transform: rotate(-40deg);
+    margin-left: 0px;
+    padding-left: 180px;
+}*/
+
+.StartButtonDiv{
+    display: block;
+    text-align: center;
+}
+
+/*Level Choice*/
+
+#LevelChoiceDiv{
+    text-align: center;
+}
+
+button.LevelChoice{
+    width: 220px;
+}
+
+/*Question Design*/
+
+
+.HeadlineDiv{
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+}
+
+.ChoiceDiv{
+    text-align: center;
+    display: block;
+}
+
+.Choice{
+    margin: 50px 50px;
+    padding: 40px 80px;
+    font-size: 30px;
+    color: white;
+    background-color: grey;
+}
+
+.CorrectionDiv{
+    display: none;
+    justify-content: center;
+}
+
+#correctionImg{
+    width: 60px; 
+    margin: 0 0 15px 0;
+}
+.points{
+    font-size: 17px;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 5px 5px;
+}
+
+#lost{
+    color: white;
+    font-size: 20px;
+    display: none;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.NächsteFrageDiv{
+    justify-content: center;
+    display: none;
+}
+
+.NächsteFrage{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+/*#BackButtonDiv{
+    text-align: center;
+
+    margin-top: 30px;
+
+
+}
+
+#BackButton{
+    padding: 5px;
+    font-size: 17px;
+    display: inline;
+}
+
+#BackButtonReally{
+    color: white;
+    font-size: 20px;
+}
+
+div.ReallyDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.ReallyMargin{
+    margin: 0 5px 30px 5px;
+}
+
+.Really{
+    font-size: 11px; 
+    height: 24px;
+}*/
+
+
+
+
+div.PointScreen{
+    text-align: center;
+    margin: 200px;
+}
+
+p.PointScreen{
+    font-size: 30px;
+    max-width: 250px;
+    color: white;
+    text-align: center;
+}   
+
+h3{
+    margin: 0px;
+}
+
+
+
+
+/*Splash Text*/
+
+
+#status {
+    color: #FFFF00;
+    text-shadow:3px 3px #3F3F00;
+    margin-left: 200px;
+}
+.pop {
+    animation: pop 0.58s infinite;
+    -webkit-animation: pop 0.58s infinite;
+}
+@keyframes pop {
+    from {
+        transform:scale(0.95)
+    }
+    50% {
+        transform:scale(1)
+    }
+    to {
+        transform:scale(0.95)
+    }
+}
+@-webkit-keyframes pop {
+    from {
+        -webkit-transform:scale(0.95)
+    }
+    50% {
+        -webkit-transform:scale(1)
+    }
+    to {
+        -webkit-transform:scale(0.95)
+    }
+}
+.tilt {
+    -ms-transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+
+.BeispielaufgabeCrafting{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+.CraftingHeadlinediv{
+    display: flex;
+    justify-content:center;
+    padding-top: 50px;
+}
+
+h1.Crafting{
+    width: 350px;
+    margin: 0px;
+}
+
+div.RundenAnzahlCrafting{
+    margin-top: 15px;
+}
+
+p#RundenAnzahlCrafting{
+    font-size: 20px;
+    margin: 0px;
+    padding: 1px 6px 1px 7px;
+    width: 70px;
+}
+
+div.Crafting_Headline{
+    display: flex;
+    justify-content: center;
+}
+
+div.Craftingheadline{
+    margin-top: 15px;
+    background-color: rgb(198, 198, 198);
+    padding: 10px 0px 0px 10px;
+    position: relative;
+    
+}
+
+.Craftingheadline:hover{
+    background-color: rgb(198, 198, 198);
+} 
+
+#imageDefault{
+    width: 290px;
+}
+
+#Crafting_Result{
+    border: none;
+    z-index: 0;            /*alle z-index und mit js immer ein zahl höher wo gezeigt wird oder so*/
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 224px;
+    bottom: 49px;
+}
+
+#Crafting_Correction{
+    display: none;
+    border: 2px solid black;
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    bottom: 15px;
+    left: 33px;
+}
+
+.ChoiceCraftingdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Crafting_Choice{
+    position: relative;
+    border: 2px solid black;
+    margin: 25px 25px 0px 25px;
+    background-color: rgb(139, 139, 139);
+}
+
+#Crafting_Choice2{
+    margin-right: 25px;
+}
+
+img.Choice_Crafting{
+    display: block;
+    background-color: rgb(139, 139, 139);
+    padding: 5px;
+    width: 113px;
+    height: 113px;
+}
+
+.Crafting_Right{
+    display: none;
+    position: absolute  ;
+    width: 100px;
+    bottom: 6px;
+    left: 6px;
+}
+
+.Crafting_Fals{
+    display: none;
+    position: absolute  ;
+    width: 95px;
+    bottom: 10px;
+    left: 10px; 
+}
+
+.DivPointsCrafting{
+    margin-top: 25px;
+    display: none;
+    justify-content: center;
+}
