@@ -288,6 +288,9 @@ h3{
     margin: 0;
 }
 
+div#Crafting{
+    display: none;
+}
 
 .CraftingHeadlinediv{
     display: flex;

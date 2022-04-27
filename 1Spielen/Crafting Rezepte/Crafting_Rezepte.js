@@ -39,7 +39,7 @@ function NextRoundCrafting() {
     document.getElementById("Crafting_Choice1").style.border = "2px solid black";
     document.getElementById("Crafting_Choice2").style.border = "2px solid black";
     document.getElementById("Crafting_Choice3").style.border = "2px solid black";
-    
+    document.getElementById('Crafting').style.display = 'inline';
     if(RoundsCrafting < Rezepte.length){
         Buttongesperrt = false;
         RoundsCrafting++;
