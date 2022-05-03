@@ -288,10 +288,6 @@ h3{
     margin: 0;
 }
 
-div#Crafting{
-    display: none;
-}
-
 .CraftingHeadlinediv{
     display: flex;
     justify-content:center;
@@ -400,4 +396,9 @@ img.Choice_Crafting{
     margin-top: 25px;
     display: none;
     justify-content: center;
+}
+
+.XPBar{
+    width: 356px;
+    height: 11px;
 }

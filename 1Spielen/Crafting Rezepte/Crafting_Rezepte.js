@@ -3,8 +3,10 @@ var punkteCrafting = 0;
 var RoundsCrafting = 0;
 var Buttongesperrt = true;
 var richtigeAntwort;
+var CraftingXPBar = new Array();
 
 DefiniereRezepte();
+NextRoundCrafting();
 
 function Crafting_Choice(gewählterButton) {
     if(Buttongesperrt === true){return}
@@ -13,6 +15,9 @@ function Crafting_Choice(gewählterButton) {
     if(gewählterButton.getAttribute("id") === richtigeAntwort) {
         CraftingWhatsRight();
         punkteCrafting++;
+        
+        document.getElementById('XPBar').innerHTML = CraftingXPBar[0];
+
     }else{
         document.getElementById("Crafting_Fals1").style.display = "block"
         document.getElementById("Crafting_Fals2").style.display = "block"
@@ -24,11 +29,10 @@ function Crafting_Choice(gewählterButton) {
     }
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
     document.getElementById('DivPoints').style.display = 'flex';
-    document.getElementById('points').innerHTML = 'Punkte:   '+ punkteCrafting + '/' + Rezepte.length;
+    document.getElementById('points').innerHTML = 'Punkte:   '+ punkteCrafting + '/' + '18';
 } 
 
 function NextRoundCrafting() {
-    document.getElementById('Startmenücrafting').style.display = 'none';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
     document.getElementById("Crafting_Fals1").style.display = "none"
     document.getElementById("Crafting_Fals2").style.display = "none"
@@ -40,7 +44,7 @@ function NextRoundCrafting() {
     document.getElementById("Crafting_Choice2").style.border = "2px solid black";
     document.getElementById("Crafting_Choice3").style.border = "2px solid black";
     document.getElementById('Crafting').style.display = 'inline';
-    if(RoundsCrafting <= 20){
+    if(RoundsCrafting < 18){
         Buttongesperrt = false;
         RoundsCrafting++;
         var AktuellesRezept = Rezepte.shift();
@@ -55,10 +59,10 @@ function NextRoundCrafting() {
     }else{
         document.getElementById("Crafting").style.display = "none";
         document.getElementById("PointScreenDiv").style.display = "inline";
-        document.getElementById("Points").innerHTML = "Du hast Crafting mit <h3>" + punkteCrafting + "/" + '20' + "</h3> Punkten abgeschlossen";
+        document.getElementById("Points").innerHTML = "Du hast Crafting mit <h3>" + punkteCrafting + "/" + '18' + "</h3> Punkten abgeschlossen";
     }
     document.getElementById('DivPoints').style.display = 'flex';
-    document.getElementById('points').innerHTML = 'Punkte:   '+ punkteCrafting + '/' + '20';
+    document.getElementById('points').innerHTML = 'Punkte:   '+ punkteCrafting + '/' + '18';
     document.getElementById('RundenAnzahlCrafting').innerHTML = RoundsCrafting + '.';
 }
 
@@ -113,7 +117,26 @@ function CraftingWhatsRight() {
     }
 
 }
+CraftingXPBarDefinieren();
 
+function CraftingXPBarDefinieren() {
+    CraftingXPBar[0] = '../../0Bilder/Xp Bar/1.png';
+    CraftingXPBar[1] = '../../0Bilder/Xp Bar/2.png';
+    CraftingXPBar[2] = '../../0Bilder/Xp Bar/3.png';
+    CraftingXPBar[3] = '../../0Bilder/Xp Bar/4.png';
+    CraftingXPBar[4] = '../../0Bilder/Xp Bar/5.png';
+    CraftingXPBar[5] = '../../0Bilder/Xp Bar/6.png';
+    CraftingXPBar[6] = '../../0Bilder/Xp Bar/7.png';
+    CraftingXPBar[7] = '../../0Bilder/Xp Bar/8.png';
+    CraftingXPBar[8] = '../../0Bilder/Xp Bar/9.png';
+    CraftingXPBar[9] = '../../0Bilder/Xp Bar/10.png';
+    CraftingXPBar[10] = '../../0Bilder/Xp Bar/11.png';
+    CraftingXPBar[11] = '../../0Bilder/Xp Bar/12.png';
+    CraftingXPBar[12] = '../../0Bilder/Xp Bar/13.png';
+    CraftingXPBar[13] = '../../0Bilder/Xp Bar/14.png';
+    CraftingXPBar[14] = '../../0Bilder/Xp Bar/15.png';
+    CraftingXPBar[15] = '../../0Bilder/Xp Bar/16.png';
+}
 
 //Rezepte[0] = 'https://docs.google.com/uc?export=&id=1Zv7Yz52WT2TaZaQdClTAZpvWKsTAu4zE##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##https://docs.google.com/uc?export=&id=1ZrnQhXCsAezlhgq_iDSKhfOnE4lLPC3h##https://docs.google.com/uc?export=&id=1Zmy8Nnm0r9loz8mOlB-FlVTto48enkbo##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##Choice_Crafting1';
 //Rezepte[1] = 'https://docs.google.com/uc?export=&id=1MJLkJhnBwSpHaLxS83e7j0GxWTphkeMV##https://docs.google.com/uc?export=&id=1MI91wPjPnPS1O-07I0Gaup3OKaXOtAqc##https://docs.google.com/uc?export=&id=1T_qT8dPVTBHVQz17uXcgYTQI_OzWsSF1##https://docs.google.com/uc?export=&id=1MccuwOinsYsTBSozEUJPGytlITaxf1ZG##https://docs.google.com/uc?export=&id=1MccuwOinsYsTBSozEUJPGytlITaxf1ZG##Choice_Crafting3';
