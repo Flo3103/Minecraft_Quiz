@@ -16,8 +16,8 @@ function Crafting_Choice(gewählterButton) {
         CraftingWhatsRight();
         punkteCrafting++;
         
-        document.getElementById('XPBar').innerHTML = CraftingXPBar[0];
-
+        document.getElementById('XPBar').src = CraftingXPBar[0];
+        -CraftingXPBar.shift();
     }else{
         document.getElementById("Crafting_Fals1").style.display = "block"
         document.getElementById("Crafting_Fals2").style.display = "block"
@@ -120,22 +120,22 @@ function CraftingWhatsRight() {
 CraftingXPBarDefinieren();
 
 function CraftingXPBarDefinieren() {
-    CraftingXPBar[0] = '../../0Bilder/Xp Bar/1.png';
-    CraftingXPBar[1] = '../../0Bilder/Xp Bar/2.png';
-    CraftingXPBar[2] = '../../0Bilder/Xp Bar/3.png';
-    CraftingXPBar[3] = '../../0Bilder/Xp Bar/4.png';
-    CraftingXPBar[4] = '../../0Bilder/Xp Bar/5.png';
-    CraftingXPBar[5] = '../../0Bilder/Xp Bar/6.png';
-    CraftingXPBar[6] = '../../0Bilder/Xp Bar/7.png';
-    CraftingXPBar[7] = '../../0Bilder/Xp Bar/8.png';
-    CraftingXPBar[8] = '../../0Bilder/Xp Bar/9.png';
-    CraftingXPBar[9] = '../../0Bilder/Xp Bar/10.png';
-    CraftingXPBar[10] = '../../0Bilder/Xp Bar/11.png';
-    CraftingXPBar[11] = '../../0Bilder/Xp Bar/12.png';
-    CraftingXPBar[12] = '../../0Bilder/Xp Bar/13.png';
-    CraftingXPBar[13] = '../../0Bilder/Xp Bar/14.png';
-    CraftingXPBar[14] = '../../0Bilder/Xp Bar/15.png';
-    CraftingXPBar[15] = '../../0Bilder/Xp Bar/16.png';
+    CraftingXPBar[0] = '../../0Bilder/Xp Bar/1.jpg';
+    CraftingXPBar[1] = '../../0Bilder/Xp Bar/2.jpg';
+    CraftingXPBar[2] = '../../0Bilder/Xp Bar/3.jpg';
+    CraftingXPBar[3] = '../../0Bilder/Xp Bar/4.jpg';
+    CraftingXPBar[4] = '../../0Bilder/Xp Bar/5.jpg';
+    CraftingXPBar[5] = '../../0Bilder/Xp Bar/6.jpg';
+    CraftingXPBar[6] = '../../0Bilder/Xp Bar/7.jpg';
+    CraftingXPBar[7] = '../../0Bilder/Xp Bar/8.jpg';
+    CraftingXPBar[8] = '../../0Bilder/Xp Bar/9.jpg';
+    CraftingXPBar[9] = '../../0Bilder/Xp Bar/10.jpg';
+    CraftingXPBar[10] = '../../0Bilder/Xp Bar/11.jpg';
+    CraftingXPBar[11] = '../../0Bilder/Xp Bar/12.jpg';
+    CraftingXPBar[12] = '../../0Bilder/Xp Bar/13.jpg';
+    CraftingXPBar[13] = '../../0Bilder/Xp Bar/14.jpg';
+    CraftingXPBar[14] = '../../0Bilder/Xp Bar/15.jpg';
+    CraftingXPBar[15] = '../../0Bilder/Xp Bar/16.jpg';
 }
 
 //Rezepte[0] = 'https://docs.google.com/uc?export=&id=1Zv7Yz52WT2TaZaQdClTAZpvWKsTAu4zE##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##https://docs.google.com/uc?export=&id=1ZrnQhXCsAezlhgq_iDSKhfOnE4lLPC3h##https://docs.google.com/uc?export=&id=1Zmy8Nnm0r9loz8mOlB-FlVTto48enkbo##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##Choice_Crafting1';
