@@ -136,6 +136,9 @@ function CraftingXPBarDefinieren() {
     CraftingXPBar[13] = '../../0Bilder/Xp Bar/14.jpg';
     CraftingXPBar[14] = '../../0Bilder/Xp Bar/15.jpg';
     CraftingXPBar[15] = '../../0Bilder/Xp Bar/16.jpg';
+    CraftingXPBar[16] = '../../0Bilder/Xp Bar/17.jpg';
+    CraftingXPBar[17] = '../../0Bilder/Xp Bar/18.jpg';
+
 }
 
 //Rezepte[0] = 'https://docs.google.com/uc?export=&id=1Zv7Yz52WT2TaZaQdClTAZpvWKsTAu4zE##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##https://docs.google.com/uc?export=&id=1ZrnQhXCsAezlhgq_iDSKhfOnE4lLPC3h##https://docs.google.com/uc?export=&id=1Zmy8Nnm0r9loz8mOlB-FlVTto48enkbo##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##Choice_Crafting1';
