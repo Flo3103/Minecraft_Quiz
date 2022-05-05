@@ -4,7 +4,6 @@ var punkteEinfach = 0;
 var punkteNormal = 0;
 var punkteSchwer = 0;
 var punkteHardcore = 0;
-
 var RightCorrection = 0;
 
 

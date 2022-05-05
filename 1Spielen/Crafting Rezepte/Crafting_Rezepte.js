@@ -4,6 +4,12 @@ var RoundsCrafting = 0;
 var Buttongesperrt = true;
 var richtigeAntwort;
 var CraftingXPBar = new Array();
+var audio = new Audio("http://music.mp3");
+
+
+
+
+
 
 DefiniereRezepte();
 NextRoundCrafting();
@@ -27,9 +33,12 @@ function Crafting_Choice(gewählterButton) {
         document.getElementById("Crafting_Choice3").style.border = "3px solid red";
         CraftingWhatsRight();
     }
+    audio.oncanplaythrough = function(){
+        audio.play();
+        }
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
-    document.getElementById('DivPoints').style.display = 'flex';
-    document.getElementById('points').innerHTML = 'Punkte:   '+ punkteCrafting + '/' + '18';
+    document.getElementById('Craftingpoints').innerHTML = ''+ punkteCrafting + '/' + '20';
+
 } 
 
 function NextRoundCrafting() {
@@ -44,7 +53,7 @@ function NextRoundCrafting() {
     document.getElementById("Crafting_Choice2").style.border = "2px solid black";
     document.getElementById("Crafting_Choice3").style.border = "2px solid black";
     document.getElementById('Crafting').style.display = 'inline';
-    if(RoundsCrafting < 18){
+    if(RoundsCrafting < 20){
         Buttongesperrt = false;
         RoundsCrafting++;
         var AktuellesRezept = Rezepte.shift();
@@ -59,10 +68,9 @@ function NextRoundCrafting() {
     }else{
         document.getElementById("Crafting").style.display = "none";
         document.getElementById("PointScreenDiv").style.display = "inline";
-        document.getElementById("Points").innerHTML = "Du hast Crafting mit <h3>" + punkteCrafting + "/" + '18' + "</h3> Punkten abgeschlossen";
+        document.getElementById("Points").innerHTML = "Du hast Crafting mit <h3>" + punkteCrafting + "/" + '20' + "</h3> Punkten abgeschlossen";
     }
-    document.getElementById('DivPoints').style.display = 'flex';
-    document.getElementById('points').innerHTML = 'Punkte:   '+ punkteCrafting + '/' + '18';
+    document.getElementById('Craftingpoints').innerHTML = ''+ punkteCrafting + '/' + '20';
     document.getElementById('RundenAnzahlCrafting').innerHTML = RoundsCrafting + '.';
 }
 
@@ -138,6 +146,8 @@ function CraftingXPBarDefinieren() {
     CraftingXPBar[15] = '../../0Bilder/Xp Bar/16.jpg';
     CraftingXPBar[16] = '../../0Bilder/Xp Bar/17.jpg';
     CraftingXPBar[17] = '../../0Bilder/Xp Bar/18.jpg';
+    CraftingXPBar[18] = '../../0Bilder/Xp Bar/19.jpg';
+    CraftingXPBar[19] = '../../0Bilder/Xp Bar/20.jpg';
 
 }
 
