@@ -281,6 +281,9 @@ h3{
     transform: rotate(-35deg);
 }
 
+div.Crafting{
+    position: relative;
+}
 
 .BeispielaufgabeCrafting{
     color: white;
@@ -313,6 +316,7 @@ p#RundenAnzahlCrafting{
 div.Crafting_Headline{
     display: flex;
     justify-content: center;
+
 }
 
 div.Craftingheadline{
@@ -402,6 +406,7 @@ img.Choice_Crafting{
 .Craftingpoints{
     color: rgb(116, 204, 28);
     position: absolute;
+    font-size: 15px;
     bottom: -12px;
 }
 
@@ -410,3 +415,19 @@ img.Choice_Crafting{
     height: 10px;
 }
 
+#InfoCraftingResult{    
+    width: 250px;
+    height: 240px;
+    display: none;
+    background-color: rgb(139, 139, 139);
+    position: absolute;
+    left: 450px;
+    top: 80px;
+    text-align: center;
+    z-index: 1;
+}
+
+.Test{
+ padding: 0px;
+ margin: 0px;
+}

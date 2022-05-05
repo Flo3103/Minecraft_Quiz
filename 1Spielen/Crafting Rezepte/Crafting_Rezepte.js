@@ -151,6 +151,33 @@ function CraftingXPBarDefinieren() {
 
 }
 
+function InfoCraftingResult() {
+
+    document.getElementById('InfoCraftingResult').style.display = 'inline';
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Rezepte[0] = 'https://docs.google.com/uc?export=&id=1Zv7Yz52WT2TaZaQdClTAZpvWKsTAu4zE##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##https://docs.google.com/uc?export=&id=1ZrnQhXCsAezlhgq_iDSKhfOnE4lLPC3h##https://docs.google.com/uc?export=&id=1Zmy8Nnm0r9loz8mOlB-FlVTto48enkbo##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##Choice_Crafting1';
 //Rezepte[1] = 'https://docs.google.com/uc?export=&id=1MJLkJhnBwSpHaLxS83e7j0GxWTphkeMV##https://docs.google.com/uc?export=&id=1MI91wPjPnPS1O-07I0Gaup3OKaXOtAqc##https://docs.google.com/uc?export=&id=1T_qT8dPVTBHVQz17uXcgYTQI_OzWsSF1##https://docs.google.com/uc?export=&id=1MccuwOinsYsTBSozEUJPGytlITaxf1ZG##https://docs.google.com/uc?export=&id=1MccuwOinsYsTBSozEUJPGytlITaxf1ZG##Choice_Crafting3';
 //Rezepte[2] = 'https://docs.google.com/uc?export=&id=1NU77x-XQ3C5T9q3jtEQXhsRG-kf3Vfde##https://docs.google.com/uc?export=&id=1N3uVbKUJI3-7QP5u0wY-lf94Y2S0Rx0_##https://docs.google.com/uc?export=&id=1N0gsZIHwfursK8BRn0hCcCLTAwKZPWRg##https://docs.google.com/uc?export=&id=1N5GAzOF4IhIE7VhMhgwLQMRg_GqHcDVq##https://docs.google.com/uc?export=&id=1N5GAzOF4IhIE7VhMhgwLQMRg_GqHcDVq##Choice_Crafting3';
