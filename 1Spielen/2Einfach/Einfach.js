@@ -150,12 +150,13 @@ function ChoiceLost1Einfach(){
 
 function NächsteFrageEinfach11() {
     EinfachAllUsed();
-    document.getElementById('Headline').innerHTML = '11. Gibt es rote Kühe?' ;
-    document.getElementById('Choice1').innerHTML = 'Ja' ;
-    document.getElementById('Choice2').innerHTML = 'Nein' ;
-    document.getElementById('Choice3').innerHTML = 'Noch nie gesehen' ;
+    document.getElementById('Headline').innerHTML = '11. Gibt es rote Kühe?';
+    document.getElementById('Choice1').innerHTML = 'Ja';
+    document.getElementById('Choice2').innerHTML = 'Nein';
+    document.getElementById('Choice3').innerHTML = 'Noch nie gesehen';
     document.getElementById('Choice1').onclick = function(){ChoiceRightEinfach();};
-    document.getElementById('Choice3').onclick = function(){ChoiceLost1Einfach();};
+    document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
+    document.getElementById('Choice3').onclick = function(){ChoiceLost1Einfach(); ChoiceFalsEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageEinfach12();
     };

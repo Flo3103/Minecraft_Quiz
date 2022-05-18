@@ -8,9 +8,6 @@ var audio = new Audio("http://music.mp3");
 
 
 
-
-
-
 DefiniereRezepte();
 NextRoundCrafting();
 
@@ -23,7 +20,7 @@ function Crafting_Choice(gewählterButton) {
         punkteCrafting++;
         
         document.getElementById('XPBar').src = CraftingXPBar[0];
-        -CraftingXPBar.shift();
+        CraftingXPBar.shift();
     }else{
         document.getElementById("Crafting_Fals1").style.display = "block"
         document.getElementById("Crafting_Fals2").style.display = "block"
@@ -39,7 +36,7 @@ function Crafting_Choice(gewählterButton) {
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
     document.getElementById('Craftingpoints').innerHTML = ''+ punkteCrafting + '/' + '20';
 
-} 
+}
 
 function NextRoundCrafting() {
     document.getElementById('NächsteFrageDiv').style.display = 'none';

@@ -11,6 +11,12 @@
 
 <div id="Crafting" class="Crafting">
 
+        <div id="InfoCraftingResult">
+                <h1></h1>
+                <img style="width: 150px;" src="../../0Bilder/Crafting_Rezepte/1/0.png" alt="">
+                <p></p> 
+        </div>
+
     <div class="CraftingHeadlinediv">
         <h1 class="Crafting MinecraftDesign noHover">Vervollständige das Rezept</h1>
     </div>
@@ -25,15 +31,6 @@
             <img id="Crafting_Correction" src="">
         </div>
     </div>
-
-        <div id="InfoCraftingResult">
-            <div class="Test MinecraftDesign">
-                <h1></h1>
-                <img style="width: 150px;" src="../../0Bilder/Crafting_Rezepte/1/0.png" alt="">
-                <p></p> 
-            </div>
-       
-        </div>
 
     <div class="ChoiceCraftingdiv">
             <div class="Crafting_Choice" id="Crafting_Choice1">
@@ -53,17 +50,17 @@
             </div>
     </div>
 
-    <div class="DivPointsCrafting" id="DivPoints">
+    <div class="DivXpBar" id="DivPoints">
 
-            <p class="Craftingpoints" id="Craftingpoints"> /20</p> 
+            <p class="XpBarpointsÜberschrift" id="Craftingpoints"> /20</p> 
             <img class="XPBar" id="XPBar" src="../../0Bilder/Xp Bar/0.png" alt="">
 
-    </div> 
+    </div>
 
 
 
     <div class="NächsteFrageDiv" id="NächsteFrageDiv">
-        <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NextRoundCrafting();">Nächstes Rezept</button>
+        <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NextRoundCrafting(this);">Nächstes Rezept</button>
     </div>
 
 

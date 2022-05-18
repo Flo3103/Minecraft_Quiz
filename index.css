@@ -62,7 +62,24 @@ button.padding{
     font-family: silkscreennormal;
 }
 
+.XpBarpointsÜberschrift{
+    color: rgb(116, 204, 28);
+    position: absolute;
+    font-size: 15px;
+    bottom: -12px;
+}
 
+.XPBar{
+    width: 80%;
+    height: 10px;
+}
+
+.DivXpBar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 /*Minecraft Design*/
 
 .MinecraftDesign{
@@ -281,14 +298,10 @@ h3{
     transform: rotate(-35deg);
 }
 
+/*Crafting*/
+
 div.Crafting{
     position: relative;
-}
-
-.BeispielaufgabeCrafting{
-    color: white;
-    font-size: 30px;
-    margin: 0;
 }
 
 .CraftingHeadlinediv{
@@ -396,38 +409,110 @@ img.Choice_Crafting{
     left: 10px; 
 }
 
-.DivPointsCrafting{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.Craftingpoints{
-    color: rgb(116, 204, 28);
-    position: absolute;
-    font-size: 15px;
-    bottom: -12px;
-}
-
-.XPBar{
-    width: 80%;
-    height: 10px;
-}
-
 #InfoCraftingResult{    
-    width: 250px;
-    height: 240px;
+    width: 202px;
+    height: 202px;
     display: none;
     background-color: rgb(139, 139, 139);
     position: absolute;
-    left: 450px;
-    top: 80px;
-    text-align: center;
+    left: 848px;
+    top: 131px;
     z-index: 1;
+    padding: 0px;
+
+    font-size: 20px;
+    background-color: rgb(111, 111, 111);
+    border: 2px solid rgb(173, 170, 170);
+    outline: 2px solid black;
+    text-align: center;
 }
 
-.Test{
- padding: 0px;
- margin: 0px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Überlebendiv#Überleben{
+    margin-top: 50px;
+}*/
+
+
+
+
+
+
+.ÜberlebenHeadlinediv{
+    display: flex;
+    justify-content:center;
+    padding-top: 50px;
+}
+
+h1.Überleben{
+    width: 350px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#ÜberlebenQuestion{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ChoiceÜberlebendiv{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Überleben_Choice{
+    position: relative;
+    margin: 0px 25px 0px 25px;
+    display: inline-block;
+}
+
+.ÜberlebenChoice{
+    font-size: 17px;
+    padding: 3px 10px;
+}
+
+#Überleben_Choice2{
+    margin-right: 25px;
+}
+
+
+#ÜberlebenHerzenDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.ÜberlebenHerz{
+    width: 40px;
+    margin: 1px;
+
 }
