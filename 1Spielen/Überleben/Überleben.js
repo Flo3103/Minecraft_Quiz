@@ -19,6 +19,9 @@ function Überleben_Choice(gewählteAntwort) {
         document.getElementById('Überleben_Choice2').style.border = '2px solid red';
         document.getElementById('Überleben_Choice3').style.border = '2px solid red';
         Überleben_WhatsRight();
+
+        //Leeres Herz zeichnen
+
     }
 
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
@@ -39,6 +42,7 @@ function Überleben_WhatsRight() {
 
 function NächsteRundeÜberleben() {
     document.getElementById('Überleben_Choice3').style.display = 'block';
+    document.getElementById('NächsteFrageDiv').style.display = 'none';
     document.getElementById("Überleben_Choice1").style.border = "2px solid rgb(173, 170, 170)";
     document.getElementById("Überleben_Choice2").style.border = "2px solid rgb(173, 170, 170)";
     document.getElementById("Überleben_Choice3").style.border = "2px solid rgb(173, 170, 170)";
@@ -56,7 +60,7 @@ function NächsteRundeÜberleben() {
         document.getElementById('Überleben_Choice3').style.display = 'none';
     }
 //    if (FragenAufgeteilt[6] === 'ExtraText') {
-//        document.getElementById('ExtraTextÜberleben').style.display = 'none';
+//        document.getElementById('ExtraTextÜberleben').style.display = 'flex';
 //        document.getElementById('ExtraTextÜberleben').innerHTML = FragenAufgeteilt[7];
 //    }
 //      Lösung finden wie man nur wenn man auf das bestimmt Falsche klickt der extra Text kommt 
