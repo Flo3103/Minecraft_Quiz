@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div id="Überleben">
+<div id="Überleben">
 
 
 
@@ -20,22 +20,26 @@
         <p id="ÜberlebenQuestion" class="MinecraftDesign noHover">1. Was kostet ein Aninger</p>
     </div>
 
-
-
     <div class="ChoiceÜberlebendiv">
-            <div class="Überleben_Choice" id="Überleben_Choice1">
-                <p class="ÜberlebenChoice MinecraftDesign">Und Wieso</p>
+            <div class="Überleben_Choice" id="Überleben_Choice_Div1">
+                <p id="Überleben_Choice1" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this);">Und Wieso</p>
            </div>
            <br>
-            <div class="Überleben_Choice" id="Überleben_Choice2">
-                <p class="ÜberlebenChoice MinecraftDesign">Und Wieso</p>
+            <div class="Überleben_Choice" id="Überleben_Choice_Div2">
+                <p id="Überleben_Choice2" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this);">Und Wieso</p>
             </div>
             <br>
-            <div class="Überleben_Choice" id="Überleben_Choice3">
-                <p class="ÜberlebenChoice MinecraftDesign">Und Wieso</p>
+            <div class="Überleben_Choice" id="Überleben_Choice_Div3">
+                <p id="Überleben_Choice3" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this);">Und Wieso</p>
             </div>
             <br>
     </div>
+
+    <div class="ExtraTextÜberleben">
+        <p id="ExtraTextÜberleben" class="ExtraTextÜberleben"></p>
+    </div>
+
+    <br>
 
     <div id="ÜberlebenHerzenDiv">
             <img class="ÜberlebenHerz" id="ÜberlebenHerz1" src="../../0Bilder/Herz.png" alt="">
@@ -43,9 +47,11 @@
             <img class="ÜberlebenHerz" id="ÜberlebenHerz3" src="../../0Bilder/Herz.png" alt="">
     </div>
 
-    <div class="NächsteFrageDiv" id="NächsteFrageDiv">
-        <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NextRoundÜberleben(this);">Nächstes Rezept</button>
+    <div class="NächsteFrageDivÜberleben NächsteFrageDiv" id="NächsteFrageDiv">
+        <button id="NextQuestion" class="NächsteFrageÜberleben MinecraftDesign" onclick="NächsteRundeÜberleben();">Nächste Frage</button>
     </div>
+
+
 
 </div>
 

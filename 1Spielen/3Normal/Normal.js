@@ -33,7 +33,7 @@ function NächsteFrageNormal3() {
     document.getElementById('Headline').innerHTML = '3. Wird Fallschaden mit Honig abgedämpft?' ;   
     document.getElementById('Choice1').innerHTML = 'Ja' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
-    document.getElementById('Choice3').style.display = 'none' ;
+    document.getElementById('Choice3').style.display = '' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageNormal4();
