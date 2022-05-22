@@ -211,14 +211,14 @@ function NächsteFrageFriedlich15() {
 
 function NächsteFrageFriedlich16() {
     FriedlichAllUsed();
-    document.getElementById('Headline').innerHTML = '16. Können pinke Schafe spawnen?' ;
+    document.getElementById('Headline').innerHTML = '16. Können rote Schafe spawnen?' ;
     document.getElementById('Choice1').innerHTML = ' Ja ' ;
     document.getElementById('Choice2').innerHTML = 'Nein' ;
-    document.getElementById('Choice1').onclick = function(){ChoiceRightFriedlich();};
+    document.getElementById('Choice2').onclick = function(){ChoiceRightFriedlich();};
     document.getElementById('NextQuestion').onclick = function(){
         NächsteFrageFriedlich17();
     };
-    RightCorrection = 1;
+    RightCorrection = 2;
 }   
 
 

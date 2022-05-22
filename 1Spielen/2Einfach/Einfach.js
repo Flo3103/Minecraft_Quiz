@@ -25,7 +25,7 @@ function NächsteFrageEinfach2() {
     document.getElementById('Choice3').innerHTML = 'Nur kurz' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach3();
+        NächsteFrageEinfach3(); ButtonClickSound.play();
     };
     RightCorrection = 2; 
 }   
@@ -39,7 +39,7 @@ function NächsteFrageEinfach3() {
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('Choice3').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach4();
+        NächsteFrageEinfach4(); ButtonClickSound.play();
     };
     RightCorrection = '2&3'; 
 }   
@@ -53,7 +53,7 @@ function NächsteFrageEinfach4() {
     document.getElementById('Choice3').innerHTML = '12' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach5();
+        NächsteFrageEinfach5(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -67,7 +67,7 @@ function NächsteFrageEinfach5() {
     document.getElementById('Choice3').innerHTML = 'Endermite' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach6();
+        NächsteFrageEinfach6(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -81,7 +81,7 @@ function NächsteFrageEinfach6() {
     document.getElementById('Choice3').innerHTML = '2 Stöcke 2 Holzbretter' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach7();
+        NächsteFrageEinfach7(); ButtonClickSound.play();
     };
     RightCorrection = 1; 
 }   
@@ -95,7 +95,7 @@ function NächsteFrageEinfach7() {
     document.getElementById('Choice3').innerHTML = 'Den Busch selber' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach8();
+        NächsteFrageEinfach8(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -109,7 +109,7 @@ function NächsteFrageEinfach8() {
     document.getElementById('Choice3').innerHTML = 'F3' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach9();
+        NächsteFrageEinfach9(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -123,7 +123,7 @@ function NächsteFrageEinfach9() {
     document.getElementById('Choice3').innerHTML = 'Milch Trinken' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach10();
+        NächsteFrageEinfach10(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -137,7 +137,7 @@ function NächsteFrageEinfach10() {
     document.getElementById('Choice3').innerHTML = 'Goldapfel' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach11();
+        NächsteFrageEinfach11(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -158,7 +158,7 @@ function NächsteFrageEinfach11() {
     document.getElementById('Choice2').onclick = function(){ChoiceFalsEinfach();};
     document.getElementById('Choice3').onclick = function(){ChoiceLost1Einfach(); ChoiceFalsEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach12();
+        NächsteFrageEinfach12(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -173,7 +173,7 @@ function NächsteFrageEinfach12() {
     document.getElementById('Choice3').innerHTML = 'Nein' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach13();
+        NächsteFrageEinfach13(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -187,7 +187,7 @@ function NächsteFrageEinfach13() {
     document.getElementById('Choice3').innerHTML = 'Schwer' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach14();
+        NächsteFrageEinfach14(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -201,7 +201,7 @@ function NächsteFrageEinfach14() {
     document.getElementById('Choice3').innerHTML = 'Anderen Creepern' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach15();
+        NächsteFrageEinfach15(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -215,7 +215,7 @@ function NächsteFrageEinfach15() {
     document.getElementById('Choice3').innerHTML = '4 eisenblöcke <br> 1 Kürbis' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach16();
+        NächsteFrageEinfach16(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -229,7 +229,7 @@ function NächsteFrageEinfach16() {
     document.getElementById('Choice3').style.display = 'none' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach17();
+        NächsteFrageEinfach17(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -244,7 +244,7 @@ function NächsteFrageEinfach17() {
     document.getElementById('Choice3').innerHTML = 'Evoker' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach18();
+        NächsteFrageEinfach18(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -258,7 +258,7 @@ function NächsteFrageEinfach18() {
     document.getElementById('Choice3').innerHTML = 'Butcher' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach19();
+        NächsteFrageEinfach19(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }    
@@ -272,7 +272,7 @@ function NächsteFrageEinfach19() {
     document.getElementById('Choice3').innerHTML = 'Angela Merkel' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageEinfach20();
+        NächsteFrageEinfach20(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -287,7 +287,7 @@ function NächsteFrageEinfach20() {
     document.getElementById('Choice2').onclick = function(){ChoiceRightEinfach();};
     document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit beenden' ;
     document.getElementById('NextQuestion').onclick = function(){
-        PointScreenEinfach();
+        PointScreenEinfach(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   

@@ -22,15 +22,15 @@
 
     <div class="ChoiceÜberlebendiv">
             <div class="Überleben_Choice" id="Überleben_Choice_Div1">
-                <p id="Überleben_Choice1" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this);">Und Wieso</p>
+                <p id="Überleben_Choice1" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this); ButtonClickSound.play();">Und Wieso</p>
            </div>
            <br>
             <div class="Überleben_Choice" id="Überleben_Choice_Div2">
-                <p id="Überleben_Choice2" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this);">Und Wieso</p>
+                <p id="Überleben_Choice2" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this); ButtonClickSound.play();">Und Wieso</p>
             </div>
             <br>
             <div class="Überleben_Choice" id="Überleben_Choice_Div3">
-                <p id="Überleben_Choice3" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this);">Und Wieso</p>
+                <p id="Überleben_Choice3" class="ÜberlebenChoice MinecraftDesign" onclick="Überleben_Choice(this); ButtonClickSound.play();">Und Wieso</p>
             </div>
     </div>
 
@@ -39,28 +39,30 @@
         
     </div>
 
-
     <div id="ÜberlebenHerzenDiv">
             <img class="ÜberlebenHerz" id="ÜberlebenHerz1" src="../../0Bilder/Heard without white.png" alt="">
             <img class="ÜberlebenHerz" id="ÜberlebenHerz2" src="../../0Bilder/Heard without white.png" alt="">
             <img class="ÜberlebenHerz" id="ÜberlebenHerz3" src="../../0Bilder/Heard without white.png" alt="">
     </div>
 
+    <div id="TodesNachricht">
+        <p class="TodesNachricht">Tod durch ersticken</p>
+    </div>
+
+
     <div class="NächsteFrageDivÜberleben NächsteFrageDiv" id="NächsteFrageDiv">
-        <button id="NextQuestion" class="NächsteFrageÜberleben MinecraftDesign" onclick="NächsteRundeÜberleben();">Nächste Frage</button>
+        <button id="NextQuestion" class="NächsteFrageÜberleben MinecraftDesign" onclick="NächsteRundeÜberleben(); ButtonClickSound.play();">Nächste Frage</button>
+    </div>
+
+    <div class="ÜberlebenWiederbeleben" id="ÜberlebenWiederbelebenDiv">
+
+        <button class="MinecraftDesign NächsteFrageÜberleben" id="ÜberlebenWiederbeleben" onclick="ÜberlebenWiederbeleben(); ButtonClickSound.play();">Wiederbeleben</button>
+
     </div>
 
 
 
 </div>
-
-
-    <div style="display: flex; justify-content: center;">
-        <div id="PointScreenDiv" class="PointScreen" style="display: none;">
-            <p class="PointScreen" id="Points">Du hast Überleben mit n von 20 Punkten abgeschlossen</p>
-            <p class="NewHighscore PointScreen" id="NewHighscore"></p>
-        </div>
-    </div>
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

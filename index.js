@@ -7,6 +7,9 @@ var punkteHardcore = 0;
 var RightCorrection = 0;
 
 
+const ButtonClickSound = new Audio();
+ButtonClickSound.src = '../../0 Sounds/click.ogg';
+
 function Choice() {
 
   document.getElementById('correctionDiv').style.display = 'flex';
@@ -125,110 +128,3 @@ function ChoiceFalsHardcore() {
 
 
 //Crafting_Rezepte
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function ZurückHauptmenü() {
-  document.getElementById('Really').style.display = 'block';
-  document.getElementById('BackButton').style.display = 'none';
-
-  document.getElementById('Choice1').disabled = true;
-  document.getElementById('Choice2').disabled = true;
-  document.getElementById('Choice3').disabled = true;
-  document.getElementById('NextQuestion').disabled = true;
-
-}
-
-function Weiterspielen() {
-  document.getElementById('Really').style.display = 'none';
-  document.getElementById('BackButton').style.display = 'inline';
-
-  document.getElementById('Choice1').disabled = false;
-  document.getElementById('Choice2').disabled = false;
-  document.getElementById('Choice3').disabled = false;
-  document.getElementById('NextQuestion').disabled = false;
-
-}
-
-//if(document.getElementById('Choice1').onclick = ChoiceFals()){
-  //     document.getElementById('Choice1').style.color = 'red';
-    //} else{
-      //   document.getElementById('Choice1').style.color = 'rgb(3, 250, 3)';}

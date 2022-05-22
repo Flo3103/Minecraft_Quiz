@@ -24,7 +24,7 @@ function NächsteFrageSchwer2() {
     document.getElementById('Choice3').innerHTML = '1⁄3' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer3();
+        NächsteFrageSchwer3(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -37,7 +37,7 @@ function NächsteFrageSchwer3() {
     document.getElementById('Choice3').innerHTML = 'Schweden' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer4();
+        NächsteFrageSchwer4(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -51,7 +51,7 @@ function NächsteFrageSchwer4() {
     document.getElementById('Choice3').innerHTML = 'nitrado' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer5();
+        NächsteFrageSchwer5(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -65,7 +65,7 @@ function NächsteFrageSchwer5() {
     document.getElementById('Choice3').style.display = 'none';
     document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer6();
+        NächsteFrageSchwer6(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -80,7 +80,7 @@ function NächsteFrageSchwer6() {
     document.getElementById('Choice3').innerHTML = '15' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer7();
+        NächsteFrageSchwer7(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -94,7 +94,7 @@ function NächsteFrageSchwer7() {
     document.getElementById('Choice3').innerHTML = '15' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer8();
+        NächsteFrageSchwer8(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -108,7 +108,7 @@ function NächsteFrageSchwer8() {
     document.getElementById('Choice3').innerHTML = 'Redstone, Verstärcker, Redstonefackel' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer9();
+        NächsteFrageSchwer9(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -122,7 +122,7 @@ function NächsteFrageSchwer9() {
     document.getElementById('Choice3').innerHTML = 'F3+F4' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer10();
+        NächsteFrageSchwer10(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -136,7 +136,7 @@ function NächsteFrageSchwer10() {
     document.getElementById('Choice3').innerHTML = '4' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer11();
+        NächsteFrageSchwer11(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -150,7 +150,7 @@ function NächsteFrageSchwer11() {
     document.getElementById('Choice3').innerHTML = '20' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer12();
+        NächsteFrageSchwer12(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -164,7 +164,7 @@ function NächsteFrageSchwer12() {
     document.getElementById('Choice3').innerHTML = '1500' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer13();
+        NächsteFrageSchwer13(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -178,7 +178,7 @@ function NächsteFrageSchwer13() {
     document.getElementById('Choice3').innerHTML = '95-96' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer14();
+        NächsteFrageSchwer14(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -192,7 +192,7 @@ function NächsteFrageSchwer14() {
     document.getElementById('Choice3').innerHTML = '10min' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer15();
+        NächsteFrageSchwer15(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -206,7 +206,7 @@ function NächsteFrageSchwer15() {
     document.getElementById('Choice3').innerHTML = '192' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer16();
+        NächsteFrageSchwer16(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -220,7 +220,7 @@ function NächsteFrageSchwer16() {
     document.getElementById('Choice3').innerHTML = 'F3+S' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer17();
+        NächsteFrageSchwer17(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -234,7 +234,7 @@ function NächsteFrageSchwer17() {
     document.getElementById('Choice3').innerHTML = '_rainbow_' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer18();
+        NächsteFrageSchwer18(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -248,7 +248,7 @@ function NächsteFrageSchwer18() {
     document.getElementById('Choice3').innerHTML = 'Markus Alesej Persson' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer19();
+        NächsteFrageSchwer19(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -262,7 +262,7 @@ function NächsteFrageSchwer19() {
     document.getElementById('Choice3').innerHTML = '19' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageSchwer20();
+        NächsteFrageSchwer20(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -276,7 +276,7 @@ function NächsteFrageSchwer20() {
     document.getElementById('Choice3').onclick = function(){ChoiceRightSchwer();};
     document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit beenden' ;
     document.getElementById('NextQuestion').onclick = function(){
-        PointScreenSchwer();
+        PointScreenSchwer(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   

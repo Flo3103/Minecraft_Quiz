@@ -66,12 +66,13 @@ button.padding{
     color: rgb(116, 204, 28);
     position: absolute;
     font-size: 15px;
-    bottom: -12px;
+    bottom: 8px;
 }
 
 .XPBar{
     width: 80%;
     height: 10px;
+    margin-bottom: 20px;
 }
 
 .DivXpBar{
@@ -509,6 +510,13 @@ h1.Überleben{
     margin-bottom: 0px;
 }
 
+.ÜberlebenChoice:active{
+
+}
+
+#Überleben_Choice2:active{
+}
+
 div.ExtraTextÜberleben{
     display: none;
     justify-content: center;
@@ -541,4 +549,28 @@ p.ExtraTextÜberleben{
 button.NächsteFrageÜberleben{
     padding: 3px 10px;
     font-size: 16px;
+}
+
+div#TodesNachricht{
+    display: none;
+    justify-content: center;    
+    text-align: center;
+}
+
+p.TodesNachricht{
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0 0px 0px;
+}
+
+div.ÜberlebenWiederbeleben{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+
+p.ÜberlebenWiederbeleben{
+ visibility:unset;
 }

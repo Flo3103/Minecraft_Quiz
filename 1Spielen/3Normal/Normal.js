@@ -23,7 +23,7 @@ function NächsteFrageNormal2() {
     document.getElementById('Choice3').innerHTML = 'Choruspflanze abbauen' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal3();
+        NächsteFrageNormal3(); ButtonClickSound.play();
     };
     RightCorrection = 1; 
 }   
@@ -36,7 +36,7 @@ function NächsteFrageNormal3() {
     document.getElementById('Choice3').style.display = '' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal4();
+        NächsteFrageNormal4(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -51,7 +51,7 @@ function NächsteFrageNormal4() {
     document.getElementById('Choice3').innerHTML = '2' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal5();
+        NächsteFrageNormal5(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -65,7 +65,7 @@ function NächsteFrageNormal5() {
     document.getElementById('Choice3').innerHTML = '3 Witherköpfe +<br>4 Seelenerde' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal6();
+        NächsteFrageNormal6(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -79,7 +79,7 @@ function NächsteFrageNormal6() {
     document.getElementById('Choice3').innerHTML = '7' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal7();
+        NächsteFrageNormal7(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -93,7 +93,7 @@ function NächsteFrageNormal7() {
     document.getElementById('Choice3').innerHTML = 'Charged Creeper' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal8();
+        NächsteFrageNormal8(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -107,7 +107,7 @@ function NächsteFrageNormal8() {
     document.getElementById('Choice3').innerHTML = 'Sodium' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal9();
+        NächsteFrageNormal9(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -121,7 +121,7 @@ function NächsteFrageNormal9() {
     document.getElementById('Choice3').innerHTML = '-50' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal10();
+        NächsteFrageNormal10(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -135,7 +135,7 @@ function NächsteFrageNormal10() {
     document.getElementById('Choice3').innerHTML = 'Schweinefleisch' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal11();
+        NächsteFrageNormal11(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -149,7 +149,7 @@ function NächsteFrageNormal11() {
     document.getElementById('Choice3').innerHTML = 'Leiter + Enderperle' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal12();
+        NächsteFrageNormal12(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -163,7 +163,7 @@ function NächsteFrageNormal12() {
     document.getElementById('Choice3').innerHTML = 'Mit Netherite Eimer' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal13();
+        NächsteFrageNormal13(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -177,7 +177,7 @@ function NächsteFrageNormal13() {
     document.getElementById('Choice3').innerHTML = 'Gibt keine schwarze Katze' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal14();
+        NächsteFrageNormal14(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -191,7 +191,7 @@ function NächsteFrageNormal14() {
     document.getElementById('Choice3').innerHTML = 'Fischen' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal15();
+        NächsteFrageNormal15(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -205,7 +205,7 @@ function NächsteFrageNormal15() {
     document.getElementById('Choice3').innerHTML = '1 Eisengolem' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal16();
+        NächsteFrageNormal16(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -219,7 +219,7 @@ function NächsteFrageNormal16() {
     document.getElementById('Choice3').innerHTML = '9' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal17();
+        NächsteFrageNormal17(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -233,7 +233,7 @@ function NächsteFrageNormal17() {
     document.getElementById('Choice3').innerHTML = '9' ;
     document.getElementById('Choice3').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal18();
+        NächsteFrageNormal18(); ButtonClickSound.play();
     };
     RightCorrection = 3;
 }   
@@ -247,7 +247,7 @@ function NächsteFrageNormal18() {
     document.getElementById('Choice3').style.display = 'none' ;
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal19();
+        NächsteFrageNormal19(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
@@ -262,7 +262,7 @@ function NächsteFrageNormal19() {
     document.getElementById('Choice3').innerHTML = '0/356' ;
     document.getElementById('Choice2').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').onclick = function(){
-        NächsteFrageNormal20();
+        NächsteFrageNormal20(); ButtonClickSound.play();
     };
     RightCorrection = 2;
 }   
@@ -277,7 +277,7 @@ function NächsteFrageNormal20() {
     document.getElementById('Choice1').onclick = function(){ChoiceRightNormal();};
     document.getElementById('NextQuestion').innerHTML = 'Schwierigkeit beenden' ;
     document.getElementById('NextQuestion').onclick = function(){
-        PointScreenNormal();
+        PointScreenNormal(); ButtonClickSound.play();
     };
     RightCorrection = 1;
 }   
