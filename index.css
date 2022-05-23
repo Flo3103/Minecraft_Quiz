@@ -456,7 +456,24 @@ img.Choice_Crafting{
 
 
 
+div#SpielernameWählen{
+    margin-top: 300px; 
+    text-align: center;
+}
 
+p.SpielernameWählenText{
+    font-size: 19px;
+}
+
+input.SpielernameWählenTextInput{
+    width: 120px; 
+    height:14px; 
+    margin: 0 0 5px 0;
+}
+
+input.SpielernameWählenButtonInput{
+    font-size: 15px;
+}
 
 .ÜberlebenHeadlinediv{
     display: flex;
@@ -473,16 +490,6 @@ h1.Überleben{
 #ÜberlebenQuestion{
     font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
 
 #ÜberlebenQuestion{
     width: 300px;
@@ -551,17 +558,17 @@ button.NächsteFrageÜberleben{
     font-size: 16px;
 }
 
-div#TodesNachricht{
+div#TodesNachrichtDiv{
     display: none;
     justify-content: center;    
     text-align: center;
 }
 
-p.TodesNachricht{
-    width: 300px;
+p#TodesNachricht{
+    width: 400px;
     color: white;
-    font-size: 20px;
-    margin: 10px 0 0px 0px;
+    font-size: 25px;
+    margin: 300px 0 0px 0px;
 }
 
 div.ÜberlebenWiederbeleben{
@@ -571,6 +578,3 @@ div.ÜberlebenWiederbeleben{
     margin: 15px;
 }
 
-p.ÜberlebenWiederbeleben{
- visibility:unset;
-}

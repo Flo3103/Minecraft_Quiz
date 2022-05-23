@@ -1,6 +1,8 @@
+var SpielerName = document.querySelector('#SpielernameWählenTextInput').value;
 var punkteÜberleben = 0;
 var RundenÜberleben = 0;
 var ÜberlebenFragen = new Array;
+var TodesNachrichtenÜberleben = new Array;
 var Buttongesperrt = false;
 var richtigeAntwort = '';
 var FalscheAntwortenÜberleben = 0;
@@ -10,6 +12,12 @@ DamageSound.src = '../../0 Sounds/hit3.ogg'
 DefiniereFragenÜberleben();
 NächsteRundeÜberleben();
 
+function SpielernameBestätigen() {
+    if(document.querySelector('#SpielernameWählenTextInput').value == '') {return}
+    document.getElementById('SpielernameWählen').style.display = 'none';
+    document.getElementById('Überleben').style.display = 'block';
+}
+
 function Überleben_Choice(gewählteAntwort) {
 
     if(Buttongesperrt === true){ButtonClickSound.src = '';return}
@@ -18,7 +26,14 @@ function Überleben_Choice(gewählteAntwort) {
 
     if(gewählteAntwort.getAttribute("id") === richtigeAntwort ){
         Überleben_WhatsRight();
-    }else{
+
+    }else{    
+        if(richtigeAntwort == 'Überleben_Choice2&3'){
+            document.getElementById('Überleben_Choice2').style.border = '2px solid rgb(13, 241, 13)';
+            document.getElementById('Überleben_Choice3').style.border = '2px solid rgb(13, 241, 13)';
+            document.getElementById('NächsteFrageDiv').style.display = 'flex';
+            return
+        }
         document.getElementById('Überleben_Choice1').style.border = '2px solid red';
         document.getElementById('Überleben_Choice2').style.border = '2px solid red';
         document.getElementById('Überleben_Choice3').style.border = '2px solid red';
@@ -27,7 +42,6 @@ function Überleben_Choice(gewählteAntwort) {
         ButtonClickSound.src = '';
         DamageSound.play();
 
-
         if (FalscheAntwortenÜberleben == 1){document.getElementById('ÜberlebenHerz3').style.visibility = 'hidden'}
         if (FalscheAntwortenÜberleben == 2){document.getElementById('ÜberlebenHerz2').style.visibility = 'hidden'}
         if (FalscheAntwortenÜberleben == 3){
@@ -35,16 +49,14 @@ function Überleben_Choice(gewählteAntwort) {
             document.getElementById('ÜberlebenHerz2').style.display = 'none';
             document.getElementById('ÜberlebenHerz3').style.display = 'none';
             document.getElementById('NächsteFrageDiv').style.display = 'none';
-
-            document.getElementById('TodesNachricht').style.display = 'flex';
+            document.getElementById('Überleben').style.display = 'none';
+            document.getElementById('TodesNachrichtDiv').style.display = 'flex';
+            MischeTodesNachrichten();
+            document.getElementById('TodesNachricht').innerHTML = SpielerName + ' ' + TodesNachrichtenÜberleben[0];
             document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'flex';
-            DamageSound.play();
-        
+            DamageSound.play();   
             return
-        
         }
-
-
     }
 
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
@@ -61,10 +73,7 @@ function Überleben_WhatsRight() {
     if(richtigeAntwort === 'Überleben_Choice3'){
         document.getElementById('Überleben_Choice3').style.border = '2px solid rgb(13, 241, 13)';
 }
-    if(richtigeAntwort == 'Überleben_Choice2&3'){
-        document.getElementById('Überleben_Choice2').style.border = '2px solid rgb(13, 241, 13)';
-        document.getElementById('Überleben_Choice3').style.border = '2px solid rgb(13, 241, 13)';
-    }
+
 }
 
 function NächsteRundeÜberleben() {
@@ -95,7 +104,6 @@ function NächsteRundeÜberleben() {
 }
 
 function DefiniereFragenÜberleben() {
-    //Normal
     ÜberlebenFragen[0] = 'Wer ist der berühmteste deutsche Minecraft youtuber?##BastiGHG##Stegi##Trymacs##Überleben_Choice1##';
     ÜberlebenFragen[1] = 'Wie kann man eine Endermid spawnen?##Enderperle werfen##Spawnei finden##Choruspflanzen abbauen##Überleben_Choice1##';
     ÜberlebenFragen[2] = 'Wird Fallschaden mit Honig abgedämpft?##Ja##Nein####Überleben_Choice1##JaNeinFrage';
@@ -196,8 +204,19 @@ for(i=1; i<5; i++){
 }
 }
 
+function MischeTodesNachrichten() {
+    TodesNachrichtenÜberleben = [' wurde von Skelet erschossen', 'wurde zu Tode gestochen', 'ertrank', 'erfuhr kinetische Energie', 'wurde in die Luft gesprengt', 
+                                'fiel der Schwerkraft zum Ofer','fiel aus zu großer Höhe','stürtzte von einer Leiter','',
+                            ];
+    for(i=1; i<5; i++){
+        TodesNachrichtenÜberleben.sort(function(a, b){return Math.random()-0.5;});
+    }
+}
+
 function ÜberlebenWiederbeleben() {
 
+    FalscheAntwortenÜberleben = 0;
+    RundenÜberleben = 0;
     DefiniereFragenÜberleben();
     NächsteRundeÜberleben();
 
@@ -211,10 +230,6 @@ function ÜberlebenWiederbeleben() {
     document.getElementById('ÜberlebenHerz2').style.visibility = 'visible';
     document.getElementById('ÜberlebenHerz3').style.visibility = 'visible';
 
-    FalscheAntwortenÜberleben = 0;
-    RundenÜberleben = 0;
-
-
-
+    document.getElementById('Überleben').style.display = 'block';
 
 }

@@ -9,9 +9,14 @@
 </head>
 <body>
 
-<div id="Überleben">
+<div id="SpielernameWählen">
+    <p class="SpielernameWählenText" style="color:white; margin: 0px 0 5px 0;">Spielername <br> eintragen:</p>
+    <input id="SpielernameWählenTextInput" class="SpielernameWählenTextInput" type="text"  maxlength="20"> 
+    <br>
+    <input class="SpielernameWählenButtonInput" type="submit" value=" Bestätigen " onclick="SpielernameBestätigen();">
+</div>
 
-
+<div id="Überleben" style="display: none;">
 
     <div class="ÜberlebenHeadlinediv">
         <h1 class="Überleben MinecraftDesign noHover">Überlebe so lange wie möglich</h1>
@@ -44,11 +49,10 @@
             <img class="ÜberlebenHerz" id="ÜberlebenHerz2" src="../../0Bilder/Heard without white.png" alt="">
             <img class="ÜberlebenHerz" id="ÜberlebenHerz3" src="../../0Bilder/Heard without white.png" alt="">
     </div>
-
-    <div id="TodesNachricht">
-        <p class="TodesNachricht">Tod durch ersticken</p>
+</div>
+    <div id="TodesNachrichtDiv">
+        <p id="TodesNachricht">Tod durch ersticken</p>
     </div>
-
 
     <div class="NächsteFrageDivÜberleben NächsteFrageDiv" id="NächsteFrageDiv">
         <button id="NextQuestion" class="NächsteFrageÜberleben MinecraftDesign" onclick="NächsteRundeÜberleben(); ButtonClickSound.play();">Nächste Frage</button>
@@ -59,12 +63,6 @@
         <button class="MinecraftDesign NächsteFrageÜberleben" id="ÜberlebenWiederbeleben" onclick="ÜberlebenWiederbeleben(); ButtonClickSound.play();">Wiederbeleben</button>
 
     </div>
-
-
-
-</div>
-
-
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <script src="../../index.js"></script>
 <script src="Überleben.js"></script>
