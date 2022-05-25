@@ -1,4 +1,4 @@
-var SpielerName = document.querySelector('#SpielernameWählenTextInput').value;
+var SpielerName = document.getElementById('SpielernameWählenTextInput').value;
 var punkteÜberleben = 0;
 var RundenÜberleben = 0;
 var ÜberlebenFragen = new Array;
@@ -77,6 +77,7 @@ function Überleben_WhatsRight() {
 }
 
 function NächsteRundeÜberleben() {
+//    if(RundenÜberleben == 1){document.getElementById('ÜberlebenHeadline').style.display = 'none';}
     document.getElementById('Überleben_Choice3').style.display = 'block';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
     document.getElementById("Überleben_Choice1").style.border = "2px solid rgb(173, 170, 170)";
@@ -178,11 +179,11 @@ function DefiniereFragenÜberleben() {
     ÜberlebenFragen[68] = 'Wer ist der Losteste Minecraft Spieler?##Monte##Trymacs##Angela Merkel##Überleben_Choice2';
     ÜberlebenFragen[69] = 'Was passiert mit einem Kessel, der im Regen steht##Er rostet##Er füllt sich##Nichts##Überleben_Choice2';
     //Schwer
-    ÜberlebenFragen[70] = '1. In welchem Jahr wurde Minecraft erfunden?##2009##2006##2010##Überleben_Choice1';
+    ÜberlebenFragen[70] = 'In welchem Jahr wurde Minecraft erfunden?##2009##2006##2010##Überleben_Choice1';
     ÜberlebenFragen[71] = 'Wie hoch ist die Wahrscheinlichkeit, <br> dass ein Wolf gezähmt wird, <br> wenn man ihm einen Knochen gibt?##2⁄5##1⁄5##1⁄3##Überleben_Choice3';
     ÜberlebenFragen[72] = 'Aus welchem Land kommt Minecraft?##USA##Deutschland##Schweden##Überleben_Choice3';
     ÜberlebenFragen[73] = 'Auf welcher von diesen Webseiten kann man einen kostenlosen Minecraft Server erstellen?##minecraft.server##Aternos##Nitrado##Überleben_Choice2';
-    ÜberlebenFragen[74] = 'Kann man mit einer Goldspitzhacke Gold abbauen? ?## Ja ##Nein####Überleben_Choice2JaNeinFrage';
+    ÜberlebenFragen[74] = 'Kann man mit einer Goldspitzhacke Gold abbauen? ?## Ja ##Nein####Überleben_Choice2##JaNeinFrage';
     ÜberlebenFragen[75] = 'Was ist das Maximale Lichtlevel?##7##10##15##Überleben_Choice3';
     ÜberlebenFragen[76] = 'Wie viele Arbeitsblöcke gibt es##10##13##15##Überleben_Choice2';
     ÜberlebenFragen[77] = 'Was braucht man für eine einfache Redstone-Clock?##Komperator, Redstone, Redstonefackel##Komperator, Redstone##Redstone, Verstärcker, Redstonefackel##Überleben_Choice1';
@@ -205,7 +206,7 @@ for(i=1; i<5; i++){
 }
 
 function MischeTodesNachrichten() {
-    TodesNachrichtenÜberleben = [' wurde von Skelet erschossen', 'wurde zu Tode gestochen', 'ertrank', 'erfuhr kinetische Energie', 'wurde in die Luft gesprengt', 
+    TodesNachrichtenÜberleben = ['wurde von Skelet erschossen', 'wurde zu Tode gestochen', 'ertrank', 'erfuhr kinetische Energie', 'wurde in die Luft gesprengt', 
                                 'fiel der Schwerkraft zum Ofer','fiel aus zu großer Höhe','stürtzte von einer Leiter','',
                             ];
     for(i=1; i<5; i++){
@@ -220,7 +221,7 @@ function ÜberlebenWiederbeleben() {
     DefiniereFragenÜberleben();
     NächsteRundeÜberleben();
 
-    document.getElementById('TodesNachricht').style.display = 'none';
+    document.getElementById('TodesNachrichtDiv').style.display = 'none';
     document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'none';
 
     document.getElementById('ÜberlebenHerz1').style.display = 'block';
