@@ -207,7 +207,17 @@ for(i=1; i<5; i++){
 
 function MischeTodesNachrichten() {
     TodesNachrichtenÜberleben = ['wurde von Skelet erschossen', 'wurde zu Tode gestochen', 'ertrank', 'erfuhr kinetische Energie', 'wurde in die Luft gesprengt', 
-                                'fiel der Schwerkraft zum Ofer','fiel aus zu großer Höhe','stürtzte von einer Leiter','',
+                                'fiel der Schwerkraft zum Ofer','fiel aus zu großer Höhe','stürtzte von einer Leiter','stürzte von Ranken ab','fiel aus dem Wasser',
+                                'stürzte von einem Gerüst ab','stürzte beim Klettern ab','wurde von einem Stalagmiten aufgespießt',
+                                'wurde während des Kampfes mit Enderman von einem Stalagmiten aufgespießt','wurde von einem fallenden Block zerquetscht',
+                                'wurde während des Kampfes mit Fledermaus von einem fallenden Block zerquetscht','wurde von einem fallenden Amboss zerquetscht',
+                                'wurde von einem fallenden Stalaktiten aufgespießt','ging in Flammen auf','lief ins Feuer, während er mit Hoglin kämpfte',
+                                'wurde während des Kampfes mit Creeper geröstet','flog mit einem Knall in die Luft','versuchte in Lava zu schwimmen',
+                                'wurde vom Blitz getroffen','wurde der Boden zu heiß','wurde durch Magie getötet','ist erfroren','verhungerte',
+                                'wurde lebendig begraben','wurde zerquetscht','hat sich an einem Süßbeerstrauch zu Tode gestochen','fiel aus der Welt',
+                                'verdorrte','wurde von Fledermaus erschlagen','Wurde von Johannes gestochen','wurde im Drachenatem geröstet',
+                                'starb wegen Creeper','starb wegen Skelet','starb wegen Zombie','starb wegen Enderman','wurde zum Fallen verdammt',
+                                'wurde durch verstärkte Magie getötet',
                             ];
     for(i=1; i<5; i++){
         TodesNachrichtenÜberleben.sort(function(a, b){return Math.random()-0.5;});
