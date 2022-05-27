@@ -50,9 +50,9 @@ function Überleben_Choice(gewählteAntwort) {
             document.getElementById('ÜberlebenHerz3').style.display = 'none';
             document.getElementById('NächsteFrageDiv').style.display = 'none';
             document.getElementById('Überleben').style.display = 'none';
-            document.getElementById('TodesNachrichtDiv').style.display = 'flex';
-            MischeTodesNachrichten();
+            document.getElementById('TodesNachrichtDiv').style.display = 'flex';            
             document.getElementById('TodesNachricht').innerHTML = SpielerName + ' ' + TodesNachrichtenÜberleben[0];
+            MischeTodesNachrichten();
             document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'flex';
             DamageSound.play();   
             return
