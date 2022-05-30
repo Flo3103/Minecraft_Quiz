@@ -51,7 +51,7 @@ function Überleben_Choice(gewählteAntwort) {
             document.getElementById('NächsteFrageDiv').style.display = 'none';
             document.getElementById('Überleben').style.display = 'none';
             document.getElementById('TodesNachrichtDiv').style.display = 'flex';            
-            document.getElementById('TodesNachricht').innerHTML = SpielerName + ' ' + TodesNachrichtenÜberleben[0];
+            document.getElementById('TodesNachricht').innerHTML = document.querySelector('#SpielernameWählenTextInput').value + ' ' + TodesNachrichtenÜberleben[0];
             MischeTodesNachrichten();
             document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'flex';
             DamageSound.play();   
