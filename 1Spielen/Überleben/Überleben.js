@@ -25,8 +25,7 @@ function Überleben_Choice(gewählteAntwort) {
 
 
     if(gewählteAntwort.getAttribute("id") === richtigeAntwort ){
-        Überleben_WhatsRight();
-
+        Überleben_WhatsRight();dfas
     }else{    
         if(richtigeAntwort == 'Überleben_Choice2&3'){
             document.getElementById('Überleben_Choice2').style.border = '2px solid rgb(13, 241, 13)';
@@ -50,17 +49,15 @@ function Überleben_Choice(gewählteAntwort) {
             document.getElementById('ÜberlebenHerz3').style.display = 'none';
             document.getElementById('NächsteFrageDiv').style.display = 'none';
             document.getElementById('Überleben').style.display = 'none';
-            document.getElementById('TodesNachrichtDiv').style.display = 'flex';            
+            document.getElementById('TodesNachrichtDiv').style.display = 'flex';    
+            MischeTodesNachrichten();          
             document.getElementById('TodesNachricht').innerHTML = document.querySelector('#SpielernameWählenTextInput').value + ' ' + TodesNachrichtenÜberleben[0];
-            MischeTodesNachrichten();
             document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'flex';
             DamageSound.play();   
             return
         }
     }
-
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
-
 }
 
 function Überleben_WhatsRight() {
