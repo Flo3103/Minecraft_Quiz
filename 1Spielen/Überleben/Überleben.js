@@ -13,7 +13,7 @@ DefiniereFragenÜberleben();
 NächsteRundeÜberleben();
 
 function SpielernameBestätigen() {
-    if(document.querySelector('#SpielernameWählenTextInput').value == '') {return}
+    
     document.getElementById('SpielernameWählen').style.display = 'none';
     document.getElementById('Überleben').style.display = 'block';
 }
