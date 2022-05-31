@@ -25,7 +25,7 @@ function Überleben_Choice(gewählteAntwort) {
 
 
     if(gewählteAntwort.getAttribute("id") === richtigeAntwort ){
-        Überleben_WhatsRight();dfas
+        Überleben_WhatsRight();
     }else{    
         if(richtigeAntwort == 'Überleben_Choice2&3'){
             document.getElementById('Überleben_Choice2').style.border = '2px solid rgb(13, 241, 13)';
