@@ -214,7 +214,7 @@ function MischeTodesNachrichten() {
                                 'wurde lebendig begraben','wurde zerquetscht','hat sich an einem Süßbeerstrauch zu Tode gestochen','fiel aus der Welt',
                                 'verdorrte','wurde von Fledermaus erschlagen','Wurde von Johannes gestochen','wurde im Drachenatem geröstet',
                                 'starb wegen Creeper','starb wegen Skelet','starb wegen Zombie','starb wegen Enderman','wurde zum Fallen verdammt',
-                                'wurde durch verstärkte Magie getötet',
+                                'wurde durch verstärkte Magie getötet','wurde von A-Klasse mit launchcontroll überfahren','wurde duch Wamberzwicker getötet',
                             ];
     for(i=1; i<5; i++){
         TodesNachrichtenÜberleben.sort(function(a, b){return Math.random()-0.5;});
