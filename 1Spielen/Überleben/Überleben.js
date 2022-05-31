@@ -56,7 +56,7 @@ function Überleben_Choice(gewählteAntwort) {
             DamageSound.play();   
             return
         }
-    
+    }
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
 }
 
