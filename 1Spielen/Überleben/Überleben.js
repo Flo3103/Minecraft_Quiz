@@ -26,11 +26,13 @@ function Überleben_Choice(gewählteAntwort) {
 
     if(gewählteAntwort.getAttribute("id") === richtigeAntwort ){
         Überleben_WhatsRight();
+        punkteÜberleben++;
     }else{    
         if(richtigeAntwort == 'Überleben_Choice2&3'){
             document.getElementById('Überleben_Choice2').style.border = '2px solid rgb(13, 241, 13)';
             document.getElementById('Überleben_Choice3').style.border = '2px solid rgb(13, 241, 13)';
             document.getElementById('NächsteFrageDiv').style.display = 'flex';
+            punkteÜberleben++;
             return
         }
         document.getElementById('Überleben_Choice1').style.border = '2px solid red';
@@ -241,3 +243,7 @@ function ÜberlebenWiederbeleben() {
     document.getElementById('Überleben').style.display = 'block';
 
 }
+
+function returnPunkte () {
+    return punkteÜberleben;
+   }
