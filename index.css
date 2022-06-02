@@ -62,25 +62,7 @@ button.padding{
     font-family: silkscreennormal;
 }
 
-.XpBarpointsÜberschrift{
-    color: rgb(116, 204, 28);
-    position: absolute;
-    font-size: 15px;
-    bottom: 8px;
-}
 
-.XPBar{
-    width: 80%;
-    height: 10px;
-    margin-bottom: 20px;
-}
-
-.DivXpBar{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
 /*Minecraft Design*/
 
 .MinecraftDesign{
@@ -122,143 +104,6 @@ p.StartmenüHeadline{
     font-weight: 500;
 }
 
-
-
-/*.HeadlineSchräg{
-    color: yellow;
-    transform: rotate(-40deg);
-    margin-left: 0px;
-    padding-left: 180px;
-}*/
-
-.StartButtonDiv{
-    display: block;
-    text-align: center;
-}
-
-/*Level Choice*/
-
-#LevelChoiceDiv{
-    text-align: center;
-}
-
-button.LevelChoice{
-    width: 220px;
-}
-
-/*Question Design*/
-
-
-.HeadlineDiv{
-    display: flex;
-    justify-content: center;
-    margin: 40px 20px;
-}
-
-.ChoiceDiv{
-    text-align: center;
-    display: block;
-}
-
-.Choice{
-    margin: 50px 50px;
-    padding: 40px 80px;
-    font-size: 30px;
-    color: white;
-    background-color: grey;
-}
-
-.CorrectionDiv{
-    display: none;
-    justify-content: center;
-}
-
-#correctionImg{
-    width: 60px; 
-    margin: 0 0 15px 0;
-}
-.points{
-    font-size: 17px;
-    max-width: 500px;
-    text-align: center;
-    margin: 0 0 20px 0;
-    padding: 5px 5px;
-}
-
-#lost{
-    color: white;
-    font-size: 20px;
-    display: none;
-    justify-content: center;
-    margin: 0 0 20px 0;
-}
-
-.NächsteFrageDiv{
-    justify-content: center;
-    display: none;
-}
-
-.NächsteFrage{
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-}
-
-/*#BackButtonDiv{
-    text-align: center;
-
-    margin-top: 30px;
-
-
-}
-
-#BackButton{
-    padding: 5px;
-    font-size: 17px;
-    display: inline;
-}
-
-#BackButtonReally{
-    color: white;
-    font-size: 20px;
-}
-
-div.ReallyDiv{
-    display: flex;
-    justify-content: center;
-}
-
-.ReallyMargin{
-    margin: 0 5px 30px 5px;
-}
-
-.Really{
-    font-size: 11px; 
-    height: 24px;
-}*/
-
-
-
-
-div.PointScreen{
-    text-align: center;
-    margin: 200px;
-}
-
-p.PointScreen{
-    font-size: 30px;
-    max-width: 250px;
-    color: white;
-    text-align: center;
-}   
-
-h3{
-    margin: 0px;
-}
-
-
-
-
 /*Splash Text*/
 
 
@@ -298,6 +143,153 @@ h3{
     -webkit-transform: rotate(-35deg);
     transform: rotate(-35deg);
 }
+
+/*.HeadlineSchräg{
+    color: yellow;
+    transform: rotate(-40deg);
+    margin-left: 0px;
+    padding-left: 180px;
+}*/
+
+.StartButtonDiv{
+    display: block;
+    text-align: center;
+}
+
+/*Level Choice*/
+
+#LevelChoiceDiv{
+    text-align: center;
+}
+
+button.LevelChoice{
+    width: 220px;
+}
+
+/*Question Design*/
+
+
+.HeadlineDiv{
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px 20px 20px;
+}
+
+h1#Question{
+    padding: 4px 30px;
+    width: 80%;
+    font-size: 25px;
+}
+
+#ChoiceDiv{
+    text-align: center;
+    display: block;
+}
+
+.ChoiceDiv2{
+    margin: 20px;
+}
+
+.Choice{
+    width: 240px;
+    font-size: 19px;
+    padding: 3px 0px;
+}
+
+/*.CorrectionDiv{
+    display: none;
+    justify-content: center;
+}
+
+#correctionImg{
+    width: 60px; 
+    margin: 0 0 15px 0;
+}*/
+#DivPoints{
+    display: flex;
+    justify-content: center;
+}
+#points{
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 3px;
+}
+.XpBarpointsÜberschrift{
+    color: rgb(116, 204, 28);
+    position: absolute;
+    font-size: 15px;
+    bottom: 8px;
+}
+
+.XPBar{
+    width: 80%;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.DivXpBar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+/*#lost{
+    color: white;
+    font-size: 20px;
+    display: none;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}*/
+div#ExtraText{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p#ExtraText{
+ color: white;
+ font-size: 20px;
+ padding: 0%;
+ margin: 0%;
+ width: 240px;
+}
+
+#NächsteFrageDiv{
+    justify-content: center;
+    display: flex;
+}
+/*.NächsteFrage{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+}*/
+button#NächsteFrage{
+    padding: 2px 5px;
+    font-size: 18px;
+}
+
+div#PointScreenDiv{
+    text-align: center;
+    margin: 200px;
+}
+
+p#PointScreenText{
+    width: 300px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}  
+
+h3{margin: 5px;}
+
+.PlayAgain{
+    font-size: 14px;
+    padding: 3px;
+}
+
+
 
 /*Crafting*/
 
@@ -432,29 +424,7 @@ img.Choice_Crafting{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Überlebendiv#Überleben{
-    margin-top: 50px;
-}*/
-
-
-
+/*Überleben*/
 
 div#SpielernameWählen{
     margin-top: 300px; 
@@ -517,27 +487,7 @@ h1.Überleben{
     margin-bottom: 0px;
 }
 
-.ÜberlebenChoice:active{
 
-}
-
-#Überleben_Choice2:active{
-}
-
-div.ExtraTextÜberleben{
-    display: none;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-p.ExtraTextÜberleben{
- color: white;
- font-size: 15px;
- padding: 0%;
- margin: 0%;
- width: 300px;
-}
 
 #ÜberlebenHerzenDiv{
     display: flex;

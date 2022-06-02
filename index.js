@@ -1,130 +1,30 @@
-
-var punkteFriedlich = 0;
-var punkteEinfach = 0;
-var punkteNormal = 0;
-var punkteSchwer = 0;
-var punkteHardcore = 0;
-var RightCorrection = 0;
-
-
 const ButtonClickSound = new Audio();
 ButtonClickSound.src = '../../0 Sounds/click.ogg';
 
-function Choice() {
+const DamageSound = new Audio();
+DamageSound.src = '../../0 Sounds/hit3.ogg';
 
-  document.getElementById('correctionDiv').style.display = 'flex';
-  document.getElementById('DivPoints').style.display = 'flex';
-  document.getElementById('NächsteFrageDiv').style.display = 'flex';
-  document.getElementById('Choice1').disabled = true;
-  document.getElementById('Choice2').disabled = true;
-  document.getElementById('Choice3').disabled = true;  
+XPBarDefinieren();
+function XPBarDefinieren() {
+    XPBar[0] = '../../0Bilder/Xp Bar/1.jpg';
+    XPBar[1] = '../../0Bilder/Xp Bar/2.jpg';
+    XPBar[2] = '../../0Bilder/Xp Bar/3.jpg';
+    XPBar[3] = '../../0Bilder/Xp Bar/4.jpg';
+    XPBar[4] = '../../0Bilder/Xp Bar/5.jpg';
+    XPBar[5] = '../../0Bilder/Xp Bar/6.jpg';
+    XPBar[6] = '../../0Bilder/Xp Bar/7.jpg';
+    XPBar[7] = '../../0Bilder/Xp Bar/8.jpg';
+    XPBar[8] = '../../0Bilder/Xp Bar/9.jpg';
+    XPBar[9] = '../../0Bilder/Xp Bar/10.jpg';
+    XPBar[10] = '../../0Bilder/Xp Bar/11.jpg';
+    XPBar[11] = '../../0Bilder/Xp Bar/12.jpg';
+    XPBar[12] = '../../0Bilder/Xp Bar/13.jpg';
+    XPBar[13] = '../../0Bilder/Xp Bar/14.jpg';
+    XPBar[14] = '../../0Bilder/Xp Bar/15.jpg';
+    XPBar[15] = '../../0Bilder/Xp Bar/16.jpg';
+    XPBar[16] = '../../0Bilder/Xp Bar/17.jpg';
+    XPBar[17] = '../../0Bilder/Xp Bar/18.jpg';
+    XPBar[18] = '../../0Bilder/Xp Bar/19.jpg';
+    XPBar[19] = '../../0Bilder/Xp Bar/20.jpg';
 
-
-
-} 
-
-function ChoiceRight() {
-  document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/01.png';
-  //document.getElementById('correctionImg').style.width = '100px';
-  Choice();
-  if(RightCorrection === 1){
-    document.getElementById('Choice1').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === 2){
-    document.getElementById('Choice2').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === 3){
-    document.getElementById('Choice3').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === '2&3'){
-    document.getElementById('Choice2').style.borderColor = '#2bff00'; 
-    document.getElementById('Choice3').style.borderColor = '#2bff00';
-  }  
 }
-
-function ChoiceFals() {
-  document.getElementById('correctionImg').src = '../../0Bilder/Richtig_Falsch/02.png';
-  //document.getElementById('correctionImg').style.width = '80px';
-  document.getElementById('Choice1').style.borderColor = 'red';
-  document.getElementById('Choice2').style.borderColor = 'red';
-  document.getElementById('Choice3').style.borderColor = 'red';
-
-  if(RightCorrection === 1){
-    document.getElementById('Choice1').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === 2){
-    document.getElementById('Choice2').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === 3){
-    document.getElementById('Choice3').style.borderColor = '#2bff00';
-  }
-  if(RightCorrection === '2&3'){
-    document.getElementById('Choice2').style.borderColor = '#2bff00'; 
-    document.getElementById('Choice3').style.borderColor = '#2bff00';
-  }  
-  Choice();
-}
-
-//Friedlich
-function ChoiceRightFriedlich() {
-  ChoiceRight();
-  punkteFriedlich++;
-  document.getElementById('points').innerHTML = 'Punkte:  ' + punkteFriedlich + '/20';
-}
-
-function ChoiceFalsFriedlich() {
-  ChoiceFals();
-    document.getElementById('points').innerHTML = 'Punkte:  ' + punkteFriedlich + '/20';
-} 
-
-//Einfach
-function ChoiceRightEinfach() {  
-  ChoiceRight();
-  punkteEinfach++;
-  document.getElementById('points').innerHTML = 'Punkte:  ' + punkteEinfach + '/20';
-}
-
-function ChoiceFalsEinfach() {
-  ChoiceFals();
-    document.getElementById('points').innerHTML = 'Punkte:  ' + punkteEinfach + '/20';
-} 
-
-//Normal
-function ChoiceRightNormal() {
-  ChoiceRight();
-  punkteNormal++;
-  document.getElementById('points').innerHTML = 'Punkte:  ' + punkteNormal + '/20';
-}
-
-function ChoiceFalsNormal() {
-  ChoiceFals();
-    document.getElementById('points').innerHTML = 'Punkte:  ' + punkteNormal + '/20';
-}
-
-//Schwer
-function ChoiceRightSchwer() {
-  ChoiceRight();
-  punkteSchwer++;
-  document.getElementById('points').innerHTML = 'Punkte:  ' + punkteSchwer + '/20';
-}
-
-function ChoiceFalsSchwer() {
-  ChoiceFals();
-  document.getElementById('points').innerHTML = 'Punkte:  ' + punkteSchwer + '/20';
-} 
-
-//Hardcore
-
-function ChoiceRightHardcore() {
-  ChoiceRight();
-  punkteHardcore++;
-  document.getElementById('points').innerHTML = 'Punkte:  ' + punkteHardcore + '/20';
-}
-
-function ChoiceFalsHardcore() {
-  ChoiceFals();
-    document.getElementById('points').innerHTML = 'Punkte:  ' + punkteHardcore + '/20';
-} 
-
-
-//Crafting_Rezepte

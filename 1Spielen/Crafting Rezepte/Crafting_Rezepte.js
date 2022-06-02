@@ -3,7 +3,7 @@ var punkteCrafting = 0;
 var RoundsCrafting = 0;
 var Buttongesperrt = true;
 var richtigeAntwort;
-var CraftingXPBar = new Array();
+var XPBar = new Array();
 var audio = new Audio("http://music.mp3");
 
 
@@ -19,8 +19,8 @@ function Crafting_Choice(gewählterButton) {
         CraftingWhatsRight();
         punkteCrafting++;
         
-        document.getElementById('XPBar').src = CraftingXPBar[0];
-        CraftingXPBar.shift();
+        document.getElementById('XPBar').src = XPBar[0];
+        XPBar.shift();
     }else{
         document.getElementById("Crafting_Fals1").style.display = "block"
         document.getElementById("Crafting_Fals2").style.display = "block"
@@ -65,9 +65,9 @@ function NextRoundCrafting() {
     }else{
         document.getElementById("Crafting").style.display = "none";
         document.getElementById("PointScreenDiv").style.display = "inline";
-        document.getElementById("Points").innerHTML = "Du hast Crafting mit <h3>" + punkteCrafting + "/" + '20' + "</h3> Punkten abgeschlossen";
+        document.getElementById("PointScreenText").innerHTML = "Du hast <br> Crafting mit <h3>" + punkteCrafting + "/" + '20' + "</h3> Punkten abgeschlossen";
     }
-    document.getElementById('Craftingpoints').innerHTML = ''+ punkteCrafting + '/' + '20';
+    document.getElementById('Craftingpoints').innerHTML = '' + punkteCrafting + '/' + '20';
     document.getElementById('RundenAnzahlCrafting').innerHTML = RoundsCrafting + '.';
 }
 
@@ -122,29 +122,29 @@ function CraftingWhatsRight() {
     }
 
 }
-CraftingXPBarDefinieren();
+XPBarDefinieren();
 
-function CraftingXPBarDefinieren() {
-    CraftingXPBar[0] = '../../0Bilder/Xp Bar/1.jpg';
-    CraftingXPBar[1] = '../../0Bilder/Xp Bar/2.jpg';
-    CraftingXPBar[2] = '../../0Bilder/Xp Bar/3.jpg';
-    CraftingXPBar[3] = '../../0Bilder/Xp Bar/4.jpg';
-    CraftingXPBar[4] = '../../0Bilder/Xp Bar/5.jpg';
-    CraftingXPBar[5] = '../../0Bilder/Xp Bar/6.jpg';
-    CraftingXPBar[6] = '../../0Bilder/Xp Bar/7.jpg';
-    CraftingXPBar[7] = '../../0Bilder/Xp Bar/8.jpg';
-    CraftingXPBar[8] = '../../0Bilder/Xp Bar/9.jpg';
-    CraftingXPBar[9] = '../../0Bilder/Xp Bar/10.jpg';
-    CraftingXPBar[10] = '../../0Bilder/Xp Bar/11.jpg';
-    CraftingXPBar[11] = '../../0Bilder/Xp Bar/12.jpg';
-    CraftingXPBar[12] = '../../0Bilder/Xp Bar/13.jpg';
-    CraftingXPBar[13] = '../../0Bilder/Xp Bar/14.jpg';
-    CraftingXPBar[14] = '../../0Bilder/Xp Bar/15.jpg';
-    CraftingXPBar[15] = '../../0Bilder/Xp Bar/16.jpg';
-    CraftingXPBar[16] = '../../0Bilder/Xp Bar/17.jpg';
-    CraftingXPBar[17] = '../../0Bilder/Xp Bar/18.jpg';
-    CraftingXPBar[18] = '../../0Bilder/Xp Bar/19.jpg';
-    CraftingXPBar[19] = '../../0Bilder/Xp Bar/20.jpg';
+function XPBarDefinieren() {
+    XPBar[0] = '../../0Bilder/Xp Bar/1.jpg';
+    XPBar[1] = '../../0Bilder/Xp Bar/2.jpg';
+    XPBar[2] = '../../0Bilder/Xp Bar/3.jpg';
+    XPBar[3] = '../../0Bilder/Xp Bar/4.jpg';
+    XPBar[4] = '../../0Bilder/Xp Bar/5.jpg';
+    XPBar[5] = '../../0Bilder/Xp Bar/6.jpg';
+    XPBar[6] = '../../0Bilder/Xp Bar/7.jpg';
+    XPBar[7] = '../../0Bilder/Xp Bar/8.jpg';
+    XPBar[8] = '../../0Bilder/Xp Bar/9.jpg';
+    XPBar[9] = '../../0Bilder/Xp Bar/10.jpg';
+    XPBar[10] = '../../0Bilder/Xp Bar/11.jpg';
+    XPBar[11] = '../../0Bilder/Xp Bar/12.jpg';
+    XPBar[12] = '../../0Bilder/Xp Bar/13.jpg';
+    XPBar[13] = '../../0Bilder/Xp Bar/14.jpg';
+    XPBar[14] = '../../0Bilder/Xp Bar/15.jpg';
+    XPBar[15] = '../../0Bilder/Xp Bar/16.jpg';
+    XPBar[16] = '../../0Bilder/Xp Bar/17.jpg';
+    XPBar[17] = '../../0Bilder/Xp Bar/18.jpg';
+    XPBar[18] = '../../0Bilder/Xp Bar/19.jpg';
+    XPBar[19] = '../../0Bilder/Xp Bar/20.jpg';
 
 }
 

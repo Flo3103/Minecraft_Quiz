@@ -6,8 +6,7 @@ var TodesNachrichtenÜberleben = new Array;
 var Buttongesperrt = false;
 var richtigeAntwort = '';
 var FalscheAntwortenÜberleben = 0;
-const DamageSound = new Audio();
-DamageSound.src = '../../0 Sounds/hit3.ogg'
+
 
 DefiniereFragenÜberleben();
 NächsteRundeÜberleben();
@@ -88,7 +87,7 @@ function NächsteRundeÜberleben() {
     RundenÜberleben++;
     var AktuelleFrage = ÜberlebenFragen.shift();
     var FragenAufgeteilt = AktuelleFrage.split('##');
-    document.getElementById('ÜberlebenQuestion').innerHTML = RundenÜberleben + ' ' + FragenAufgeteilt[0];
+    document.getElementById('ÜberlebenQuestion').innerHTML = RundenÜberleben + '. ' + FragenAufgeteilt[0];
     document.getElementById('Überleben_Choice1').innerHTML = FragenAufgeteilt[1];
     document.getElementById('Überleben_Choice2').innerHTML = FragenAufgeteilt[2];
     document.getElementById('Überleben_Choice3').innerHTML = FragenAufgeteilt[3];  

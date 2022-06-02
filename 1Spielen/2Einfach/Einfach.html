@@ -9,51 +9,35 @@
 </head>
 <body>
 
-    <div id="Question">
+    <div id="QuestionDiv">
         <div class="HeadlineDiv">
-            <h1 id="Headline" class="MinecraftDesign noHover" style="padding: 5px 30px;">1. Wie färbt man Schafe?</h1>
+            <h1 id="Question" class="MinecraftDesign noHover">Was ist am Leichtesten?</h1>
         </div>
-        <div class="ChoiceDiv" id="ChoiceDiv">
-    
-            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice1" onclick="RightCorrection = 3; ChoiceFalsEinfach(); ButtonClickSound.play();">Mit farbigem Wasser</button></div>
-            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice2" onclick="RightCorrection = 3; ChoiceFalsEinfach(); ButtonClickSound.play();">Mit Arbeitsblock Färber</button></div>
-            <div class="Margin20px"><button style="width: 240px;" class="MinecraftDesign" id="Choice3" onclick="RightCorrection = 3; ChoiceRightEinfach(); ButtonClickSound.play();">Mit Farbstoff</button></div>
-    
+        <div id="ChoiceDiv">    
+            <div class="ChoiceDiv2"><button class="MinecraftDesign Choice" id="Choice1" onclick="Choice(this); ButtonClickSound.play();">Körperzwicker</button></div>
+            <div class="ChoiceDiv2"><button class="MinecraftDesign Choice" id="Choice2" onclick="Choice(this); ButtonClickSound.play();">Gschdocher</button></div>
+            <div class="ChoiceDiv2"><button class="MinecraftDesign Choice" id="Choice3" onclick="Choice(this); ButtonClickSound.play();">Wamperzwischer</button></div>
         </div>
-    
-        <div class="CorrectionDiv" id="correctionDiv">
-            <img src="" id="correctionImg">
+        <div class="DivXpBar" id="DivPoints">
+            <p class="XpBarpointsÜberschrift" id="Craftingpoints"> /20</p> 
+            <img class="XPBar" id="XPBar" src="../../0Bilder/Xp Bar/0.png" alt="">
         </div>
-        
-        <div class="centerHidden" id="DivPoints">
-            <p class="points MinecraftDesign noHover" id="points"></p>
-        </div>    
-        
-        <div style="text-align: center;" id="lost">
-            <p style="text-align: center;">ajkfjasldflasdkgfasdgfadskgsdfjkl</p>
+        <div id="ExtraText">
+            <p id="ExtraText">Du bist echt lost natürlich gibt es Minecraft</p>
         </div>
-
-        <div class="NächsteFrageDiv" id="NächsteFrageDiv" style="margin: 0px;">
-            <button id="NextQuestion" class="MinecraftDesign" style="padding: 5px 10px;" onclick="NächsteFrageEinfach2()">Nächste Frage</button>
-        </div>
-
-        <!--<div id="BackButtonDiv">
-            <div style="display: none;" id="Really">
-                <p id="BackButtonReally">Level wirklich beenden<br>Spielstand wird nicht<br>gespeichert</p>
-                <div class="ReallyDiv">
-                    <div class="ReallyMargin"><button class="Really MinecraftDesign" onclick="Weiterspielen()">Weiter spielen</button></div>
-                    <div class="ReallyMargin"><a class="Really MinecraftDesign" href="../../index.html" onclick="ZumHauptmenü()">Zum Hauptmenü</a></div>
-                </div>
-            </div>
-            <p id="BackButton" class="BackButton MinecraftDesign" onclick="ZurückHauptmenü();">Zurück zum Hauptmenü</p>
-        </div>-->
-    </div>
-    <div style="display: flex; justify-content: center;">
-        <div id="PointScreenDiv" class="PointScreen" style="display: none;">
-            <p class="PointScreen" id="Points">Du hast Einfach mit n von 20 Punkten abgeschlossen</p>
-            <p class="NewHighscore PointScreen" id="NewHighscore"></p>
+        <div id="NächsteFrageDiv">
+            <button id="NächsteFrage" class="MinecraftDesign" onclick="NächsteFrage(); ButtonClickSound.play();">Nächste Frage</button>
         </div>
     </div>
+
+    <div class="Flex_Center">
+        <div id="PointScreenDiv">
+            <p id="PointScreenText">Du hast T.R. mit 20 Punkten abgeschlossen</p>
+            <!--<p class="NewHighscore PointScreen" id="NewHighscore"></p>-->
+            <button class="PlayAgain MinecraftDesign" onclick="PlayAgain();">Nochmal Spielen</button>
+        </div>
+    </div>
+    
 <script src="../../index.js"></script>
 <script src="Einfach.js"></script>
 
