@@ -178,7 +178,7 @@ button.LevelChoice{
 h1#Question{
     padding: 4px 30px;
     width: 80%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #ChoiceDiv{
@@ -187,7 +187,7 @@ h1#Question{
 }
 
 .ChoiceDiv2{
-    margin: 20px;
+    margin: 22px;
 }
 
 .Choice{
