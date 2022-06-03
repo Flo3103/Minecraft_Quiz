@@ -23,7 +23,7 @@ function Überleben_Choice(gewählteAntwort) {
     Buttongesperrt = true;
 
 
-    if(gewählteAntwort.getAttribute("id") === richtigeAntwort ){
+    if(gewählteAntwort.getAttribute("id") == richtigeAntwort ){
         Überleben_WhatsRight();
         punkteÜberleben++;
     }else{    
@@ -54,7 +54,6 @@ function Überleben_Choice(gewählteAntwort) {
             MischeTodesNachrichten();          
             document.getElementById('TodesNachricht').innerHTML = document.querySelector('#SpielernameWählenTextInput').value + ' ' + TodesNachrichtenÜberleben[0];
             document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'flex';
-            DamageSound.play();   
             return
         }
     }

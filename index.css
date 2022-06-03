@@ -177,7 +177,7 @@ button.LevelChoice{
 
 h1#Question{
     padding: 4px 30px;
-    width: 80%;
+    width: 84%;
     font-size: 20px;
 }
 
@@ -223,7 +223,7 @@ h1#Question{
 }
 
 .XPBar{
-    width: 80%;
+    width: 85%;
     height: 10px;
     margin-bottom: 20px;
 }

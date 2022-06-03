@@ -22,27 +22,26 @@ function Crafting_Choice(gewählterButton) {
         document.getElementById('XPBar').src = XPBar[0];
         XPBar.shift();
     }else{
-        document.getElementById("Crafting_Fals1").style.display = "block"
-        document.getElementById("Crafting_Fals2").style.display = "block"
-        document.getElementById("Crafting_Fals3").style.display = "block"
+        ButtonClickSound.src = '';
+        DamageSound.play();
+        document.getElementById("Crafting_Fals1").style.display = "block";
+        document.getElementById("Crafting_Fals2").style.display = "block";
+        document.getElementById("Crafting_Fals3").style.display = "block";
         document.getElementById("Crafting_Choice1").style.border = "3px solid red";
         document.getElementById("Crafting_Choice2").style.border = "3px solid red";
         document.getElementById("Crafting_Choice3").style.border = "3px solid red";
         CraftingWhatsRight();
     }
-    audio.oncanplaythrough = function(){
-        audio.play();
-        }
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
     document.getElementById('Craftingpoints').innerHTML = ''+ punkteCrafting + '/' + '20';
-
 }
 
 function NextRoundCrafting() {
+    ButtonClickSound.src = '../../0 Sounds/click.ogg';
     document.getElementById('NächsteFrageDiv').style.display = 'none';
-    document.getElementById("Crafting_Fals1").style.display = "none"
-    document.getElementById("Crafting_Fals2").style.display = "none"
-    document.getElementById("Crafting_Fals3").style.display = "none"
+    document.getElementById("Crafting_Fals1").style.display = "none";
+    document.getElementById("Crafting_Fals2").style.display = "none";
+    document.getElementById("Crafting_Fals3").style.display = "none";
     document.getElementById("Crafting_Right1").style.display = "none";
     document.getElementById("Crafting_Right2").style.display = "none";
     document.getElementById("Crafting_Right3").style.display = "none";
@@ -155,25 +154,6 @@ function InfoCraftingResult() {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //Rezepte[0] = 'https://docs.google.com/uc?export=&id=1Zv7Yz52WT2TaZaQdClTAZpvWKsTAu4zE##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##https://docs.google.com/uc?export=&id=1ZrnQhXCsAezlhgq_iDSKhfOnE4lLPC3h##https://docs.google.com/uc?export=&id=1Zmy8Nnm0r9loz8mOlB-FlVTto48enkbo##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##Choice_Crafting1';
 //Rezepte[1] = 'https://docs.google.com/uc?export=&id=1MJLkJhnBwSpHaLxS83e7j0GxWTphkeMV##https://docs.google.com/uc?export=&id=1MI91wPjPnPS1O-07I0Gaup3OKaXOtAqc##https://docs.google.com/uc?export=&id=1T_qT8dPVTBHVQz17uXcgYTQI_OzWsSF1##https://docs.google.com/uc?export=&id=1MccuwOinsYsTBSozEUJPGytlITaxf1ZG##https://docs.google.com/uc?export=&id=1MccuwOinsYsTBSozEUJPGytlITaxf1ZG##Choice_Crafting3';
