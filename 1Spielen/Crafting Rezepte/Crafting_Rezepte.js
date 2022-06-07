@@ -1,12 +1,12 @@
 var Rezepte = new Array();
-var punkteCrafting = 0;
-var RoundsCrafting = 0;
+var CraftingPunkte = 0;
+var CraftingRunden = 0;
 var Buttongesperrt = true;
 var richtigeAntwort;
-var XPBar = new Array();
-var audio = new Audio("http://music.mp3");
 
-
+function returnPunkteCrafting() {
+    return CraftingPunkte
+}
 
 DefiniereRezepte();
 NextRoundCrafting();
@@ -17,10 +17,9 @@ function Crafting_Choice(gewählterButton) {
 
     if(gewählterButton.getAttribute("id") === richtigeAntwort) {
         CraftingWhatsRight();
-        punkteCrafting++;
+        CraftingPunkte++;
         
-        document.getElementById('XPBar').src = XPBar[0];
-        XPBar.shift();
+        document.getElementById('XPBar').src = XPBar[CraftingPunkte];
     }else{
         ButtonClickSound.src = '';
         DamageSound.play();
@@ -33,7 +32,7 @@ function Crafting_Choice(gewählterButton) {
         CraftingWhatsRight();
     }
     document.getElementById('NächsteFrageDiv').style.display = 'flex';
-    document.getElementById('Craftingpoints').innerHTML = ''+ punkteCrafting + '/' + '20';
+    document.getElementById('Craftingpoints').innerHTML = ''+ CraftingPunkte + '/' + '20';
 }
 
 function NextRoundCrafting() {
@@ -49,9 +48,9 @@ function NextRoundCrafting() {
     document.getElementById("Crafting_Choice2").style.border = "2px solid black";
     document.getElementById("Crafting_Choice3").style.border = "2px solid black";
     document.getElementById('Crafting').style.display = 'inline';
-    if(RoundsCrafting < 20){
+    if(CraftingRunden < 20){
         Buttongesperrt = false;
-        RoundsCrafting++;
+        CraftingRunden++;
         var AktuellesRezept = Rezepte.shift();
         var RezeptGesplittet = AktuellesRezept.split('##');
         document.getElementById('Crafting_Result').src = RezeptGesplittet[0];
@@ -60,14 +59,26 @@ function NextRoundCrafting() {
         document.getElementById('Choice_Crafting3').src = RezeptGesplittet[3];
         document.getElementById('Crafting_Correction').src = RezeptGesplittet[4];
         richtigeAntwort = RezeptGesplittet[5];
-        Rezepte.push(1);   
     }else{
         document.getElementById("Crafting").style.display = "none";
-        document.getElementById("PointScreenDiv").style.display = "inline";
-        document.getElementById("PointScreenText").innerHTML = "Du hast <br> Crafting mit <h3>" + punkteCrafting + "/" + '20' + "</h3> Punkten abgeschlossen";
+        document.getElementById("PointScreen").style.display = "flex";
+        document.getElementById("PointScreenText").innerHTML = "Du hast <br> Crafting mit <h3>" + CraftingPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
     }
-    document.getElementById('Craftingpoints').innerHTML = '' + punkteCrafting + '/' + '20';
-    document.getElementById('RundenAnzahlCrafting').innerHTML = RoundsCrafting + '.';
+    document.getElementById('Craftingpoints').innerHTML = '' + CraftingPunkte + '/' + '20';
+    document.getElementById('RundenAnzahlCrafting').innerHTML = CraftingRunden + '.';
+}
+
+function PlayAgain() {
+    CraftingPunkte = 0;
+    CraftingRunden = 0;
+
+    document.getElementById('XPBar').src = XPBar[0];
+    
+    DefiniereRezepte();
+    NextRoundCrafting();
+
+    document.getElementById("Crafting").style.display = "inline";
+    document.getElementById("PointScreen").style.display = "none";
 }
 
 function DefiniereRezepte() {
@@ -97,7 +108,6 @@ function DefiniereRezepte() {
     Rezepte[23] = '../../0Bilder/Crafting_Rezepte/24/0.png##../../0Bilder/Crafting_Rezepte/24/2.png##../../0Bilder/Crafting_Rezepte/24/3.png##../../0Bilder/Crafting_Rezepte/24/1.png##../../0Bilder/Crafting_Rezepte/24/1.png##Choice_Crafting3';
     Rezepte[24] = '../../0Bilder/Crafting_Rezepte/25/0.png##../../0Bilder/Crafting_Rezepte/25/1.png##../../0Bilder/Crafting_Rezepte/25/2.png##../../0Bilder/Crafting_Rezepte/25/3.png##../../0Bilder/Crafting_Rezepte/25/1.png##Choice_Crafting1';
     Rezepte[25] = '../../0Bilder/Crafting_Rezepte/26/0.png##../../0Bilder/Crafting_Rezepte/26/3.png##../../0Bilder/Crafting_Rezepte/26/1.png##../../0Bilder/Crafting_Rezepte/26/2.png##../../0Bilder/Crafting_Rezepte/26/1.png##Choice_Crafting2';
-
 for(i=1; i<5; i++){
 		Rezepte.sort(function(a, b){return Math.random()-0.5;});
 	}
@@ -119,40 +129,10 @@ function CraftingWhatsRight() {
         document.getElementById("Crafting_Choice3").style.border = "3px solid green";
         document.getElementById("Crafting_Fals3").style.display = "none";
     }
-
-}
-XPBarDefinieren();
-
-function XPBarDefinieren() {
-    XPBar[0] = '../../0Bilder/Xp Bar/1.jpg';
-    XPBar[1] = '../../0Bilder/Xp Bar/2.jpg';
-    XPBar[2] = '../../0Bilder/Xp Bar/3.jpg';
-    XPBar[3] = '../../0Bilder/Xp Bar/4.jpg';
-    XPBar[4] = '../../0Bilder/Xp Bar/5.jpg';
-    XPBar[5] = '../../0Bilder/Xp Bar/6.jpg';
-    XPBar[6] = '../../0Bilder/Xp Bar/7.jpg';
-    XPBar[7] = '../../0Bilder/Xp Bar/8.jpg';
-    XPBar[8] = '../../0Bilder/Xp Bar/9.jpg';
-    XPBar[9] = '../../0Bilder/Xp Bar/10.jpg';
-    XPBar[10] = '../../0Bilder/Xp Bar/11.jpg';
-    XPBar[11] = '../../0Bilder/Xp Bar/12.jpg';
-    XPBar[12] = '../../0Bilder/Xp Bar/13.jpg';
-    XPBar[13] = '../../0Bilder/Xp Bar/14.jpg';
-    XPBar[14] = '../../0Bilder/Xp Bar/15.jpg';
-    XPBar[15] = '../../0Bilder/Xp Bar/16.jpg';
-    XPBar[16] = '../../0Bilder/Xp Bar/17.jpg';
-    XPBar[17] = '../../0Bilder/Xp Bar/18.jpg';
-    XPBar[18] = '../../0Bilder/Xp Bar/19.jpg';
-    XPBar[19] = '../../0Bilder/Xp Bar/20.jpg';
-
 }
 
 function InfoCraftingResult() {
-
     document.getElementById('InfoCraftingResult').style.display = 'inline';
-
-
-
 }
 
 //Rezepte[0] = 'https://docs.google.com/uc?export=&id=1Zv7Yz52WT2TaZaQdClTAZpvWKsTAu4zE##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##https://docs.google.com/uc?export=&id=1ZrnQhXCsAezlhgq_iDSKhfOnE4lLPC3h##https://docs.google.com/uc?export=&id=1Zmy8Nnm0r9loz8mOlB-FlVTto48enkbo##https://docs.google.com/uc?export=&id=1ZuI8NwUsr3blWj8fhmRrJqWJpLPVfQoj##Choice_Crafting1';

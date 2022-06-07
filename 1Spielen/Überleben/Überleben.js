@@ -8,6 +8,9 @@ var richtigeAntwort = '';
 var FalscheAntwortenÜberleben = 0;
 
 
+function returnPunkteÜberleben () {
+    return punkteÜberleben;
+}
 DefiniereFragenÜberleben();
 NächsteRundeÜberleben();
 
@@ -22,7 +25,6 @@ function Überleben_Choice(gewählteAntwort) {
     if(Buttongesperrt === true){ButtonClickSound.src = '';return}
     Buttongesperrt = true;
 
-
     if(gewählteAntwort.getAttribute("id") == richtigeAntwort ){
         Überleben_WhatsRight();
         punkteÜberleben++;
@@ -30,7 +32,6 @@ function Überleben_Choice(gewählteAntwort) {
         if(richtigeAntwort == 'Überleben_Choice2&3'){
             document.getElementById('Überleben_Choice2').style.border = '2px solid rgb(13, 241, 13)';
             document.getElementById('Überleben_Choice3').style.border = '2px solid rgb(13, 241, 13)';
-            document.getElementById('NächsteFrageDiv').style.display = 'flex';
             punkteÜberleben++;
             return
         }
@@ -102,6 +103,7 @@ function NächsteRundeÜberleben() {
 }
 
 function DefiniereFragenÜberleben() {
+    //Normal
     ÜberlebenFragen[0] = 'Wer ist der berühmteste deutsche Minecraft youtuber?##BastiGHG##Stegi##Trymacs##Überleben_Choice1##';
     ÜberlebenFragen[1] = 'Wie kann man eine Endermid spawnen?##Enderperle werfen##Spawnei finden##Choruspflanzen abbauen##Überleben_Choice1##';
     ÜberlebenFragen[2] = 'Wird Fallschaden mit Honig abgedämpft?##Ja##Nein####Überleben_Choice1##JaNeinFrage';
@@ -122,7 +124,7 @@ function DefiniereFragenÜberleben() {
     ÜberlebenFragen[17] = 'Kann man mithilfe von Lava ein Netherportal anzünden?##Ja##Nein## ##Überleben_Choice1##JaNeinFrage';
     ÜberlebenFragen[18] = 'Was ist die aktuelle Maximale und Minimale Bauhöhe?##0/256##-64/320##0/356##Überleben_Choice2##';
     ÜberlebenFragen[19] = 'Braucht man um auf einem Skeletpferd zu reiten einen Sattel?##Ja##Nein##Was ist das##Überleben_Choice1##';
-    //Hardcore bis zu Frage 10
+    //Hardcore
     ÜberlebenFragen[20] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Erwachsenes pinkes Schaf spawnt?##1,598%##0,164%##0,361%##Überleben_Choice2';
     ÜberlebenFragen[21] = 'Wie hoch ist die Wahrscheinlichkeit, dass man, mit einer unverzauberten Angel, ein verzaubertes Buch angelt?##0,8%##1,5%##0,1%##Überleben_Choice1';
     ÜberlebenFragen[22] = 'Wie lange braucht man um Obsidian mit der Hand abzubauen?##200s##250s##300s##Überleben_Choice2';
@@ -133,6 +135,17 @@ function DefiniereFragenÜberleben() {
     ÜberlebenFragen[27] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Endportal 12 Enderaugen enthält?##0,0000000001%##0,00000001%##0,0000000000001%##Überleben_Choice1';
     ÜberlebenFragen[28] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Zombie mit Diamant Helm spawnt?##1,02%##0,006%##0,13%##Überleben_Choice2';
     ÜberlebenFragen[29] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Fuchs mit einem Emerald in seinem Mund spawnt?##20%##3%##5%##Überleben_Choice3';
+    //ÜberlebenFragen[] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Zombie einen Eisenbaren droppt?##1,21%##3%##0,83%##Überleben_Choice3##';
+    //ÜberlebenFragen[] = 'Wie hoch ist die Wahrscheinlichkeit, dass Blätter einen Apfel droppen?##0,5%##1%##5%##Überleben_Choice1##';
+    //ÜberlebenFragen[] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Zombie mit einer Waffe spawnt?##10%##1%##3%##Überleben_Choice2';
+    //ÜberlebenFragen[] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Zombie, in einem Huhn freiem Bereich, auf einem Huhn spawnt?##1%##0,01%##0,25%##Überleben_Choice3##';
+    //ÜberlebenFragen[] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Bienennest an einem Birkenbaum, in einem Birkenwald, generiert?##5%##1,2%##0,2%##Überleben_Choice3';
+    //ÜberlebenFragen[] = 'Wie hoch ist die Wahrscheinlichkeit, dass am 31 October ein Zombifizierter Piglin mit einer Kürbislaterne spawnt?##2,5%#10%##31%##Überleben_Choice1';
+    //ÜberlebenFragen[] = 'Wie Wahrscheinlich ist es das ein braunes Baby Schaf spawnt?##0,15%##0,75%##0,05%##Überleben_Choice1';
+    //ÜberlebenFragen[] = 'Zu welcher Warscheinlichkeit kann ein Zombifizierter Piglin, jeden Tick auf einem Netherportal Block spawnen?##0,5%##0,05%##5%##Überleben_Choice2';
+    //ÜberlebenFragen[] = 'Wie hoch ist die Wahrscheinlichkeit, während einem Tick, dass ein Blitz irgendwo in einem Chunk einschlägt?##0,0001%##0,001%##0,003%##Überleben_Choice2##';
+    //ÜberlebenFragen[] = 'Wie hoch ist die Wahrscheinlichkeit, dass sich eine Eisen, Gold und Diamant Pferderüstung in einer Kiste, im Stonghold befinden?##0,001563%##0,00175%##0,00077%##Überleben_Choice1';
+    
     //Friedlich
     ÜberlebenFragen[30] = 'Was baut man als aller erstes ab, wenn man eine neue Minecraftwelt erstellt?##Holz##Stein##Eisen##Überleben_Choice1';
     ÜberlebenFragen[31] = 'Was macht man in seiner aller ersten Minecraft Nacht?##Enderdrachen töten##Ängstlich Einbauen##Jedes Monster Töten##Überleben_Choice2';
@@ -241,7 +254,3 @@ function ÜberlebenWiederbeleben() {
     document.getElementById('Überleben').style.display = 'block';
 
 }
-
-function returnPunkte () {
-    return punkteÜberleben;
-   }

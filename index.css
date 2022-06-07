@@ -269,6 +269,10 @@ button#NächsteFrage{
     font-size: 18px;
 }
 
+#PointScreen{
+    display: none;
+}
+
 div#PointScreenDiv{
     text-align: center;
     margin: 200px;
