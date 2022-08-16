@@ -1,4 +1,4 @@
-var SpielerName = document.getElementById('SpielernameWählenTextInput').value;
+var SpielerName = "Steve";
 var punkteÜberleben = 0;
 var RundenÜberleben = 0;
 var ÜberlebenFragen = new Array;
@@ -14,11 +14,18 @@ function returnPunkteÜberleben () {
 DefiniereFragenÜberleben();
 NächsteRundeÜberleben();
 
-function SpielernameBestätigen() {
-    
-    document.getElementById('SpielernameWählen').style.display = 'none';
+	// Lese URL Parameter
+    const urlParms = new URLSearchParams(window.location.search);
+	
+	// Wenn URL Parameter vorhanden Speilername = URL Parameter 
+	// Wenn Parameter nicht vorhanden Name bleibt Steve
+    if(urlParms.get('name') != null){
+	    // Hole den Parameter: "name"
+        SpielerName = urlParms.get('name');
+    }
+	// Zeige Spiel
     document.getElementById('Überleben').style.display = 'block';
-}
+
 
 function Überleben_Choice(gewählteAntwort) {
 
@@ -53,7 +60,7 @@ function Überleben_Choice(gewählteAntwort) {
             document.getElementById('Überleben').style.display = 'none';
             document.getElementById('TodesNachrichtDiv').style.display = 'flex';    
             MischeTodesNachrichten();          
-            document.getElementById('TodesNachricht').innerHTML = document.querySelector('#SpielernameWählenTextInput').value + ' ' + TodesNachrichtenÜberleben[0];
+            document.getElementById('TodesNachricht').innerHTML = SpielerName + ' ' + TodesNachrichtenÜberleben[0];
             document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'flex';
             return
         }
