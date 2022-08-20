@@ -1,3 +1,4 @@
+
 var FragenNormal = new Array;
 var NormalRunden = 0;
 var NormalPunkte = 0;
@@ -60,7 +61,7 @@ function NächsteFrage() {
     }else{
         document.getElementById("QuestionDiv").style.display = "none";
         document.getElementById("PointScreen").style.display = "flex";
-        document.getElementById("PointScreenText").innerHTML = "Du hast <br> Normal mit <h3>" + NormalPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
+        document.getElementById("PointScreenText").innerHTML = SpielerName + " hat <br> Normal mit <h3>" + NormalPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
     }
     document.getElementById('Points').innerHTML = '' + NormalPunkte + '/' + '20';
 }

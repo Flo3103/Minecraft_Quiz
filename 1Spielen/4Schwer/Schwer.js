@@ -60,7 +60,7 @@ function NächsteFrage() {
     }else{
         document.getElementById("QuestionDiv").style.display = "none";
         document.getElementById("PointScreen").style.display = "flex";
-        document.getElementById("PointScreenText").innerHTML = "Du hast <br> Schwer mit <h3>" + SchwerPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
+        document.getElementById("PointScreenText").innerHTML = SpielerName + " hat <br> Schwer mit <h3>" + SchwerPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
     }
     document.getElementById('Points').innerHTML = '' + SchwerPunkte + '/' + '20';
 }

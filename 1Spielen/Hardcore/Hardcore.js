@@ -60,7 +60,7 @@ function NächsteFrage() {
     }else{
         document.getElementById("QuestionDiv").style.display = "none";
         document.getElementById("PointScreen").style.display = "flex";
-        document.getElementById("PointScreenText").innerHTML = "Du hast <br> Schwer mit <h3>" + SchwerPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
+        document.getElementById("PointScreenText").innerHTML = SpielerName + " hat <br> Schwer mit <h3>" + SchwerPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
     }
     document.getElementById('Points').innerHTML = '' + SchwerPunkte + '/' + '20';
 }
@@ -94,7 +94,7 @@ function DefiniereFragen() {
     FragenSchwer[12] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Zombie mit einer Waffe spawnt?##10%##1%##3%##Choice2';
     FragenSchwer[13] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Zombie, in einem Huhn freiem Bereich, auf einem Huhn spawnt?##1%##0,01%##0,25%##Choice3##';
     FragenSchwer[14] = 'Wie hoch ist die Wahrscheinlichkeit, dass ein Bienennest an einem Birkenbaum, in einem Birkenwald, generiert?##5%##1,2%##0,2%##Choice3';
-    FragenSchwer[15] = 'Wie hoch ist die Wahrscheinlichkeit, dass am 31 October ein Zombifizierter Piglin mit einer Kürbislaterne spawnt?##2,5%#10%##31%##Choice1';
+    FragenSchwer[15] = 'Wie hoch ist die Wahrscheinlichkeit, dass am 31 October ein Zombifizierter Piglin mit einer Kürbislaterne spawnt?##2,5%##10%##31%##Choice1';
     FragenSchwer[16] = 'Wie Wahrscheinlich ist es das ein braunes Baby Schaf spawnt?##0,15%##0,75%##0,05%##Choice1';
     FragenSchwer[17] = 'Zu welcher Warscheinlichkeit kann ein Zombifizierter Piglin, jeden Tick auf einem Netherportal Block spawnen?##0,5%##0,05%##5%##Choice2';
     FragenSchwer[18] = 'Wie hoch ist die Wahrscheinlichkeit, während einem Tick, dass ein Blitz irgendwo in einem Chunk einschlägt?##0,0001%##0,001%##0,003%##Choice2##';

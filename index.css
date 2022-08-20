@@ -428,7 +428,15 @@ img.Choice_Crafting{
 
 
 
+
+
+
+
+
+
+
 /*Überleben*/
+
 
 div#SpielernameWählen{
     margin-top: 300px; 
@@ -466,7 +474,7 @@ h1.Überleben{
 }
 
 #ÜberlebenQuestion{
-    width: 300px;
+    width: 330px;
     padding: 3px 0px;
 }
 

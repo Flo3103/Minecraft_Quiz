@@ -1,9 +1,12 @@
 var XPBar = new Array();
+var SpielerName = "Steve";
 
 const ButtonClickSound = new Audio();
 ButtonClickSound.src = '../../0 Sounds/click.ogg';
 const DamageSound = new Audio();
 DamageSound.src = '../../0 Sounds/hit3.ogg';
+
+
 
 
 XPBarDefinieren();
@@ -30,4 +33,14 @@ function XPBarDefinieren() {
     XPBar[18] = '../../0Bilder/Xp Bar/18.jpg';
     XPBar[19] = '../../0Bilder/Xp Bar/19.jpg';
     XPBar[20] = '../../0Bilder/Xp Bar/20.jpg';
-}
+}	
+
+var PlayerName = "Steve"; 					// Setzt Spielername Standartmäßig auf Steve
+
+const urlParms = new URLSearchParams(window.location.search);	// Holt URLParameter aus der URL		
+
+if(urlParms.get('name') != null){				// Überprüft ob ein URL Paramter vorhanden ist (wenn kein Wert eingegeben wurde ist der const URLParms NULL)
+    name = urlParms.get('name');				// Wenn ein Wert mit dem Key Name eingegeben wurde wird die Variable PlayerName mit dem Wert überschrieben
+}else{	
+    PlayerName = prompt("Gieb deinen Namen ein");		// Wenn der kein Wert vorhanden ist öffne ein Prompt Alert um PlayerName zu bekommen
+}    

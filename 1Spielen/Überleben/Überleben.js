@@ -1,4 +1,3 @@
-var SpielerName = "Steve";
 var punkteÜberleben = 0;
 var RundenÜberleben = 0;
 var ÜberlebenFragen = new Array;
@@ -14,17 +13,7 @@ function returnPunkteÜberleben () {
 DefiniereFragenÜberleben();
 NächsteRundeÜberleben();
 
-	// Lese URL Parameter
-    const urlParms = new URLSearchParams(window.location.search);
-	
-	// Wenn URL Parameter vorhanden Speilername = URL Parameter 
-	// Wenn Parameter nicht vorhanden Name bleibt Steve
-    if(urlParms.get('name') != null){
-	    // Hole den Parameter: "name"
-        SpielerName = urlParms.get('name');
-    }
-	// Zeige Spiel
-    document.getElementById('Überleben').style.display = 'block';
+
 
 
 function Überleben_Choice(gewählteAntwort) {
