@@ -17,6 +17,8 @@ NächsteRundeÜberleben();
 
 
 function Überleben_Choice(gewählteAntwort) {
+    
+    document.getElementById('NächsteFrageDiv').style.display = 'flex';
 
     if(Buttongesperrt === true){ButtonClickSound.src = '';return}
     Buttongesperrt = true;
@@ -24,10 +26,13 @@ function Überleben_Choice(gewählteAntwort) {
     if(gewählteAntwort.getAttribute("id") == richtigeAntwort ){
         Überleben_WhatsRight();
         punkteÜberleben++;
-    }else{    
+    }else{              
+        ButtonClickSound.src = '';
+        DamageSound.play();  
         if(richtigeAntwort == 'Überleben_Choice2&3'){
             document.getElementById('Überleben_Choice2').style.border = '2px solid rgb(13, 241, 13)';
             document.getElementById('Überleben_Choice3').style.border = '2px solid rgb(13, 241, 13)';
+            document.getElementById('NächsteFrageDiv').style.display = 'flex';
             punkteÜberleben++;
             return
         }
@@ -36,8 +41,7 @@ function Überleben_Choice(gewählteAntwort) {
         document.getElementById('Überleben_Choice3').style.border = '2px solid red';
         Überleben_WhatsRight();
         FalscheAntwortenÜberleben++;
-        ButtonClickSound.src = '';
-        DamageSound.play();
+
 
         if (FalscheAntwortenÜberleben == 1){document.getElementById('ÜberlebenHerz3').style.visibility = 'hidden'}
         if (FalscheAntwortenÜberleben == 2){document.getElementById('ÜberlebenHerz2').style.visibility = 'hidden'}
@@ -54,7 +58,7 @@ function Überleben_Choice(gewählteAntwort) {
             return
         }
     }
-    document.getElementById('NächsteFrageDiv').style.display = 'flex';
+
 }
 
 function Überleben_WhatsRight() {

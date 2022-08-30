@@ -15,6 +15,9 @@ NächsteFrage();
 
 
 function Choice(gewählteAntwort) {    
+    
+    document.getElementById('NächsteFrageDiv').style.display = 'flex';
+    document.getElementById('Points').innerHTML = '' + EinfachPunkte + '/' + '20';
 
     if(Buttongesperrt == true){ButtonClickSound.src = ''; return}
     Buttongesperrt = true;
@@ -32,15 +35,14 @@ function Choice(gewählteAntwort) {
             document.getElementById('Choice3').style.border = '2px solid rgb(13, 241, 13)';
             document.getElementById('NächsteFrageDiv').style.display = 'flex';
             document.getElementById('Points').innerHTML = '' + EinfachPunkte + '/' + '20';
-            return0
+            return
         }
         document.getElementById('Choice1').style.borderColor = 'red';
         document.getElementById('Choice2').style.borderColor = 'red';
         document.getElementById('Choice3').style.borderColor = 'red';
         WhatsRight();
       }   
-    document.getElementById('NächsteFrageDiv').style.display = 'flex';
-    document.getElementById('Points').innerHTML = '' + EinfachPunkte + '/' + '20';
+
 }
 
 function NächsteFrage() {

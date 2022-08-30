@@ -13,6 +13,10 @@ DefiniereFragen();
 NächsteFrage();
 
 function Choice(gewählteAntwort) {
+
+    document.getElementById('NächsteFrageDiv').style.display = 'flex';
+    document.getElementById('Points').innerHTML = '' + NormalPunkte + '/' + '20';
+
     if(Buttongesperrt == true){ButtonClickSound.src = ''; return}
     Buttongesperrt = true;
     
@@ -24,6 +28,8 @@ function Choice(gewählteAntwort) {
         ButtonClickSound.src = '';
         DamageSound.play();
         if(richtigeAntwort == 'Choice2&3'){
+            document.getElementById('NächsteFrageDiv').style.display = 'flex';
+            document.getElementById('Points').innerHTML = '' + NormalPunkte + '/' + '20';
             NormalPunkte++;
             document.getElementById('Choice2').style.border = '2px solid rgb(13, 241, 13)';
             document.getElementById('Choice3').style.border = '2px solid rgb(13, 241, 13)';
@@ -34,8 +40,6 @@ function Choice(gewählteAntwort) {
         document.getElementById('Choice3').style.borderColor = 'red';
         WhatsRight();
       }   
-    document.getElementById('NächsteFrageDiv').style.display = 'flex';
-    document.getElementById('Points').innerHTML = '' + NormalPunkte + '/' + '20';
 }
 
 function NächsteFrage() {

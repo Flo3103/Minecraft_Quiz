@@ -11,7 +11,11 @@ function returnPunkteSchwer() {
 DefiniereFragen();
 NächsteFrage();
 
-function Choice(gewählteAntwort) {
+function Choice(gewählteAntwort) {    
+    
+    document.getElementById('NächsteFrageDiv').style.display = 'flex';
+    document.getElementById('Points').innerHTML = '' + SchwerPunkte + '/' + '20';
+    
     if(Buttongesperrt == true){ButtonClickSound.src = ''; return}
     Buttongesperrt = true;
     
@@ -33,8 +37,7 @@ function Choice(gewählteAntwort) {
         document.getElementById('Choice3').style.borderColor = 'red';
         WhatsRight();
       }   
-    document.getElementById('NächsteFrageDiv').style.display = 'flex';
-    document.getElementById('Points').innerHTML = '' + SchwerPunkte + '/' + '20';
+
 }
 
 function NächsteFrage() {
