@@ -62,7 +62,7 @@ function NextRoundCrafting() {
     }else{
         document.getElementById("Crafting").style.display = "none";
         document.getElementById("PointScreen").style.display = "flex";
-        document.getElementById("PointScreenText").innerHTML = SpielerName + " hat <br> Crafting mit <h3>" + CraftingPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
+        document.getElementById("PointScreenText").innerHTML = PlayerName + " hat <br> Crafting mit <h3>" + CraftingPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
     }
     document.getElementById('Craftingpoints').innerHTML = '' + CraftingPunkte + '/' + '20';
     document.getElementById('RundenAnzahlCrafting').innerHTML = CraftingRunden + '.';

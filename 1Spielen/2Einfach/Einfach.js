@@ -66,7 +66,7 @@ function NächsteFrage() {
     }else{
         document.getElementById("QuestionDiv").style.display = "none";
         document.getElementById("PointScreen").style.display = "flex";
-        document.getElementById("PointScreenText").innerHTML = SpielerName + " hat <br> Einfach mit <h3>" + EinfachPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
+        document.getElementById("PointScreenText").innerHTML = PlayerName + " hat <br> Einfach mit <h3>" + EinfachPunkte + "/" + '20' + "</h3> Punkten abgeschlossen";
     }
     document.getElementById('Points').innerHTML = '' + EinfachPunkte + '/' + '20';
 }

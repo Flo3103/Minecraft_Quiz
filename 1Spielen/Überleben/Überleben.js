@@ -49,7 +49,7 @@ function Überleben_Choice(gewählteAntwort) {
             document.getElementById('Überleben').style.display = 'none';
             document.getElementById('TodesNachrichtDiv').style.display = 'flex';    
             MischeTodesNachrichten();          
-            document.getElementById('TodesNachricht').innerHTML = SpielerName + ' ' + TodesNachrichtenÜberleben[0];
+            document.getElementById('TodesNachricht').innerHTML = PlayerName + ' ' + TodesNachrichtenÜberleben[0];
             document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'flex';
             return
         }
