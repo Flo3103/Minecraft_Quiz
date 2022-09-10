@@ -40,7 +40,7 @@ var PlayerName = "Steve"; 					// Setzt Spielername Standartmäßig auf Steve
 const urlParms = new URLSearchParams(window.location.search);	// Holt URLParameter aus der URL		
 
 if(urlParms.get('name') != null){				// Überprüft ob ein URL Paramter vorhanden ist (wenn kein Wert eingegeben wurde ist der const URLParms NULL)
-    name = urlParms.get('name');				// Wenn ein Wert mit dem Key Name eingegeben wurde wird die Variable PlayerName mit dem Wert überschrieben
+    PlayerName = urlParms.get('name');			// Wenn ein Wert mit dem Key Name eingegeben wurde wird die Variable PlayerName mit dem Wert überschrieben
 }else{	
     PlayerName = prompt("Gieb deinen Namen ein");		// Wenn der kein Wert vorhanden ist öffne ein Prompt Alert um PlayerName zu bekommen
 }    
