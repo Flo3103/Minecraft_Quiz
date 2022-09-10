@@ -245,7 +245,7 @@ function ÜberlebenWiederbeleben() {
     document.getElementById('ÜberlebenWiederbelebenDiv').style.display = 'none';
 
     document.getElementById('ÜberlebenHerz1').style.display = 'block';
-    document.getElementById('ÜberlebenHerz2').style.display = 'block';
+    document.getElementById('ÜberlebenHerz2').style.display = 'block'; 
     document.getElementById('ÜberlebenHerz3').style.display = 'block';
 
     document.getElementById('ÜberlebenHerz2').style.visibility = 'visible';
